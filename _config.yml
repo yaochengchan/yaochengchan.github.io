@@ -21,7 +21,7 @@ repository               : # "yaochengchan/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "YaoChengChanProfile.png"
+  avatar           : "YaochengchanProfile.png"
   name             : "Yao-Cheng Chan"
   pronouns         : # example: "she/her"  
   bio              : "I study the human experience of incidental encounters with robots using empirical and mixed-methods."
@@ -56,7 +56,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/yao-cheng-chan-7b669013a/"
+  linkedin         : /yao-cheng-chan-7b669013a/
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
