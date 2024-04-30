@@ -8,7 +8,8 @@ redirect_from:
 ---
 
 {% include base_path %}
-permalink: /files/CV.pdf
+
+[Download CV](/files/CV.pdf)
 
 Education
 ======
