@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Yao-Cheng Chan"
+title                    : "Yao-Cheng | Personal Website"
 title_separator          : "-"
 name                     : &name "Yao-Cheng Chan"
-description              : &description 
-url                      : "https://yaochengchan.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io" 
+description              : "Ph.D. Researcher in Human-Robot Interaction." 
+url                      : "https://yaochengchan.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io" 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # "yaochengchan/yaochengchan.github.io"
 
