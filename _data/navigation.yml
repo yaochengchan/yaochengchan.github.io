@@ -4,8 +4,11 @@ main:
     url: /HRE/
   - title: "Vid2Real HRI"
     url: "https://vid2real.github.io/"
+  - title: "Robot Personality"
+    url: /Personality/ 
   - title: "Publications"
-    url: /publications/  
+    url: /publications/
+  
     
 
   # - title: "Talks"
