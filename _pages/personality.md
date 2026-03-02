@@ -7,7 +7,7 @@ author_profile: true
 
 
 <div style="text-align: center; margin-bottom: 30px;">
-  <h1 style="margin-bottom: 10px; font-size: 2em; line-height: 1.2;">An Exploration of Multimodal Communication for Developing Extrovert, Ambivert, and Introvert Robot</h1>
+  <h1 style="margin-bottom: 10px; font-size: 2em; line-height: 1.2;">Developing Extrovert, Ambivert, and Introvert Robot</h1>
   
   <p style="font-size: 1.2em; margin-bottom: 5px;">
     <strong>Wei-Lun Lu</strong><sup>1</sup>, 
