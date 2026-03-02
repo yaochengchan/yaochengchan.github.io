@@ -31,16 +31,23 @@ My research in human-robot interaction focuses on designing and evaluating human
   -->
   
 
-<div style="display: flex; justify-content: space-between; gap: 15px; margin-bottom: 15px;">
-  <div style="flex: 1;">
-    <img src="/files/personality1.png" alt="Introvert Robot Behavior" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+<div style="display: flex; justify-content: space-between; gap: 15px; margin-bottom: 30px;">
+  
+  <div style="flex: 1; text-align: center;">
+    <img src="/files/personality1.png" alt="Introvert Robot Behavior" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 10px;">
+    <p style="font-size: 0.85em; color: #555; margin: 0;"><em>Figure 1a: Introvert behavior.</em></p>
   </div>
-  <div style="flex: 1;">
-    <img src="/files/personality2.png" alt="Ambivert Robot Behavior" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+
+  <div style="flex: 1; text-align: center;">
+    <img src="/files/personality2.png" alt="Ambivert Robot Behavior" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 10px;">
+    <p style="font-size: 0.85em; color: #555; margin: 0;"><em>Figure 1b: Ambivert behavior.</em></p>
   </div>
-  <div style="flex: 1;">
-    <img src="/files/personality3.png" alt="Extrovert Robot Behavior" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+
+  <div style="flex: 1; text-align: center;">
+    <img src="/files/personality3.png" alt="Extrovert Robot Behavior" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin-bottom: 10px;">
+    <p style="font-size: 0.85em; color: #555; margin: 0;"><em>Figure 1c: Extrovert behavior.</em></p>
   </div>
+
 </div>
 
 <div style="text-align: center; margin-bottom: 40px;">
