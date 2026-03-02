@@ -43,7 +43,8 @@ To evaluate the impact of personality, we manipulated the multimodal communicati
 
 ## An Exploration of Multimodal Communication for Developing Extrovert, Ambivert, and Introvert Robot
 This study explores how nonverbal cues can express robot personalities. It addresses a gap in the literature by integrating introvert and extrovert traits to create an ambivert robot personality. Through analyzing bodily movements and gestural behaviors such as eye contact, body orientation, and hand gestures, participants successfully discerned extroverted and introverted characteristics with an 83 percent correctness rate. These findings provide foundational guidelines for developing effective human-robot communication.
-<a href="LINK_TO_PAPER" style="background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-size: 0.9em;">📄 Paper</a>
+
+<div><a href="https://doi.org/10.1145/3610978.3640567" style="background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-size: 0.9em;">📄 Paper</a></div>
 
 ## The Influence of Personality Traits in Human-Humanoid Robot Interaction
 This research investigates how to use a humanoid robot's textual and gestural information to develop extrovert, ambivert, and introvert personality traits. We recruited 255 participants for pilot tests and lab studies to examine these traits under different levels of task complexity. The empirical results reveal that the developed gestural cues allow a humanoid robot to distinguishably convey these personalities, and the perceived traits significantly affect user intentions to interact with the robot.
