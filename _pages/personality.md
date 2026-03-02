@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Robot Personality"
-permalink: /Personality/
+permalink: /personality/
 author_profile: true
 ---
 
