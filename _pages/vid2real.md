@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Vid2Real HRI"
-permalink: /research1/
+
+permalink: /vid2real/
 author_profile: true
 ---
 
