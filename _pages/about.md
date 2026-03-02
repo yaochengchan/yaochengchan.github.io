@@ -9,7 +9,7 @@ redirect_from:
 
 My primary research interest is Human-Robot Interaction (HRI), specifically about how humans perceive and react to robots that they incidentally encounter in their daily lives, using empirical and mixed-methods. My work has been published in several HRI-related journals and conferences. My research contributes to the fields of HRI, Social Robotics, and Human-Computer Interaction (HCI). I also study the use of eye-tracker in both HRI and HCI studies and explore its potential in HRI in public settings.
 
-## Research Highlights
+## Research Areas
 
 <div style="display: flex; flex-direction: column; gap: 30px; margin-top: 20px;">
 
@@ -31,7 +31,7 @@ My primary research interest is Human-Robot Interaction (HRI), specifically abou
     <div style="flex: 1 1 300px;">
       <h3>Vid2Real HRI</h3>
       <p>The Vid2Real HRI framework aligns video-based human-robot interaction study designs with real-world settings.</p>
-      <a href="https://vid2real.github.io/"</a>
+      <a href="/vid2real/"</a>
     </div>
   </div>
 
