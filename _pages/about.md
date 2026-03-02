@@ -18,7 +18,7 @@ My primary research interest is Human-Robot Interaction (HRI), specifically abou
       <img src="/files/phase2_fail.PNG" alt="Incidental Encounters" style="width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 5px;">
     </div>
     <div style="flex: 1 1 300px;">
-      <h3>Research 1: Incidental Encounters</h3>
+      <h3>Research 1: Perceived Social Intelligence in Autonomous Robots</h3>
       <p>Investigating how robot communicative behaviors impact perceived social intelligence during incidental encounters.</p>
       <a href="/research1/">View Details</a>
     </div>
@@ -29,8 +29,8 @@ My primary research interest is Human-Robot Interaction (HRI), specifically abou
       <img src="/files/video2.png" alt="Robot Personality" style="width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 5px;">
     </div>
     <div style="flex: 1 1 300px;">
-      <h3>Research 2: Robot Personality</h3>
-      <p>Investigating the effects of robot personality, specifically introducing the ambivert trait using the humanoid robot Pepper.</p>
+      <h3>Research 2: Vid2Real HRI</h3>
+      <p>The Vid2Real HRI framework aligns video-based human-robot interaction study designs with real-world settings.</p>
       <a href="/research2/">View Details</a>
     </div>
   </div>
