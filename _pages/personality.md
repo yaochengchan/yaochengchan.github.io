@@ -33,10 +33,10 @@ My research in human-robot interaction focuses on designing and evaluating human
 <hr>
 
 ## Interventions
-To evaluate the impact of personality, we manipulated the multimodal communication behaviors of the Pepper robot:
-* **Extrovert:** High-energy gestures and direct gaze.
-* **Ambivert:** Balanced gestures and alternating gaze.
-* **Introvert:** Subdued gestures and averted gaze.
+To evaluate the impact of personality, we manipulated the multimodal communication behaviors of the humanoid robot Pepper. This involved adjusting both physical nonverbal cues and the textual information displayed on the robot's tablet
+* **Extrovert:** The robot utilized larger and faster hand motions, along with wider head nods. It maintained frequent, direct eye contact , positioned itself closer to the user , leaned backward to utilize more space , and displayed enlarged text on its screen.
+* **Ambivert:** This personality was created by balancing extroverted and introverted characteristics. The robot displayed an equal 50 percent mix of introvert and extrovert behavioral cues and presented textual information in structured sections with consistent font sizing.
+* **Introvert:** The robot utilized smaller, slower hand motions and head nods. It exhibited less frequent eye contact by looking downward , positioned itself farther away from the user , leaned forward , and displayed information using a bulleted text format
 
 <hr>
 
