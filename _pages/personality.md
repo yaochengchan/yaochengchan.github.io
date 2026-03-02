@@ -49,14 +49,6 @@ My research in human-robot interaction focuses on designing and evaluating human
   </div>
 
 </div>
-
-<div style="text-align: center; margin-bottom: 40px;">
-  <p style="font-size: 0.85em; color: #555;"><em>Figure 1: Introducing the introvert, ambivert, and extrovert personality traits using the humanoid robot Pepper.</em></p>
-</div>
-
-## Abstract
-This study investigates the effects of robot personality by introducing the ambivert trait alongside extrovert and introvert traits. We executed controlled lab experiments and extensive pilot tests using the humanoid robot Pepper to explore how multimodal communication strategies shape user perceptions. The results demonstrate that extrovert and ambivert robot behaviors significantly improve user purchase intentions, perceived sociability, and service ratings in high-risk financial tasks.
-
 <hr>
 
 ## Interventions
@@ -66,3 +58,10 @@ To evaluate the impact of personality, we manipulated the multimodal communicati
 * **Introvert:** Subdued gestures and averted gaze.
 
 <hr>
+
+
+## Study 1
+This study investigates the effects of robot personality by introducing the ambivert trait alongside extrovert and introvert traits. We executed controlled lab experiments and extensive pilot tests using the humanoid robot Pepper to explore how multimodal communication strategies shape user perceptions. The results demonstrate that extrovert and ambivert robot behaviors significantly improve user purchase intentions, perceived sociability, and service ratings in high-risk financial tasks.
+
+## Study 2
+This study investigates the effects of robot personality by introducing the ambivert trait alongside extrovert and introvert traits. We executed controlled lab experiments and extensive pilot tests using the humanoid robot Pepper to explore how multimodal communication strategies shape user perceptions. The results demonstrate that extrovert and ambivert robot behaviors significantly improve user purchase intentions, perceived sociability, and service ratings in high-risk financial tasks.
