@@ -3,66 +3,27 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 {% include base_path %}
 
-[Download CV](/files/CV.pdf)
+[Click here to download my full CV as a PDF](/files/CV.pdf)
 
-<!---
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
+* Ph.D. in Information Science, The University of Texas at Austin (Aug 2020 to May 2026)
+* M.B.A & B.B.A in Information Management, National Sun Yat-Sen University (Sep 2012 to June 2018)
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Experience
+**Graduate Research Assistant**
+* The University of Texas at Austin (Aug 2020 to Present)*
+* Directed a three-phase mixed-methods study utilizing the Vid2Real HRI framework to investigate how robot communicative behaviors impact perceived social intelligence (PSI)
+* Executed video-based experiments and a real-world field deployment with a Clearpath Robotics Husky 
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Technical Skills and Platforms
+* **Robotic Platforms**: Boston Dynamics Spot, Clearpath Robotics Husky, SoftBank Robotics Pepper and Nao 
+* **Technical Skills**: Python, ROS, Figma, SPSS, Qualtrics 
+* **Research Skills**: Mixed-Methodology, Usability Testing, Experimental Design, Semi-Structured Interview, Ethnography, Eye-Tracking 
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
--->
+## Professional Service
+* **Invited Journal Reviewer**: International Journal of Human-Computer Interaction, International Journal of Social Robotics, Wiley Expert Systems Journal
+* **Invited Conference Reviewer**: ACM/IEEE International Conference on Human-Robot Interaction, The Annual Meeting of the Association for Information Science and Technology
