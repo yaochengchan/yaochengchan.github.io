@@ -5,7 +5,7 @@ main:
   - title: "Incidental Human-Robot Encounter"
     url: /research1/
   - title: "Vid2Real HRI"
-    url: /research2/
+    url: "https://vid2real.github.io/"
     
 
   # - title: "Talks"
