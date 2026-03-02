@@ -17,7 +17,7 @@ My primary research interest is Human-Robot Interaction (HRI), specifically abou
     </div>
     <div style="flex: 2 1 300px;">
       <h3>Research 1: Incidental Encounters</h3>
-      [cite_start]<p>Investigating how robot communicative behaviors impact perceived social intelligence during incidental encounters[cite: 5, 10].</p>
+      <p>Investigating how robot communicative behaviors impact perceived social intelligence during incidental encounters.</p>
       <a href="/research1/">View Details</a>
     </div>
   </div>
@@ -28,7 +28,7 @@ My primary research interest is Human-Robot Interaction (HRI), specifically abou
     </div>
     <div style="flex: 2 1 300px;">
       <h3>Research 2: Robot Personality</h3>
-      [cite_start]<p>Investigating the effects of robot personality, specifically introducing the ambivert trait using the humanoid robot Pepper[cite: 16].</p>
+     <p>Investigating the effects of robot personality, specifically introducing the ambivert trait using the humanoid robot Pepper.</p>
       <a href="/research2/">View Details</a>
     </div>
   </div>
@@ -39,7 +39,7 @@ My primary research interest is Human-Robot Interaction (HRI), specifically abou
     </div>
     <div style="flex: 2 1 300px;">
       <h3>Research 3: Eye-Tracking Methodology</h3>
-      [cite_start]<p>Evaluating eye-gaze and mouse movements as behavioral indicators in human-computer interaction contexts[cite: 18].</p>
+      <p>Evaluating eye-gaze and mouse movements as behavioral indicators in human-computer interaction contexts.</p>
       <a href="/research3/">View Details</a>
     </div>
   </div>
