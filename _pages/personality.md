@@ -13,17 +13,17 @@ My research in human-robot interaction focuses on designing and evaluating human
   
   <div style="flex: 1; text-align: center;">
     <img src="/files/personality1.png" alt="Introvert Robot Behavior" style="width: 100%; height: 250px; object-fit: contain; border-radius: 8px; margin-bottom: 10px;">
-    <p style="font-size: 0.85em; color: #555; margin: 0;"><em>Figure 1a: Introvert behavior.</em></p>
+    <p style="font-size: 0.85em; color: #555; margin: 0;"><em>Figure 1a: Pepper setup</em></p>
   </div>
 
   <div style="flex: 1; text-align: center;">
     <img src="/files/personality2.png" alt="Ambivert Robot Behavior" style="width: 100%; height: 250px; object-fit: contain; border-radius: 8px; margin-bottom: 10px;">
-    <p style="font-size: 0.85em; color: #555; margin: 0;"><em>Figure 1b: Ambivert behavior.</em></p>
+    <p style="font-size: 0.85em; color: #555; margin: 0;"><em>Figure 1b: A participant interacting with Pepper</em></p>
   </div>
 
   <div style="flex: 1; text-align: center;">
     <img src="/files/personality3.png" alt="Extrovert Robot Behavior" style="width: 100%; height: 250px; object-fit: contain; border-radius: 8px; margin-bottom: 10px;">
-    <p style="font-size: 0.85em; color: #555; margin: 0;"><em>Figure 1c: Extrovert behavior.</em></p>
+    <p style="font-size: 0.85em; color: #555; margin: 0;"><em>Figure 1c: Textual Cues</em></p>
   </div>
 
 </div>  
