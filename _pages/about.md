@@ -31,7 +31,7 @@ My primary research interest is Human-Robot Interaction (HRI), specifically abou
     <div style="flex: 1 1 300px;">
       <h3>Vid2Real HRI</h3>
       <p>The Vid2Real HRI framework aligns video-based human-robot interaction study designs with real-world settings.</p>
-      <a href="/vid2real/"</a>
+     <a href="/vid2real/">View Details</a>
     </div>
   </div>
 
