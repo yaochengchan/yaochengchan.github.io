@@ -1,11 +1,11 @@
 # main links links
 main:
-  - title: "Publications"
-    url: /HRE/
   - title: "Incidental Human-Robot Encounter"
-    url: /research1/
+    url: /HRE/
   - title: "Vid2Real HRI"
     url: "https://vid2real.github.io/"
+  - title: "Publications"
+    url: /publications/  
     
 
   # - title: "Talks"
