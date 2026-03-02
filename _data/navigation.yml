@@ -2,6 +2,11 @@
 main:
   - title: "Publications"
     url: /publications/
+  - title: "Incidental Human-Robot Encounter"
+    url: /research1/
+  - title: "Vid2Real HRI"
+    url: /research2/
+    
 
   # - title: "Talks"
   #   url: /talks/    
