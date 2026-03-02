@@ -31,9 +31,20 @@ My research in human-robot interaction focuses on designing and evaluating human
   -->
   
 
+<div style="display: flex; justify-content: space-between; gap: 15px; margin-bottom: 15px;">
+  <div style="flex: 1;">
+    <img src="/files/personality1.png" alt="Introvert Robot Behavior" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </div>
+  <div style="flex: 1;">
+    <img src="/files/personality2.png" alt="Ambivert Robot Behavior" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </div>
+  <div style="flex: 1;">
+    <img src="/files/personality3.png" alt="Extrovert Robot Behavior" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  </div>
+</div>
+
 <div style="text-align: center; margin-bottom: 40px;">
-  <img src="/files/research2-image.jpg" alt="Pepper Robot Personality Study" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-  <p style="font-size: 0.85em; color: #555; margin-top: 10px;"><em>Figure 1: Introducing the ambivert personality trait using the humanoid robot Pepper.</em></p>
+  <p style="font-size: 0.85em; color: #555;"><em>Figure 1: Introducing the introvert, ambivert, and extrovert personality traits using the humanoid robot Pepper.</em></p>
 </div>
 
 ## Abstract
