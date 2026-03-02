@@ -9,6 +9,10 @@ author_profile: true
 <div style="text-align: center; margin-bottom: 30px;">
   <h1 style="margin-bottom: 10px; font-size: 2em; line-height: 1.2;">Developing Extrovert, Ambivert, and Introvert Robot</h1>
   
+  <p>
+    Welcome to the section of my website detailing my research on humanoid robot personality. My work investigates how to design robot behaviors that convey distinct personality traits and how these traits influence user perceptions during human-robot interaction.Traditionally, human-robot interaction research has focused on extrovert and introvert robot personalities. My studies expand this scope to include the ambivert personality, which blends traits from both ends of the spectrum to adapt to different situations. To create these personalities, I utilize multimodal communication, specifically focusing on nonverbal features. I manipulate textual presentations and gestural cues, such as head movements, hand postures, eye contact, and body orientation, to construct recognizable extrovert, introvert, and ambivert profiles. My findings demonstrate that combining textual and gestural cues allows participants to accurately distinguish these robotic personalities.Beyond personality design, my research examines how contextual factors affect user evaluations of humanoid robots. I have explored how different levels of task complexity alter the way users perceive robotic services. Furthermore, I tested these personalities in a financial robo-advisor setting with varying levels of risk. The results indicate that task risk acts as an amplifier for the effects of a robot's personality. In low-risk scenarios, such as introducing term life insurance, personality differences have a limited impact on user evaluations. In high-risk situations involving investment funds, users become more sensitive to personality cues. Under these high-stakes conditions, users rate extrovert and ambivert robots higher in sociability, animacy, and purchase intention compared to introvert robots.This line of research highlights the importance of aligning a robot's personality with its specific task demands. It also shows that the ambivert configuration is a balanced design choice that performs effectively across varying levels of risk and complexity.
+  </p
+  
   <p style="font-size: 1.2em; margin-bottom: 5px;">
     <strong>Wei-Lun Lu</strong><sup>1</sup>, 
     <strong>Szu-Yin Chien</strong><sup>1</sup>, 
@@ -47,15 +51,3 @@ To evaluate the impact of personality, we manipulated the multimodal communicati
 * **Introvert:** Subdued gestures and averted gaze.
 
 <hr>
-
-## Citation
-If you find this research useful, please consider citing our paper:
-
-```bibtex
-@inproceedings{lu2024exploration,
-  title={An Exploration of Multimodal Communication for Developing Extrovert, Ambivert, and Introvert Robot},
-  author={Lu, Wei-Lun and Chien, Szu-Yin and Chan, Yao-Cheng},
-  booktitle={Companion of the 2024 ACM/IEEE International Conference on Human-Robot Interaction},
-  pages={702--706},
-  year={2024}
-}
