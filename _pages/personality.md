@@ -12,7 +12,8 @@ author_profile: true
   <p>
     My research in human-robot interaction focuses on designing and evaluating humanoid robot personalities. While most studies examine only extrovert and introvert traits, my work introduces the ambivert personality to create more adaptable robots. I use multimodal communication, specifically combining textual and gestural cues, to successfully convey these distinct personality profiles.Beyond personality design, I investigate how task context influences user perceptions of robots. My experiments show that factors like task complexity and financial risk amplify how users evaluate a robot's personality. For example, in high-stakes tasks, users strongly prefer extrovert and ambivert robots over introvert ones. Ultimately, this research provides guidelines for aligning robot behaviors with specific service demands.
   </p>
-  
+
+  <!--
   <p style="font-size: 1.2em; margin-bottom: 5px;">
     <strong>Wei-Lun Lu</strong><sup>1</sup>, 
     <strong>Szu-Yin Chien</strong><sup>1</sup>, 
@@ -32,6 +33,7 @@ author_profile: true
     <a href="LINK_TO_VIDEO" style="background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-size: 0.9em;">🎥 Video</a>
     <a href="LINK_TO_DATA" style="background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-size: 0.9em;">📊 Data</a>
   </div>
+  -->
 </div>
 
 <div style="text-align: center; margin-bottom: 40px;">
