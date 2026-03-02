@@ -5,13 +5,8 @@ permalink: /personality/
 author_profile: true
 ---
 
-
-<div style="text-align: center; margin-bottom: 30px;">
-  <h1 style="margin-bottom: 10px; font-size: 2em; line-height: 1.2;">Developing Extrovert, Ambivert, and Introvert Robot</h1>
-  
-  <p>
-    My research in human-robot interaction focuses on designing and evaluating humanoid robot personalities. While most studies examine only extrovert and introvert traits, my work introduces the ambivert personality to create more adaptable robots. I use multimodal communication, specifically combining textual and gestural cues, to successfully convey these distinct personality profiles.Beyond personality design, I investigate how task context influences user perceptions of robots. My experiments show that factors like task complexity and financial risk amplify how users evaluate a robot's personality. For example, in high-stakes tasks, users strongly prefer extrovert and ambivert robots over introvert ones. Ultimately, this research provides guidelines for aligning robot behaviors with specific service demands.
-  </p>
+## Developing Extrovert, Ambivert, and Introvert Robot
+My research in human-robot interaction focuses on designing and evaluating humanoid robot personalities. While most studies examine only extrovert and introvert traits, my work introduces the ambivert personality to create more adaptable robots. I use multimodal communication, specifically combining textual and gestural cues, to successfully convey these distinct personality profiles.Beyond personality design, I investigate how task context influences user perceptions of robots. My experiments show that factors like task complexity and financial risk amplify how users evaluate a robot's personality. For example, in high-stakes tasks, users strongly prefer extrovert and ambivert robots over introvert ones. Ultimately, this research provides guidelines for aligning robot behaviors with specific service demands.
 
   <!--
   <p style="font-size: 1.2em; margin-bottom: 5px;">
@@ -34,7 +29,7 @@ author_profile: true
     <a href="LINK_TO_DATA" style="background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-size: 0.9em;">📊 Data</a>
   </div>
   -->
-</div>
+  
 
 <div style="text-align: center; margin-bottom: 40px;">
   <img src="/files/research2-image.jpg" alt="Pepper Robot Personality Study" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
