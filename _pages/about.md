@@ -13,9 +13,9 @@ My primary research interest is Human-Robot Interaction (HRI), specifically abou
 
 <div style="display: flex; flex-direction: column; gap: 30px; margin-top: 20px;">
 
-  <div style="display: flex; flex-wrap: wrap; align-items: flex-start; width: 100%; border: 1px solid #ddd; border-radius: 5px; padding: 20px; box-sizing: border-box;">
+  <div style="display: flex; flex-wrap: wrap; align-items: center; width: 100%; border: 1px solid #ddd; border-radius: 5px; padding: 20px; box-sizing: border-box;">
     <div style="flex: 1 1 300px; max-width: 45%; margin-right: 20px; margin-bottom: 10px;">
-      <img src="/files/phase2_fail.PNG" alt="Incidental Encounters" style="width: 100%; height: auto; display: block; border-radius: 5px;">
+      <img src="/files/phase2_fail.PNG" alt="Incidental Encounters" style="width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 5px;">
     </div>
     <div style="flex: 1 1 300px;">
       <h3>Research 1: Incidental Encounters</h3>
@@ -24,9 +24,9 @@ My primary research interest is Human-Robot Interaction (HRI), specifically abou
     </div>
   </div>
 
-  <div style="display: flex; flex-wrap: wrap; align-items: flex-start; width: 100%; border: 1px solid #ddd; border-radius: 5px; padding: 20px; box-sizing: border-box;">
+  <div style="display: flex; flex-wrap: wrap; align-items: center; width: 100%; border: 1px solid #ddd; border-radius: 5px; padding: 20px; box-sizing: border-box;">
     <div style="flex: 1 1 300px; max-width: 45%; margin-right: 20px; margin-bottom: 10px;">
-      <img src="/files/video2.png" alt="Robot Personality" style="width: 100%; height: auto; display: block; border-radius: 5px;">
+      <img src="/files/video2.png" alt="Robot Personality" style="width: 100%; height: auto; display: block; margin: 0 auto; border-radius: 5px;">
     </div>
     <div style="flex: 1 1 300px;">
       <h3>Research 2: Robot Personality</h3>
