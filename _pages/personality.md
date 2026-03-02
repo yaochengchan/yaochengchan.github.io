@@ -41,8 +41,12 @@ To evaluate the impact of personality, we manipulated the multimodal communicati
 <hr>
 
 
-## Study 1
-This study investigates the effects of robot personality by introducing the ambivert trait alongside extrovert and introvert traits. We executed controlled lab experiments and extensive pilot tests using the humanoid robot Pepper to explore how multimodal communication strategies shape user perceptions. The results demonstrate that extrovert and ambivert robot behaviors significantly improve user purchase intentions, perceived sociability, and service ratings in high-risk financial tasks.
+## An Exploration of Multimodal Communication for Developing Extrovert, Ambivert, and Introvert Robot
+This study explores how nonverbal cues can express robot personalities. It addresses a gap in the literature by integrating introvert and extrovert traits to create an ambivert robot personality. Through analyzing bodily movements and gestural behaviors such as eye contact, body orientation, and hand gestures, participants successfully discerned extroverted and introverted characteristics with an 83 percent correctness rate. These findings provide foundational guidelines for developing effective human-robot communication.
+<a href="LINK_TO_PAPER" style="background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-size: 0.9em;">📄 Paper</a>
 
-## Study 2
-This study investigates the effects of robot personality by introducing the ambivert trait alongside extrovert and introvert traits. We executed controlled lab experiments and extensive pilot tests using the humanoid robot Pepper to explore how multimodal communication strategies shape user perceptions. The results demonstrate that extrovert and ambivert robot behaviors significantly improve user purchase intentions, perceived sociability, and service ratings in high-risk financial tasks.
+## The Influence of Personality Traits in Human-Humanoid Robot Interaction
+This research investigates how to use a humanoid robot's textual and gestural information to develop extrovert, ambivert, and introvert personality traits. We recruited 255 participants for pilot tests and lab studies to examine these traits under different levels of task complexity. The empirical results reveal that the developed gestural cues allow a humanoid robot to distinguishably convey these personalities, and the perceived traits significantly affect user intentions to interact with the robot.
+
+## Risk Amplifies Personality: User Perceptions of Service Robots in High and Low Stakes Financial Tasks
+This study investigates the effects of robot personality by introducing the ambivert trait alongside extrovert and introvert traits. We executed lab experiments and pilot tests using the humanoid robot Pepper to explore how multimodal communication strategies shape user perceptions in a financial robo-advisor setting. The results demonstrate that extrovert and ambivert robot behaviors significantly improve user purchase intentions, perceived sociability, and service ratings in high-risk financial tasks.
