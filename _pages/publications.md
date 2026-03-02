@@ -9,7 +9,7 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-## Journal and Conference Papers
+## Journal and Conference Papers (Upadted: March 2026)
 
 * Chien, S. Y., Chen, C. L., & **Chan, Y. C.** (2025). The impacts of social humanoid robot's nonverbal communication on perceived personality traits. International Journal of Human-Computer Interaction 41.1 (2025): 136-148.
 * Chien, S. Y., Lin, Y. L., Luo, J. T., & **Chan, Y. C.** (2025). Exploring the Antecedents and Consequences of Privacy Concerns: A Comparison of Humanoid Robot to Tablet. Expert Systems, 42(10), e70132.
