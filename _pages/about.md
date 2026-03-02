@@ -13,33 +13,33 @@ My primary research interest is Human-Robot Interaction (HRI), specifically abou
 
   <div style="display: flex; flex-wrap: wrap; align-items: flex-start; width: 100%; border: 1px solid #ddd; border-radius: 5px; padding: 20px; box-sizing: border-box;">
     <div style="flex: 1 1 200px; max-width: 30%; margin-right: 20px; margin-bottom: 10px;">
-      <img src="/images/research1-image.jpg" alt="Incidental Encounters" style="width: 100%; height: auto; border-radius: 5px;">
+      <img src="/files/research1-image.jpg" alt="Incidental Encounters" style="width: 100%; height: auto; border-radius: 5px;">
     </div>
     <div style="flex: 2 1 300px;">
       <h3>Research 1: Incidental Encounters</h3>
-      <p>Investigating how robot communicative behaviors impact perceived social intelligence during incidental encounters.</p>
+      [cite_start]<p>Investigating how robot communicative behaviors impact perceived social intelligence during incidental encounters[cite: 10].</p>
       <a href="/research1/">View Details</a>
     </div>
   </div>
 
   <div style="display: flex; flex-wrap: wrap; align-items: flex-start; width: 100%; border: 1px solid #ddd; border-radius: 5px; padding: 20px; box-sizing: border-box;">
     <div style="flex: 1 1 200px; max-width: 30%; margin-right: 20px; margin-bottom: 10px;">
-      <img src="/images/research2-image.jpg" alt="Robot Personality" style="width: 100%; height: auto; border-radius: 5px;">
+      <img src="/files/research2-image.jpg" alt="Robot Personality" style="width: 100%; height: auto; border-radius: 5px;">
     </div>
     <div style="flex: 2 1 300px;">
       <h3>Research 2: Robot Personality</h3>
-     <p>Investigating the effects of robot personality, specifically introducing the ambivert trait using the humanoid robot Pepper.</p>
+      [cite_start]<p>Investigating the effects of robot personality, specifically introducing the ambivert trait using the humanoid robot Pepper[cite: 16].</p>
       <a href="/research2/">View Details</a>
     </div>
   </div>
 
   <div style="display: flex; flex-wrap: wrap; align-items: flex-start; width: 100%; border: 1px solid #ddd; border-radius: 5px; padding: 20px; box-sizing: border-box;">
     <div style="flex: 1 1 200px; max-width: 30%; margin-right: 20px; margin-bottom: 10px;">
-      <img src="/images/research3-image.jpg" alt="Eye-Tracking Methodology" style="width: 100%; height: auto; border-radius: 5px;">
+      <img src="/files/research3-image.jpg" alt="Eye-Tracking Methodology" style="width: 100%; height: auto; border-radius: 5px;">
     </div>
     <div style="flex: 2 1 300px;">
       <h3>Research 3: Eye-Tracking Methodology</h3>
-      <p>Evaluating eye-gaze and mouse movements as behavioral indicators in human-computer interaction contexts.</p>
+      [cite_start]<p>Evaluating eye-gaze and mouse movements as behavioral indicators in human-computer interaction contexts[cite: 18].</p>
       <a href="/research3/">View Details</a>
     </div>
   </div>
