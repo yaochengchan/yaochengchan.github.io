@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Robot Personality"
+
 permalink: /personality/
 author_profile: true
 ---
