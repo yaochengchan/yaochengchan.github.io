@@ -102,7 +102,6 @@ To evaluate the impact of personality, we manipulated the multimodal communicati
 
 <div style="text-align: center; margin: 30px 0;">
   <img src="/files/pepper_intervention.png" alt="Multimodal Cues for Robot Personality" style="max-width: 100%; height: auto; border-radius: 8px;">
- 
 </div>
 
 <hr>
