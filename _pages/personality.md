@@ -100,6 +100,11 @@ To evaluate the impact of personality, we manipulated the multimodal communicati
 * **Ambivert:** This personality was created by balancing extroverted and introverted characteristics. The robot displayed an equal 50% mix of introvert and extrovert behavioral cues and presented textual information in structured sections with consistent font sizing.
 * **Introvert:** The robot utilized smaller, slower hand motions and head nods. It exhibited less frequent eye contact by looking downward, positioned itself farther away from the user, leaned forward, and displayed information using a bulleted text format.
 
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/files/pepper_intervention.png" alt="Multimodal Cues for Robot Personality" style="max-width: 100%; height: auto; border-radius: 8px;">
+  <p style="font-size: 0.85em; color: #555; margin-top: 10px;"><em>Figure 2: Summary of physical and textual interventions</em></p>
+</div>
+
 <hr>
 
 ## The Impacts of Social Humanoid Robot's Nonverbal Communication on Perceived Personality Traits
