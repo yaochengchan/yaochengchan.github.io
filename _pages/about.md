@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Yao-Cheng Chan's home page"
+title: "Home page"
 author_profile: true
 redirect_from: 
   - /about/
