@@ -106,22 +106,24 @@ To evaluate the impact of personality, we manipulated the multimodal communicati
 
 <hr>
 
-## The Impacts of Social Humanoid Robot's Nonverbal Communication on Perceived Personality Traits
+<h1 style="text-align: center; margin-top: 40px; margin-bottom: 30px;">Related Publications</h1>
+
+### The Impacts of Social Humanoid Robot's Nonverbal Communication on Perceived Personality Traits
 This study investigates how nonverbal textual and gestural cues can generate a spectrum of robot personality traits, including introvert, ambivert, and extrovert profiles. We conducted empirical studies using the humanoid robot Pepper to evaluate the impact of these multimodal communication strategies on user perceptions. The results confirm that combining textual and gestural cues significantly outperforms using textual cues alone, leading to higher participant ratings for intention to use, perceived animacy, and likeability. Notably, the ambivert robot utilizing multimodal communication received the highest ratings for likeability and intentions to use.
 
 <a href="https://doi.org/10.1080/10447318.2023.2295696" style="display: inline-block; background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-size: 0.9em; margin-bottom: 20px;">📄 Paper</a>
 
-## An Exploration of Multimodal Communication for Developing Extrovert, Ambivert, and Introvert Robot
+### An Exploration of Multimodal Communication for Developing Extrovert, Ambivert, and Introvert Robot
 This study explores how nonverbal cues can express robot personalities. It addresses a gap in the literature by integrating introvert and extrovert traits to create an ambivert robot personality. Through analyzing bodily movements and gestural behaviors such as eye contact, body orientation, and hand gestures, participants successfully discerned extroverted and introverted characteristics with an 83% correctness rate. These findings provide foundational guidelines for developing effective human-robot communication.
 
 <a href="https://doi.org/10.1145/3610978.3640567" style="display: inline-block; background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-size: 0.9em; margin-bottom: 20px;">📄 Paper</a>
 
-## The Influence of Personality Traits in Human-Humanoid Robot Interaction
+### The Influence of Personality Traits in Human-Humanoid Robot Interaction
 This research investigates how to use a humanoid robot's textual and gestural information to develop extrovert, ambivert, and introvert personality traits. We recruited 255 participants for pilot tests and lab studies to examine these traits under different levels of task complexity. The empirical results reveal that the developed gestural cues allow a humanoid robot to distinguishably convey these personalities, and the perceived traits significantly affect user intentions to interact with the robot.
 
 <a href="https://doi.org/10.1002/pra2.644" style="display: inline-block; background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-size: 0.9em; margin-bottom: 20px;">📄 Paper</a>
 
-## Risk Amplifies Personality: User Perceptions of Service Robots in High and Low Stakes Financial Tasks
+### Risk Amplifies Personality: User Perceptions of Service Robots in High and Low Stakes Financial Tasks
 This study investigates the effects of robot personality by introducing the ambivert trait alongside extrovert and introvert traits. We executed lab experiments and pilot tests using the humanoid robot Pepper to explore how multimodal communication strategies shape user perceptions in a financial robo-advisor setting. The results demonstrate that extrovert and ambivert robot behaviors significantly improve user purchase intentions, perceived sociability, and service ratings in high-risk financial tasks.
 
 <a href="#" style="display: inline-block; background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-size: 0.9em; margin-bottom: 20px;">📄 Under Review at IROS</a>
