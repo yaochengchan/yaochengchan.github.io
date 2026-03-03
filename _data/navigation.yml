@@ -3,7 +3,7 @@ main:
   - title: "Incidental Human-Robot Encounter"
     url: /HRE/
   - title: "Vid2Real HRI"
-    url: "vid2real"
+    url: /vid2real/
   - title: "Robot Personality"
     url: /personality/ 
   - title: "Publications"
