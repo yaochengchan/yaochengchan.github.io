@@ -13,34 +13,34 @@ My primary research interest is Human-Robot Interaction (HRI), specifically abou
 
 <div style="display: flex; flex-direction: column; gap: 30px; margin-top: 20px;">
 
-  <div style="display: flex; flex-wrap: wrap; align-items: center; width: 100%; border: 1px solid #ddd; border-radius: 5px; padding: 20px; box-sizing: border-box;">
-    <div style="flex: 1 1 250px; max-width: 35%; margin-right: 20px; margin-bottom: 10px;">
+  <div style="display: flex; flex-wrap: wrap; align-items: flex-start; width: 100%; border: 1px solid #ddd; border-radius: 5px; padding: 20px; box-sizing: border-box;">
+    <div style="flex: 1 1 250px; max-width: 35%; margin-right: 20px; margin-bottom: 10px; align-self: center;">
       <img src="/files/phase2_fail.PNG" alt="Incidental Encounters" style="width: 100%; aspect-ratio: 4 / 3; object-fit: contain; display: block; margin: 0 auto; border-radius: 5px;">
     </div>
-    <div style="flex: 1 1 300px;">
-      <h3>Perceived Social Intelligence in Autonomous Robots</h3>
+    <div style="flex: 1 1 300px; text-align: left;">
+      <h3 style="margin-top: 0;">Perceived Social Intelligence in Autonomous Robots</h3>
       <p>Investigating how robot communicative behaviors impact perceived social intelligence during incidental encounters.</p>
       <a href="/research1/">View Details</a>
     </div>
   </div>
 
-  <div style="display: flex; flex-wrap: wrap; align-items: center; width: 100%; border: 1px solid #ddd; border-radius: 5px; padding: 20px; box-sizing: border-box;">
-    <div style="flex: 1 1 250px; max-width: 35%; margin-right: 20px; margin-bottom: 10px;">
+  <div style="display: flex; flex-wrap: wrap; align-items: flex-start; width: 100%; border: 1px solid #ddd; border-radius: 5px; padding: 20px; box-sizing: border-box;">
+    <div style="flex: 1 1 250px; max-width: 35%; margin-right: 20px; margin-bottom: 10px; align-self: center;">
       <img src="/files/video2.png" alt="Robot Personality" style="width: 100%; aspect-ratio: 4 / 3; object-fit: contain; display: block; margin: 0 auto; border-radius: 5px;">
     </div>
-    <div style="flex: 1 1 300px;">
-      <h3>Vid2Real HRI</h3>
+    <div style="flex: 1 1 300px; text-align: left;">
+      <h3 style="margin-top: 0;">Vid2Real HRI</h3>
       <p>The Vid2Real HRI framework aligns video-based human-robot interaction study designs with real-world settings.</p>
      <a href="/vid2real/">View Details</a>
     </div>
   </div>
 
-  <div style="display: flex; flex-wrap: wrap; align-items: center; width: 100%; border: 1px solid #ddd; border-radius: 5px; padding: 20px; box-sizing: border-box;">
-    <div style="flex: 1 1 250px; max-width: 35%; margin-right: 20px; margin-bottom: 10px;">
+  <div style="display: flex; flex-wrap: wrap; align-items: flex-start; width: 100%; border: 1px solid #ddd; border-radius: 5px; padding: 20px; box-sizing: border-box;">
+    <div style="flex: 1 1 250px; max-width: 35%; margin-right: 20px; margin-bottom: 10px; align-self: center;">
       <img src="/files/pepper.png" alt="Incidental Encounters" style="width: 100%; aspect-ratio: 4 / 3; object-fit: contain; display: block; margin: 0 auto; border-radius: 5px;">
     </div>
-    <div style="flex: 1 1 300px;">
-      <h3>Humanoid Robot Personality</h3>
+    <div style="flex: 1 1 300px; text-align: left;">
+      <h3 style="margin-top: 0;">Humanoid Robot Personality</h3>
       <p>Developing and validating extrovert, introvert, and ambivert for humanoid robots</p>
       <a href="/personality/">View Details</a>
     </div>
