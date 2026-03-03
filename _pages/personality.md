@@ -1,10 +1,10 @@
 ---
+title: "Developing Extrovert, Ambivert, and Introvert Robot"
 layout: single
 permalink: /personality/
 author_profile: true
 ---
 
-## Developing Extrovert, Ambivert, and Introvert Robot
 My research in human-robot interaction focuses on designing and evaluating humanoid robot personalities. While most studies examine only extrovert and introvert traits, my work introduces the ambivert personality to create more adaptable robots. I use multimodal communication, specifically combining textual and gestural cues, to successfully convey these distinct personality profiles. Beyond personality design, I investigate how task context influences user perceptions of robots. My experiments show that factors like task complexity and financial risk amplify how users evaluate a robot's personality. For example, in high-stakes tasks, users strongly prefer extrovert and ambivert robots over introvert ones. Ultimately, this research provides guidelines for aligning robot behaviors with specific service demands.
 
 <div style="display: flex; justify-content: space-between; gap: 15px; margin-bottom: 30px;">
@@ -52,4 +52,4 @@ This research investigates how to use a humanoid robot's textual and gestural in
 ## Risk Amplifies Personality: User Perceptions of Service Robots in High and Low Stakes Financial Tasks
 This study investigates the effects of robot personality by introducing the ambivert trait alongside extrovert and introvert traits. We executed lab experiments and pilot tests using the humanoid robot Pepper to explore how multimodal communication strategies shape user perceptions in a financial robo-advisor setting. The results demonstrate that extrovert and ambivert robot behaviors significantly improve user purchase intentions, perceived sociability, and service ratings in high-risk financial tasks.
 
-<a href="#" style="display: inline-block; background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-size: 0.9em; margin-bottom: 20px;">📄 Under Review at IROS 2026</a>
+<a href="#" style="display: inline-block; background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-size: 0.9em; margin-bottom: 20px;">📄 Under Review at IROS
