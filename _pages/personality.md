@@ -7,22 +7,90 @@ author_profile: true
 
 My research in human-robot interaction focuses on designing and evaluating humanoid robot personalities. While most studies examine only extrovert and introvert traits, my work introduces the ambivert personality to create more adaptable robots. I use multimodal communication, specifically combining textual and gestural cues, to successfully convey these distinct personality profiles. Beyond personality design, I investigate how task context influences user perceptions of robots. My experiments show that factors like task complexity and financial risk amplify how users evaluate a robot's personality. For example, in high-stakes tasks, users strongly prefer extrovert and ambivert robots over introvert ones. Ultimately, this research provides guidelines for aligning robot behaviors with specific service demands.
 
-<div style="display: flex; justify-content: space-between; gap: 15px; margin-bottom: 30px;">
-  <div style="flex: 1; text-align: center;">
-    <img src="/files/personality1.png" alt="Introvert Robot Behavior" style="width: 100%; height: 250px; object-fit: contain; border-radius: 8px; margin-bottom: 10px;">
-    <p style="font-size: 0.85em; color: #555; margin: 0;"><em>Figure 1a: Pepper setup</em></p>
-  </div>
+<style>
+  .carousel-container {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  .carousel-slides {
+    display: flex;
+    transition: transform 0.4s ease-in-out;
+  }
+  .carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  .carousel-slide img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    background-color: #f9f9f9;
+    display: block;
+  }
+  .carousel-caption {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.85em;
+    color: #555;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    margin: 0;
+  }
+  .carousel-btn {
+    position: absolute;
+    top: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 4px;
+    user-select: none;
+  }
+  .carousel-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .carousel-btn.prev {
+    left: 10px;
+  }
+  .carousel-btn.next {
+    right: 10px;
+  }
+</style>
 
-  <div style="flex: 1; text-align: center;">
-    <img src="/files/personality2.png" alt="Ambivert Robot Behavior" style="width: 100%; height: 250px; object-fit: contain; border-radius: 8px; margin-bottom: 10px;">
-    <p style="font-size: 0.85em; color: #555; margin: 0;"><em>Figure 1b: A participant interacting with Pepper</em></p>
+<div class="carousel-container">
+  <div class="carousel-slides" id="robotCarousel">
+    <div class="carousel-slide">
+      <img src="/files/personality1.png" alt="Introvert Robot Behavior">
+      <p class="carousel-caption"><em>Figure 1a: Pepper setup</em></p>
+    </div>
+    <div class="carousel-slide">
+      <img src="/files/personality2.png" alt="Ambivert Robot Behavior">
+      <p class="carousel-caption"><em>Figure 1b: A participant interacting with Pepper</em></p>
+    </div>
+    <div class="carousel-slide">
+      <img src="/files/personality3.png" alt="Extrovert Robot Behavior">
+      <p class="carousel-caption"><em>Figure 1c: Textual Cues</em></p>
+    </div>
   </div>
-
-  <div style="flex: 1; text-align: center;">
-    <img src="/files/personality3.png" alt="Extrovert Robot Behavior" style="width: 100%; height: 250px; object-fit: contain; border-radius: 8px; margin-bottom: 10px;">
-    <p style="font-size: 0.85em; color: #555; margin: 0;"><em>Figure 1c: Textual Cues</em></p>
-  </div>
+  <button class="carousel-btn prev" onclick="moveSlide(-1)">&#10094;</button>
+  <button class="carousel-btn next" onclick="moveSlide(1)">&#10095;</button>
 </div>
+
+<script>
+  let currentSlide = 0;
+  function moveSlide(direction) {
+    const track = document.getElementById('robotCarousel');
+    const totalSlides = track.children.length;
+    currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+    track.style.transform = `translateX(-${currentSlide * 100}%)`;
+  }
+</script>
 
 <hr>
 
@@ -52,4 +120,4 @@ This research investigates how to use a humanoid robot's textual and gestural in
 ## Risk Amplifies Personality: User Perceptions of Service Robots in High and Low Stakes Financial Tasks
 This study investigates the effects of robot personality by introducing the ambivert trait alongside extrovert and introvert traits. We executed lab experiments and pilot tests using the humanoid robot Pepper to explore how multimodal communication strategies shape user perceptions in a financial robo-advisor setting. The results demonstrate that extrovert and ambivert robot behaviors significantly improve user purchase intentions, perceived sociability, and service ratings in high-risk financial tasks.
 
-<a href="#" style="display: inline-block; background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-size: 0.9em; margin-bottom: 20px;">📄 Under Review at IROS
+<a href="#" style="display: inline-block; background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-size: 0.9em; margin-bottom: 20px;">📄 Under Review at IROS</a>
