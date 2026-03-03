@@ -7,8 +7,17 @@ redirect_from:
   - /about.html
 ---
 
-My primary research interest is Human-Robot Interaction (HRI), specifically about how humans perceive and react to robots that they incidentally encounter in their daily lives, using empirical and mixed-methods. My work has been published in several HRI-related journals and conferences. My research contributes to the fields of HRI, Social Robotics, and Human-Computer Interaction (HCI). I also study the use of eye-tracker in both HRI and HCI studies and explore its potential in HRI in public settings.
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 20px; margin-bottom: 30px;">
+  
+  <div style="flex: 1 1 200px; max-width: 250px;">
+    <img src="/files/homepage_me.png" alt="Description of image" style="width: 100%; height: auto; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+  </div>
 
+  <div style="flex: 2 1 300px;">
+    <p style="margin-top: 0;">My primary research interest is Human-Robot Interaction (HRI), specifically about how humans perceive and react to robots that they incidentally encounter in their daily lives, using empirical and mixed-methods. My work has been published in several HRI-related journals and conferences. My research contributes to the fields of HRI, Social Robotics, and Human-Computer Interaction (HCI). I also study the use of eye-tracker in both HRI and HCI studies and explore its potential in HRI in public settings.</p>
+  </div>
+
+</div>
 ## Research Topics
 
 <div style="display: flex; flex-direction: column; gap: 30px; margin-top: 20px;">
