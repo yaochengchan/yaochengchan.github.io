@@ -96,7 +96,7 @@ Because these individuals usually have no prior training or expectation of meeti
   <button class="carousel-btn next" onclick="moveSlide(1, 'huskyCarousel')">&#10095;</button>
 </div>
     
-    <br><br>
+  <br><br>
     While these features increased perceived sociability in video evaluations, live field experiments showed that subtle signals are often missed in busy environments. This finding suggests that communication designs must be highly visible to be effective during real-world navigation tasks.
   </li>
   
@@ -134,12 +134,24 @@ Because these individuals usually have no prior training or expectation of meeti
 <div class="carousel-container">
   <div class="carousel-slides" id="spotLeashCarousel" data-current-slide="0">
     <div class="carousel-slide">
-      <img src="/files/spot_leash1.png" alt="Spot with Leash">
-      <p class="carousel-caption"><em>Figure 3a: Physical leash addition</em></p>
+      <img src="/files/autonomous.png" alt="Spot with Leash">
+      <p class="carousel-caption"><em>Figure 3a: Autonomous mode</em></p>
     </div>
     <div class="carousel-slide">
-      <img src="/files/spot_leash2.png" alt="Pedestrian Reaction">
-      <p class="carousel-caption"><em>Figure 3b: Bystanders interpreting the visual cues</em></p>
+      <img src="/files/controller.png" alt="Pedestrian Reaction">
+      <p class="carousel-caption"><em>Figure 3b: Joystick</em></p>
+    </div>
+    <div class="carousel-slide">
+      <img src="/files/companion.png" alt="Pedestrian Reaction">
+      <p class="carousel-caption"><em>Figure 3b: Companion</em></p>
+    </div>
+    <div class="carousel-slide">
+      <img src="/files/leash.png" alt="Pedestrian Reaction">
+      <p class="carousel-caption"><em>Figure 3b: Comapanion with a dog leash</em></p>
+    </div>
+    <div class="carousel-slide">
+      <img src="/files/servicevest.png" alt="Pedestrian Reaction">
+      <p class="carousel-caption"><em>Figure 3b: Comapanion with a service vest</em></p>
     </div>
   </div>
   <button class="carousel-btn prev" onclick="moveSlide(-1, 'spotLeashCarousel')">&#10094;</button>
