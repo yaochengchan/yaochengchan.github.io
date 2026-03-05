@@ -50,15 +50,15 @@ Because these individuals usually have no prior training or expectation of meeti
       <div class="carousel-slides" id="spotGaitCarousel">
         <div class="carousel-slide">
           <img src="/files/BL1.png" alt="Spot Mechanical Gait">
-          <p class="carousel-caption"><em>Figure 2a: Standard mechanical walking motion</em></p>
+          <p class="carousel-caption"><em>Figure 2a: Wagging</em></p>
         </div>
         <div class="carousel-slide">
           <img src="/files/BL2.png" alt="Spot Expressive Gait">
-          <p class="carousel-caption"><em>Figure 2b: Canine-inspired expressive movement</em></p>
+          <p class="carousel-caption"><em>Figure 2b: Play bow and Sit</em></p>
         </div>
         <div class="carousel-slide">
           <img src="/files/BL3.png" alt="Spot Expressive Gait">
-          <p class="carousel-caption"><em>Figure 2b: Canine-inspired expressive movement</em></p>
+          <p class="carousel-caption"><em>Figure 2c: Walk in circle and spin</em></p>
         </div>
       </div>
       <button class="carousel-btn prev" onclick="moveSlide(-1, 'spotGaitCarousel')">&#10094;</button>
