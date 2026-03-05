@@ -74,7 +74,7 @@ Because these individuals usually have no prior training or expectation of meeti
 <hr>
 
 <h2>Design Interventions for Public Encounters</h2>
-<p>To improve how bystanders experience incidental encounters, this research tests several behavioral and physical design modifications on autonomous service robots. These interventions are designed to increase a robot's perceived social intelligence and help pedestrians understand the robot's purpose in a shared space.</p>
+<p>To improve how bystanders experience incidental encounters, I run tests on several behavioral and physical design modifications on autonomous service robots. These interventions are designed to increase a robot's perceived social intelligence and help pedestrians understand the robot's purpose in a shared space.</p>
 
 <ul>
   <li style="margin-bottom: 20px;">
