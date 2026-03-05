@@ -80,7 +80,7 @@ Because these individuals usually have no prior training or expectation of meeti
   <li style="margin-bottom: 30px;">
     <strong>Communicative Behaviors (Clearpath Robotics Husky):</strong> We evaluated communicative behaviors, such as animated robotic eyes, to signal a robot's intent during social navigation.
     <br><br>
- 
+  
   <div class="carousel-container">
     <div class="carousel-slides" id="huskyCarousel" data-current-slide="0">
         <div class="carousel-slide">
