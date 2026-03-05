@@ -49,11 +49,15 @@ Because these individuals usually have no prior training or expectation of meeti
     <div class="carousel-container">
       <div class="carousel-slides" id="spotGaitCarousel">
         <div class="carousel-slide">
-          <img src="/files/spot_gait1.png" alt="Spot Mechanical Gait">
+          <img src="/files/BL1.png" alt="Spot Mechanical Gait">
           <p class="carousel-caption"><em>Figure 2a: Standard mechanical walking motion</em></p>
         </div>
         <div class="carousel-slide">
-          <img src="/files/spot_gait2.png" alt="Spot Expressive Gait">
+          <img src="/files/BL2.png" alt="Spot Expressive Gait">
+          <p class="carousel-caption"><em>Figure 2b: Canine-inspired expressive movement</em></p>
+        </div>
+        <div class="carousel-slide">
+          <img src="/files/BL3.png" alt="Spot Expressive Gait">
           <p class="carousel-caption"><em>Figure 2b: Canine-inspired expressive movement</em></p>
         </div>
       </div>
