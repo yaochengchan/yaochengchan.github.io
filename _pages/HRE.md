@@ -6,73 +6,61 @@ author_profile: true
 ---
 
 <style>
-  /* Container holds the carousel and hides overflowing images */
-  .carousel-container {
-    position: relative;
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    overflow: hidden; 
-    border-radius: 8px;
-    background-color: #f9f9f9;
-  }
-
-  /* Aligns all slides in a horizontal row */
-  .carousel-slides {
-    display: flex;
-    width: 100%;
-    transition: transform 0.4s ease-in-out;
-  }
-
-  /* Ensures each slide takes up exactly 100% of the container width */
-  .carousel-slide {
-    flex: 0 0 100%;
-    box-sizing: border-box;
-    text-align: center;
-  }
-
-  /* Makes images scale correctly within the slide */
-  .carousel-slide img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-  }
-
-  /* Styling for the text below the images */
-  .carousel-caption {
-    margin: 10px 0;
-    padding: 0 15px;
-    font-size: 0.9em;
-    color: #333;
-  }
-
-  /* Styling for the navigation buttons */
-  .carousel-btn {
-    position: absolute;
-    top: 45%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    font-size: 18px;
-    border-radius: 50%;
-    z-index: 10;
-  }
-
-  .carousel-btn.prev {
-    left: 10px;
-  }
-
-  .carousel-btn.next {
-    right: 10px;
-  }
-
-  .carousel-btn:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
+.carousel-container {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+.carousel-slides {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+}
+.carousel-slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+.carousel-slide img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  background-color: #f9f9f9;
+  display: block;
+}
+.carousel-caption {
+  text-align: center;
+  padding: 10px;
+  font-size: 0.85em;
+  color: #555;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  margin: 0;
+}
+.carousel-btn {
+  position: absolute;
+  top: 40%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 4px;
+  user-select: none;
+  z-index: 10;
+}
+.carousel-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.carousel-btn.prev {
+  left: 10px;
+}
+.carousel-btn.next {
+  right: 10px;
+}
 </style>
 
 An incidental human-robot encounter occurs when a person unexpectedly shares a physical space with an autonomous robot during their routine activities. Unlike planned interactions where a user actively operates or collaborates with a machine, these encounters typically involve everyday bystanders in public settings, such as pedestrians walking past a service robot on a sidewalk.
@@ -93,20 +81,20 @@ Because these individuals usually have no prior training or expectation of meeti
     <strong>Communicative Behaviors (Clearpath Robotics Husky):</strong> We added animated robotic eyes to provide gaze cues during social navigation. 
     <br><br>
     
-    <div class="carousel-container">
-      <div class="carousel-slides" id="huskyCarousel">
-        <div class="carousel-slide">
-          <img src="/files/husky_gaze1.png" alt="Husky Gaze Cues">
-          <p class="carousel-caption"><em>Figure 1a: Animated eyes for Identifying Humans (IH)</em></p>
-        </div>
-        <div class="carousel-slide">
-          <img src="/files/husky_gaze2.png" alt="Husky Field Test">
-          <p class="carousel-caption"><em>Figure 1b: Field experiment setup in a busy environment</em></p>
-        </div>
-      </div>
-      <button class="carousel-btn prev" onclick="moveSlide(-1, 'huskyCarousel')">&#10094;</button>
-      <button class="carousel-btn next" onclick="moveSlide(1, 'huskyCarousel')">&#10095;</button>
+<div class="carousel-container">
+  <div class="carousel-slides" id="huskyCarousel" data-current-slide="0">
+    <div class="carousel-slide">
+      <img src="/files/husky_gaze1.png" alt="Husky Gaze Cues">
+      <p class="carousel-caption"><em>Figure 1a: Animated eyes for Identifying Humans (IH)</em></p>
     </div>
+    <div class="carousel-slide">
+      <img src="/files/husky_gaze2.png" alt="Husky Field Test">
+      <p class="carousel-caption"><em>Figure 1b: Field experiment setup in a busy environment</em></p>
+    </div>
+  </div>
+  <button class="carousel-btn prev" onclick="moveSlide(-1, 'huskyCarousel')">&#10094;</button>
+  <button class="carousel-btn next" onclick="moveSlide(1, 'huskyCarousel')">&#10095;</button>
+</div>
     
     <br><br>
     While these features increased perceived sociability in video evaluations, live field experiments showed that subtle signals are often missed in busy environments. This finding suggests that communication designs must be highly visible to be effective during real-world navigation tasks.
@@ -116,25 +104,25 @@ Because these individuals usually have no prior training or expectation of meeti
     <strong>Expressive Body Language (Boston Dynamics Spot):</strong> We modified the standard walking motion of a quadruped robot to include non-functional, canine-inspired movements. 
     <br><br>
     
-    <div class="carousel-container">
-      <div class="carousel-slides" id="spotGaitCarousel">
-        <div class="carousel-slide">
-          <img src="/files/BL1.png" alt="Spot Mechanical Gait">
-          <p class="carousel-caption"><em>Figure 2a: Wagging</em></p>
-        </div>
-        <div class="carousel-slide">
-          <img src="/files/BL2.png" alt="Spot Expressive Gait">
-          <p class="carousel-caption"><em>Figure 2b: Play bow and Sit</em></p>
-        </div>
-        <div class="carousel-slide">
-          <img src="/files/BL3.png" alt="Spot Expressive Gait">
-          <p class="carousel-caption"><em>Figure 2c: Walk in circle and spin</em></p>
-        </div>
-      </div>
-      <button class="carousel-btn prev" onclick="moveSlide(-1, 'spotGaitCarousel')">&#10094;</button>
-      <button class="carousel-btn next" onclick="moveSlide(1, 'spotGaitCarousel')">&#10095;</button>
+<div class="carousel-container">
+  <div class="carousel-slides" id="spotGaitCarousel" data-current-slide="0">
+    <div class="carousel-slide">
+      <img src="/files/BL1.png" alt="Spot Mechanical Gait">
+      <p class="carousel-caption"><em>Figure 2a: Wagging</em></p>
     </div>
-    
+    <div class="carousel-slide">
+      <img src="/files/BL2.png" alt="Spot Expressive Gait">
+      <p class="carousel-caption"><em>Figure 2b: Play bow and Sit</em></p>
+    </div>
+    <div class="carousel-slide">
+      <img src="/files/BL3.png" alt="Spot Expressive Gait">
+      <p class="carousel-caption"><em>Figure 2c: Walk in circle and spin</em></p>
+    </div>
+  </div>
+  <button class="carousel-btn prev" onclick="moveSlide(-1, 'spotGaitCarousel')">&#10094;</button>
+  <button class="carousel-btn next" onclick="moveSlide(1, 'spotGaitCarousel')">&#10095;</button>
+</div>
+
     <br><br>
     These expressive gestures positively influenced pedestrian impressions and improved overall acceptance compared to the stock mechanical gait.
   </li>
@@ -143,20 +131,20 @@ Because these individuals usually have no prior training or expectation of meeti
     <strong>Visual Indicators of Control (Boston Dynamics Spot):</strong> We tested how physical additions, such as a leash, affect public perception. 
     <br><br>
     
-    <div class="carousel-container">
-      <div class="carousel-slides" id="spotLeashCarousel">
-        <div class="carousel-slide">
-          <img src="/files/spot_leash1.png" alt="Spot with Leash">
-          <p class="carousel-caption"><em>Figure 3a: Physical leash addition</em></p>
-        </div>
-        <div class="carousel-slide">
-          <img src="/files/spot_leash2.png" alt="Pedestrian Reaction">
-          <p class="carousel-caption"><em>Figure 3b: Bystanders interpreting the visual cues</em></p>
-        </div>
-      </div>
-      <button class="carousel-btn prev" onclick="moveSlide(-1, 'spotLeashCarousel')">&#10094;</button>
-      <button class="carousel-btn next" onclick="moveSlide(1, 'spotLeashCarousel')">&#10095;</button>
+<div class="carousel-container">
+  <div class="carousel-slides" id="spotLeashCarousel" data-current-slide="0">
+    <div class="carousel-slide">
+      <img src="/files/spot_leash1.png" alt="Spot with Leash">
+      <p class="carousel-caption"><em>Figure 3a: Physical leash addition</em></p>
     </div>
+    <div class="carousel-slide">
+      <img src="/files/spot_leash2.png" alt="Pedestrian Reaction">
+      <p class="carousel-caption"><em>Figure 3b: Bystanders interpreting the visual cues</em></p>
+    </div>
+  </div>
+  <button class="carousel-btn prev" onclick="moveSlide(-1, 'spotLeashCarousel')">&#10094;</button>
+  <button class="carousel-btn next" onclick="moveSlide(1, 'spotLeashCarousel')">&#10095;</button>
+</div>
     
     <br><br>
     Indications of human supervision led to positive reactions from pedestrians. These visual cues helped bystanders quickly make sense of the robot's presence and operations in their environment.
@@ -166,21 +154,15 @@ Because these individuals usually have no prior training or expectation of meeti
 <hr>
 
 <script>
-  // Store the current slide index for each carousel ID
-  let slideIndices = {
-    'huskyCarousel': 0,
-    'spotGaitCarousel': 0,
-    'spotLeashCarousel': 0
-  };
-
-  // Update function to accept the carousel ID
-  function moveSlide(direction, carouselId) {
-    const track = document.getElementById(carouselId);
-    const totalSlides = track.children.length;
-    
-    slideIndices[carouselId] = (slideIndices[carouselId] + direction + totalSlides) % totalSlides;
-    track.style.transform = `translateX(-${slideIndices[carouselId] * 100}%)`;
-  }
+function moveSlide(direction, carouselId) {
+  var track = document.getElementById(carouselId);
+  var totalSlides = track.children.length;
+  var currentIndex = parseInt(track.getAttribute('data-current-slide')) || 0;
+  
+  currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
+  track.setAttribute('data-current-slide', currentIndex);
+  track.style.transform = "translateX(-" + (currentIndex * 100) + "%)";
+}
 </script>
 
 <h1 style="text-align: center; margin-top: 40px; margin-bottom: 30px;">Related Publications</h1>
