@@ -77,91 +77,89 @@ Because these individuals usually have no prior training or expectation of meeti
 <p>To improve how bystanders experience incidental encounters, I run tests on several behavioral and physical design modifications on autonomous service robots. These interventions are designed to increase a robot's perceived social intelligence and help pedestrians understand the robot's purpose in a shared space.</p>
 
 <ul>
-  <li style="margin-bottom: 20px;">
-    <strong>Expressive Body Language:</strong> We modified the standard walking motion of a quadruped robot to include non-functional, canine-inspired movements such as tail wagging and play bows[cite: 2097, 2159]. 
+  <li style="margin-bottom: 30px;">
+    <strong>Communicative Behaviors (Clearpath Robotics Husky):</strong> We evaluated communicative behaviors, such as animated robotic eyes, to signal a robot's intent during social navigation.
     <br><br>
-        <br><br>
-    Our results demonstrate that participants viewed the quadruped performing these expressive movements as more friendly, responsive, doglike, and conscious compared to a robot using a standard mechanical gait[cite: 2357]. Specifically, the body language interventions produced significantly higher ratings in perceived animacy and cynomorphism (dog-like traits)[cite: 2256].
-    
-<div class="carousel-container">
-  <div class="carousel-slides" id="huskyCarousel" data-current-slide="0">
-    <div class="carousel-slide">
-      <img src="/files/husky_gaze1.png" alt="Husky Gaze Cues">
-      <p class="carousel-caption"><em>Figure 1a: Animated eyes for Identifying Humans (IH)</em></p>
-    </div>
-    <div class="carousel-slide">
-      <img src="/files/husky_gaze2.png" alt="Husky Field Test">
-      <p class="carousel-caption"><em>Figure 1b: Field experiment setup in a busy environment</em></p>
-    </div>
-  </div>
-  <button class="carousel-btn prev" onclick="moveSlide(-1, 'huskyCarousel')">&#10094;</button>
-  <button class="carousel-btn next" onclick="moveSlide(1, 'huskyCarousel')">&#10095;</button>
-</div>
-    
-  <br><br>
-    While these features increased perceived sociability in video evaluations, live field experiments showed that subtle signals are often missed in busy environments. This finding suggests that communication designs must be highly visible to be effective during real-world navigation tasks.
-  </li>
-  
-  <li style="margin-bottom: 20px;">
-    <strong>Expressive Body Language (Boston Dynamics Spot):</strong> We modified the standard walking motion of a quadruped robot to include non-functional, canine-inspired movements. 
-    <br><br>
-    
-<div class="carousel-container">
-  <div class="carousel-slides" id="spotGaitCarousel" data-current-slide="0">
-    <div class="carousel-slide">
-      <img src="/files/BL1.png" alt="Spot Mechanical Gait">
-      <p class="carousel-caption"><em>Figure 2a: Wagging</em></p>
-    </div>
-    <div class="carousel-slide">
-      <img src="/files/BL2.png" alt="Spot Expressive Gait">
-      <p class="carousel-caption"><em>Figure 2b: Play bow and Sit</em></p>
-    </div>
-    <div class="carousel-slide">
-      <img src="/files/BL3.png" alt="Spot Expressive Gait">
-      <p class="carousel-caption"><em>Figure 2c: Walk in circle and spin</em></p>
-    </div>
-  </div>
-  <button class="carousel-btn prev" onclick="moveSlide(-1, 'spotGaitCarousel')">&#10094;</button>
-  <button class="carousel-btn next" onclick="moveSlide(1, 'spotGaitCarousel')">&#10095;</button>
-</div>
 
-    <br><br>
-    These expressive gestures positively influenced pedestrian impressions and improved overall acceptance compared to the stock mechanical gait.
+    <div class="carousel-container">
+      <div class="carousel-slides" id="huskyCarousel" data-current-slide="0">
+        <div class="carousel-slide">
+          <img src="/files/husky_gaze1.png" alt="Husky Gaze Cues">
+          <p class="carousel-caption"><em>Figure 1a: Animated eyes for Identifying Humans (IH)</em></p>
+        </div>
+        <div class="carousel-slide">
+          <img src="/files/husky_gaze2.png" alt="Husky Field Test">
+          <p class="carousel-caption"><em>Figure 1b: Field experiment setup in a busy environment</em></p>
+        </div>
+      </div>
+      <button class="carousel-btn prev" onclick="moveSlide(-1, 'huskyCarousel')">&#10094;</button>
+      <button class="carousel-btn next" onclick="moveSlide(1, 'huskyCarousel')">&#10095;</button>
+    </div>
+
+    <br>
+    Through online video-based studies utilizing both "Encounterer" and "Observer" vantages, we found that anthropomorphic features successfully buffered behavioral failures and increased perceived social competence. Furthermore, the Observer vantage consistently yielded higher perceived social intelligence ratings than the Encounterer vantage. However, our live field experiments revealed a contrast. Pedestrians in active, real-world environments frequently missed these subtle gaze cues due to environmental distractions and attentional constraints. This finding suggests that communication designs must be highly salient and explicitly visible to be effective outside the laboratory.
   </li>
   
-  <li style="margin-bottom: 20px;">
-    <strong>Visual Indicators of Control (Boston Dynamics Spot):</strong> We tested how physical additions, such as a leash, affect public perception. 
+  <li style="margin-bottom: 30px;">
+    <strong>Expressive Body Language (Boston Dynamics Spot):</strong> We modified the standard walking motion of a quadruped robot to include non-functional, canine-inspired movements such as tail wagging, play bows, and spinning.
     <br><br>
     
-<div class="carousel-container">
-  <div class="carousel-slides" id="spotLeashCarousel" data-current-slide="0">
-    <div class="carousel-slide">
-      <img src="/files/autonomous.png" alt="Spot with Leash">
-      <p class="carousel-caption"><em>Figure 3a: Autonomous mode</em></p>
+    <div class="carousel-container">
+      <div class="carousel-slides" id="spotGaitCarousel" data-current-slide="0">
+        <div class="carousel-slide">
+          <img src="/files/BL1.png" alt="Spot Mechanical Gait">
+          <p class="carousel-caption"><em>Figure 2a: Wagging</em></p>
+        </div>
+        <div class="carousel-slide">
+          <img src="/files/BL2.png" alt="Spot Expressive Gait">
+          <p class="carousel-caption"><em>Figure 2b: Play bow and Sit</em></p>
+        </div>
+        <div class="carousel-slide">
+          <img src="/files/BL3.png" alt="Spot Expressive Gait">
+          <p class="carousel-caption"><em>Figure 2c: Walk in circle and spin</em></p>
+        </div>
+      </div>
+      <button class="carousel-btn prev" onclick="moveSlide(-1, 'spotGaitCarousel')">&#10094;</button>
+      <button class="carousel-btn next" onclick="moveSlide(1, 'spotGaitCarousel')">&#10095;</button>
     </div>
-    <div class="carousel-slide">
-      <img src="/files/controller.png" alt="Pedestrian Reaction">
-      <p class="carousel-caption"><em>Figure 3b: Joystick</em></p>
-    </div>
-    <div class="carousel-slide">
-      <img src="/files/companion.png" alt="Pedestrian Reaction">
-      <p class="carousel-caption"><em>Figure 3b: Companion</em></p>
-    </div>
-    <div class="carousel-slide">
-      <img src="/files/leash.png" alt="Pedestrian Reaction">
-      <p class="carousel-caption"><em>Figure 3b: Comapanion with a dog leash</em></p>
-    </div>
-    <div class="carousel-slide">
-      <img src="/files/servicevest.png" alt="Pedestrian Reaction">
-      <p class="carousel-caption"><em>Figure 3b: Comapanion with a service vest</em></p>
-    </div>
-  </div>
-  <button class="carousel-btn prev" onclick="moveSlide(-1, 'spotLeashCarousel')">&#10094;</button>
-  <button class="carousel-btn next" onclick="moveSlide(1, 'spotLeashCarousel')">&#10095;</button>
-</div>
-    
+
+    <br>
+    Our results demonstrate that participants viewed the quadruped performing these expressive movements as more friendly, responsive, doglike, and conscious compared to a robot using a standard mechanical gait. Specifically, the body language interventions produced significantly higher ratings in perceived animacy and cynomorphism (dog-like traits).
+  </li>
+  
+  <li style="margin-bottom: 30px;">
+    <strong>Visual Indicators of Control (Boston Dynamics Spot):</strong> We tested how physical additions and human presence affect public perception. We evaluated conditions featuring a human handler utilizing a joystick, a leash, or a service vest. 
     <br><br>
-    Indications of human supervision led to positive reactions from pedestrians. These visual cues helped bystanders quickly make sense of the robot's presence and operations in their environment.
+    
+    <div class="carousel-container">
+      <div class="carousel-slides" id="spotLeashCarousel" data-current-slide="0">
+        <div class="carousel-slide">
+          <img src="/files/autonomous.png" alt="Spot with Leash">
+          <p class="carousel-caption"><em>Figure 3a: Autonomous mode</em></p>
+        </div>
+        <div class="carousel-slide">
+          <img src="/files/controller.png" alt="Pedestrian Reaction">
+          <p class="carousel-caption"><em>Figure 3b: Joystick</em></p>
+        </div>
+        <div class="carousel-slide">
+          <img src="/files/companion.png" alt="Pedestrian Reaction">
+          <p class="carousel-caption"><em>Figure 3c: Companion</em></p>
+        </div>
+        <div class="carousel-slide">
+          <img src="/files/leash.png" alt="Pedestrian Reaction">
+          <p class="carousel-caption"><em>Figure 3d: Companion with a dog leash</em></p>
+        </div>
+        <div class="carousel-slide">
+          <img src="/files/servicevest.png" alt="Pedestrian Reaction">
+          <p class="carousel-caption"><em>Figure 3e: Companion with a service vest</em></p>
+        </div>
+      </div>
+      <button class="carousel-btn prev" onclick="moveSlide(-1, 'spotLeashCarousel')">&#10094;</button>
+      <button class="carousel-btn next" onclick="moveSlide(1, 'spotLeashCarousel')">&#10095;</button>
+    </div>
+    
+    <br>
+    While standardized survey metrics showed minimal changes, in-depth interviews revealed that these visual indicators of control provided a strong sense of familiarity by mimicking a standard human-dog pairing. This familiarity led to higher perceived safety. Ultimately, these visual cues helped bystanders quickly answer the implicit question of what the robot was doing in their environment.
   </li>
 </ul>
 
@@ -170,6 +168,8 @@ Because these individuals usually have no prior training or expectation of meeti
 <script>
 function moveSlide(direction, carouselId) {
   var track = document.getElementById(carouselId);
+  if (!track) return;
+  
   var totalSlides = track.children.length;
   var currentIndex = parseInt(track.getAttribute('data-current-slide')) || 0;
   
