@@ -20,12 +20,13 @@ author_profile: true
   /* Aligns all slides in a horizontal row */
   .carousel-slides {
     display: flex;
+    width: 100%;
     transition: transform 0.4s ease-in-out;
   }
 
   /* Ensures each slide takes up exactly 100% of the container width */
   .carousel-slide {
-    min-width: 100%;
+    flex: 0 0 100%;
     box-sizing: border-box;
     text-align: center;
   }
@@ -115,27 +116,27 @@ Because these individuals usually have no prior training or expectation of meeti
     <strong>Expressive Body Language (Boston Dynamics Spot):</strong> We modified the standard walking motion of a quadruped robot to include non-functional, canine-inspired movements. 
     <br><br>
     
-<div class="carousel-container">
-  <div class="carousel-slides" id="spotGaitCarousel">
-    <div class="carousel-slide">
-      <img src="/files/BL1.png" alt="Spot Mechanical Gait">
-      <p class="carousel-caption"><em>Figure 2a: Wagging</em></p>
+    <div class="carousel-container">
+      <div class="carousel-slides" id="spotGaitCarousel">
+        <div class="carousel-slide">
+          <img src="/files/BL1.png" alt="Spot Mechanical Gait">
+          <p class="carousel-caption"><em>Figure 2a: Wagging</em></p>
+        </div>
+        <div class="carousel-slide">
+          <img src="/files/BL2.png" alt="Spot Expressive Gait">
+          <p class="carousel-caption"><em>Figure 2b: Play bow and Sit</em></p>
+        </div>
+        <div class="carousel-slide">
+          <img src="/files/BL3.png" alt="Spot Expressive Gait">
+          <p class="carousel-caption"><em>Figure 2c: Walk in circle and spin</em></p>
+        </div>
+      </div>
+      <button class="carousel-btn prev" onclick="moveSlide(-1, 'spotGaitCarousel')">&#10094;</button>
+      <button class="carousel-btn next" onclick="moveSlide(1, 'spotGaitCarousel')">&#10095;</button>
     </div>
-    <div class="carousel-slide">
-      <img src="/files/BL2.png" alt="Spot Expressive Gait">
-      <p class="carousel-caption"><em>Figure 2b: Play bow and Sit</em></p>
-    </div>
-    <div class="carousel-slide">
-      <img src="/files/BL3.png" alt="Spot Expressive Gait">
-      <p class="carousel-caption"><em>Figure 2c: Walk in circle and spin</em></p>
-    </div>
-  </div>
-  <button class="carousel-btn prev" onclick="moveSlide(-1, 'spotGaitCarousel')">&#10094;</button>
-  <button class="carousel-btn next" onclick="moveSlide(1, 'spotGaitCarousel')">&#10095;</button>
-</div>
-
-<br><br>
-These expressive gestures positively influenced pedestrian impressions and improved overall acceptance compared to the stock mechanical gait.
+    
+    <br><br>
+    These expressive gestures positively influenced pedestrian impressions and improved overall acceptance compared to the stock mechanical gait.
   </li>
   
   <li style="margin-bottom: 20px;">
