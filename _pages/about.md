@@ -29,7 +29,7 @@ redirect_from:
     <div style="flex: 1 1 300px; text-align: left;">
       <h3 style="margin-top: 0;">Incidental Human Robot Encounters</h3>
       <p>Investigating how robot communicative behaviors impact perceived social intelligence during incidental encounters.</p>
-      <a href="/research1/">View Details</a>
+      <a href="/HRE/">View Details</a>
     </div>
   </div>
 
