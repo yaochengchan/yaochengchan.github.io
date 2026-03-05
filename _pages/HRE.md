@@ -20,21 +20,21 @@ Because these individuals usually have no prior training or expectation of meeti
 
 <ul>
   <li style="margin-bottom: 20px;">
-    <strong>Expressive Body Language:</strong> We modified the standard walking motion of a quadruped robot to include non-functional, canine-inspired movements. 
-    <br><br>
-    
-    <br><br>
-    These expressive gestures positively influenced pedestrian impressions and improved overall acceptance compared to the stock mechanical gait.
-  </li>
-  <li style="margin-bottom: 20px;">
-    <strong>Anthropomorphic Gaze Cues:</strong> We added animated robotic eyes to provide gaze cues during social navigation. 
+    <strong>Communicative Behaviors (Clearath Robotics Husky) : </strong> We added animated robotic eyes to provide gaze cues during social navigation. 
     <br><br>
     
     <br><br>
     While these features increased perceived sociability in video evaluations, live field experiments showed that subtle signals are often missed in busy environments. This finding suggests that communication designs must be highly visible to be effective during real-world navigation tasks.
   </li>
   <li style="margin-bottom: 20px;">
-    <strong>Visual Indicators of Control:</strong> We tested how physical additions, such as a leash, affect public perception. 
+    <strong>Expressive Body Language (Boston Dynamics Spot) : </strong> We modified the standard walking motion of a quadruped robot to include non-functional, canine-inspired movements. 
+    <br><br>
+    
+    <br><br>
+    These expressive gestures positively influenced pedestrian impressions and improved overall acceptance compared to the stock mechanical gait.
+  </li>
+  <li style="margin-bottom: 20px;">
+    <strong>Visual Indicators of Control (Boston Dynamics Spot):</strong> We tested how physical additions, such as a leash, affect public perception. 
     <br><br>
     
     <br><br>
