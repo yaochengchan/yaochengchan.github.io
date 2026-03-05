@@ -27,7 +27,7 @@ redirect_from:
       <img src="/files/phase2_fail.PNG" alt="Incidental Encounters" style="width: 100%; aspect-ratio: 4 / 3; object-fit: contain; display: block; margin: 0 auto; border-radius: 5px;">
     </div>
     <div style="flex: 1 1 300px; text-align: left;">
-      <h3 style="margin-top: 0;">Perceived Social Intelligence in Autonomous Robots</h3>
+      <h3 style="margin-top: 0;">Incidental Human Robot Encounters</h3>
       <p>Investigating how robot communicative behaviors impact perceived social intelligence during incidental encounters.</p>
       <a href="/research1/">View Details</a>
     </div>
