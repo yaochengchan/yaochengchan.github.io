@@ -81,8 +81,8 @@ Because these individuals usually have no prior training or expectation of meeti
     <strong>Communicative Behaviors (Clearpath Robotics Husky):</strong> We evaluated communicative behaviors, such as animated robotic eyes, to signal a robot's intent during social navigation.
     <br><br>
 
-    <div class="carousel-container">
-      <div class="carousel-slides" id="huskyCarousel" data-current-slide="0">
+  <div class="carousel-container">
+    <div class="carousel-slides" id="huskyCarousel" data-current-slide="0">
         <div class="carousel-slide">
           <img src="/files/img_phase1.png" alt="Husky Gaze Cues">
           <p class="carousel-caption"><em>Figure 1: Five distinct communicative behaviors tested for trajectory signaling: Puppet System, Nao, Arrow Pointers, LED Light, and Robotic Eyes.</em></p>
@@ -96,7 +96,7 @@ Because these individuals usually have no prior training or expectation of meeti
       <button class="carousel-btn next" onclick="moveSlide(1, 'huskyCarousel')">&#10095;</button>
     </div>
 
-    <br>
+   <br>
     A three-phase mixed-methods investigation evaluated how robot communicative behaviors affect pedestrians during social navigation, using the Perceived Social Intelligence scale to measure results. Online video studies showed that anthropomorphic features, like animated robotic eyes, improved perceived social competence and protected against negative ratings during behavioral failures, such as obstructing a photographer's view.  However, live field experiments in a public hallway yielded different results. Real-world distractions caused pedestrians to frequently miss these subtle gaze cues during brief encounters, resulting in no significant difference in their evaluations. Retrospective video reviews confirmed the cues were legible but overlooked in the moment, indicating that robot communication designs need high visibility and explicit signals to be noticed in active public spaces.
   </li>
   
@@ -104,7 +104,7 @@ Because these individuals usually have no prior training or expectation of meeti
     <strong>Expressive Body Language (Boston Dynamics Spot):</strong> We modified the standard walking motion of a quadruped robot to include non-functional, canine-inspired movements such as tail wagging, play bows, and spinning.
     <br><br>
     
-    <div class="carousel-container">
+  <div class="carousel-container">
       <div class="carousel-slides" id="spotGaitCarousel" data-current-slide="0">
         <div class="carousel-slide">
           <img src="/files/BL1.png" alt="Spot Mechanical Gait">
@@ -123,7 +123,7 @@ Because these individuals usually have no prior training or expectation of meeti
       <button class="carousel-btn next" onclick="moveSlide(1, 'spotGaitCarousel')">&#10095;</button>
     </div>
 
-    <br>
+   <br>
     Our results demonstrate that participants viewed the quadruped performing these expressive movements as more friendly, responsive, doglike, and conscious compared to a robot using a standard mechanical gait. Specifically, the body language interventions produced significantly higher ratings in perceived animacy and cynomorphism (dog-like traits).
   </li>
   
@@ -131,7 +131,7 @@ Because these individuals usually have no prior training or expectation of meeti
     <strong>Visual Indicators of Control (Boston Dynamics Spot):</strong> We tested how physical additions and human presence affect public perception. We evaluated conditions featuring a human handler utilizing a joystick, a leash, or a service vest. 
     <br><br>
     
-    <div class="carousel-container">
+   <div class="carousel-container">
       <div class="carousel-slides" id="spotLeashCarousel" data-current-slide="0">
         <div class="carousel-slide">
           <img src="/files/autonomous.png" alt="Spot with Leash">
@@ -158,7 +158,7 @@ Because these individuals usually have no prior training or expectation of meeti
       <button class="carousel-btn next" onclick="moveSlide(1, 'spotLeashCarousel')">&#10095;</button>
     </div>
     
-    <br>
+   <br>
     While standardized survey metrics showed minimal changes, in-depth interviews revealed that these visual indicators of control provided a strong sense of familiarity by mimicking a standard human-dog pairing. This familiarity led to higher perceived safety. Ultimately, these visual cues helped bystanders quickly answer the implicit question of what the robot was doing in their environment.
   </li>
 </ul>
