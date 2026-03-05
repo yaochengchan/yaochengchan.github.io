@@ -84,11 +84,11 @@ Because these individuals usually have no prior training or expectation of meeti
     <div class="carousel-container">
       <div class="carousel-slides" id="huskyCarousel" data-current-slide="0">
         <div class="carousel-slide">
-          <img src="/files/husky_gaze1.png" alt="Husky Gaze Cues">
-          <p class="carousel-caption"><em>Figure 1a: Animated eyes for Identifying Humans (IH)</em></p>
+          <img src="/files/img_phase1.png" alt="Husky Gaze Cues">
+          <p class="carousel-caption"><em>Figure 1: Five distinct communicative behaviors tested for trajectory signaling: Puppet System, Nao, Arrow Pointers, LED Light, and Robotic Eyes.</em></p>
         </div>
         <div class="carousel-slide">
-          <img src="/files/husky_gaze2.png" alt="Husky Field Test">
+          <img src="/files/img_phase2.png" alt="Husky Field Test">
           <p class="carousel-caption"><em>Figure 1b: Field experiment setup in a busy environment</em></p>
         </div>
       </div>
@@ -97,7 +97,7 @@ Because these individuals usually have no prior training or expectation of meeti
     </div>
 
     <br>
-    Through online video-based studies utilizing both "Encounterer" and "Observer" vantages, we found that anthropomorphic features successfully buffered behavioral failures and increased perceived social competence. Furthermore, the Observer vantage consistently yielded higher perceived social intelligence ratings than the Encounterer vantage. However, our live field experiments revealed a contrast. Pedestrians in active, real-world environments frequently missed these subtle gaze cues due to environmental distractions and attentional constraints. This finding suggests that communication designs must be highly salient and explicitly visible to be effective outside the laboratory.
+    A three-phase mixed-methods investigation evaluated how robot communicative behaviors affect pedestrians during social navigation, using the Perceived Social Intelligence scale to measure results. Online video studies showed that anthropomorphic features, like animated robotic eyes, improved perceived social competence and protected against negative ratings during behavioral failures, such as obstructing a photographer's view.  However, live field experiments in a public hallway yielded different results. Real-world distractions caused pedestrians to frequently miss these subtle gaze cues during brief encounters, resulting in no significant difference in their evaluations. Retrospective video reviews confirmed the cues were legible but overlooked in the moment, indicating that robot communication designs need high visibility and explicit signals to be noticed in active public spaces.
   </li>
   
   <li style="margin-bottom: 30px;">
