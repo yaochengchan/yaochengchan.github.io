@@ -78,8 +78,10 @@ Because these individuals usually have no prior training or expectation of meeti
 
 <ul>
   <li style="margin-bottom: 20px;">
-    <strong>Communicative Behaviors (Clearpath Robotics Husky):</strong> We added animated robotic eyes to provide gaze cues during social navigation. 
+    <strong>Expressive Body Language:</strong> We modified the standard walking motion of a quadruped robot to include non-functional, canine-inspired movements such as tail wagging and play bows[cite: 2097, 2159]. 
     <br><br>
+        <br><br>
+    Our results demonstrate that participants viewed the quadruped performing these expressive movements as more friendly, responsive, doglike, and conscious compared to a robot using a standard mechanical gait[cite: 2357]. Specifically, the body language interventions produced significantly higher ratings in perceived animacy and cynomorphism (dog-like traits)[cite: 2256].
     
 <div class="carousel-container">
   <div class="carousel-slides" id="huskyCarousel" data-current-slide="0">
