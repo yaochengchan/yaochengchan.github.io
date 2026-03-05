@@ -20,22 +20,69 @@ Because these individuals usually have no prior training or expectation of meeti
 
 <ul>
   <li style="margin-bottom: 20px;">
-    <strong>Communicative Behaviors (Clearath Robotics Husky) : </strong> We added animated robotic eyes to provide gaze cues during social navigation. 
+    <strong>Communicative Behaviors (Clearpath Robotics Husky):</strong> We added animated robotic eyes to provide gaze cues during social navigation. 
     <br><br>
+    
+    <div class="carousel-container">
+      <div class="carousel-slides" id="huskyCarousel">
+        <div class="carousel-slide">
+          <img src="/files/husky_gaze1.png" alt="Husky Gaze Cues">
+          <p class="carousel-caption"><em>Figure 1a: Animated eyes for Identifying Humans (IH)</em></p>
+        </div>
+        <div class="carousel-slide">
+          <img src="/files/husky_gaze2.png" alt="Husky Field Test">
+          <p class="carousel-caption"><em>Figure 1b: Field experiment setup in a busy environment</em></p>
+        </div>
+      </div>
+      <button class="carousel-btn prev" onclick="moveSlide(-1, 'huskyCarousel')">&#10094;</button>
+      <button class="carousel-btn next" onclick="moveSlide(1, 'huskyCarousel')">&#10095;</button>
+    </div>
     
     <br><br>
     While these features increased perceived sociability in video evaluations, live field experiments showed that subtle signals are often missed in busy environments. This finding suggests that communication designs must be highly visible to be effective during real-world navigation tasks.
   </li>
+  
   <li style="margin-bottom: 20px;">
-    <strong>Expressive Body Language (Boston Dynamics Spot) : </strong> We modified the standard walking motion of a quadruped robot to include non-functional, canine-inspired movements. 
+    <strong>Expressive Body Language (Boston Dynamics Spot):</strong> We modified the standard walking motion of a quadruped robot to include non-functional, canine-inspired movements. 
     <br><br>
+    
+    <div class="carousel-container">
+      <div class="carousel-slides" id="spotGaitCarousel">
+        <div class="carousel-slide">
+          <img src="/files/spot_gait1.png" alt="Spot Mechanical Gait">
+          <p class="carousel-caption"><em>Figure 2a: Standard mechanical walking motion</em></p>
+        </div>
+        <div class="carousel-slide">
+          <img src="/files/spot_gait2.png" alt="Spot Expressive Gait">
+          <p class="carousel-caption"><em>Figure 2b: Canine-inspired expressive movement</em></p>
+        </div>
+      </div>
+      <button class="carousel-btn prev" onclick="moveSlide(-1, 'spotGaitCarousel')">&#10094;</button>
+      <button class="carousel-btn next" onclick="moveSlide(1, 'spotGaitCarousel')">&#10095;</button>
+    </div>
     
     <br><br>
     These expressive gestures positively influenced pedestrian impressions and improved overall acceptance compared to the stock mechanical gait.
   </li>
+  
   <li style="margin-bottom: 20px;">
     <strong>Visual Indicators of Control (Boston Dynamics Spot):</strong> We tested how physical additions, such as a leash, affect public perception. 
     <br><br>
+    
+    <div class="carousel-container">
+      <div class="carousel-slides" id="spotLeashCarousel">
+        <div class="carousel-slide">
+          <img src="/files/spot_leash1.png" alt="Spot with Leash">
+          <p class="carousel-caption"><em>Figure 3a: Physical leash addition</em></p>
+        </div>
+        <div class="carousel-slide">
+          <img src="/files/spot_leash2.png" alt="Pedestrian Reaction">
+          <p class="carousel-caption"><em>Figure 3b: Bystanders interpreting the visual cues</em></p>
+        </div>
+      </div>
+      <button class="carousel-btn prev" onclick="moveSlide(-1, 'spotLeashCarousel')">&#10094;</button>
+      <button class="carousel-btn next" onclick="moveSlide(1, 'spotLeashCarousel')">&#10095;</button>
+    </div>
     
     <br><br>
     Indications of human supervision led to positive reactions from pedestrians. These visual cues helped bystanders quickly make sense of the robot's presence and operations in their environment.
@@ -43,6 +90,24 @@ Because these individuals usually have no prior training or expectation of meeti
 </ul>
 
 <hr>
+
+<script>
+  // Store the current slide index for each carousel ID
+  let slideIndices = {
+    'huskyCarousel': 0,
+    'spotGaitCarousel': 0,
+    'spotLeashCarousel': 0
+  };
+
+  // Update function to accept the carousel ID
+  function moveSlide(direction, carouselId) {
+    const track = document.getElementById(carouselId);
+    const totalSlides = track.children.length;
+    
+    slideIndices[carouselId] = (slideIndices[carouselId] + direction + totalSlides) % totalSlides;
+    track.style.transform = `translateX(-${slideIndices[carouselId] * 100}%)`;
+  }
+</script>
 
 <h1 style="text-align: center; margin-top: 40px; margin-bottom: 30px;">Related Publications</h1>
 
