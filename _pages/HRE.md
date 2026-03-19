@@ -130,15 +130,15 @@ Because these individuals usually have no prior training or expectation of meeti
   <div class="video-row">
       <div class="video-item">
         <iframe src="https://drive.google.com/file/d/1uaHbn1BnCQtOKbGpFXFM-LvyVTSwxLb0/preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <p class="video-caption"><em>Video 1: Description</em></p>
+        <p class="video-caption"><em>Video 1: Puppet System as communicative behavior</em></p>
       </div>
       <div class="video-item">
         <iframe src="https://drive.google.com/file/d/10L-wJ57eg5ja0sg_sc_wvJ9mYwA0ual_/preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <p class="video-caption"><em>Video 2: Description</em></p>
+        <p class="video-caption"><em>Video 2: Huamnoid Nao as communcative behavior</em></p>
       </div>
       <div class="video-item">
         <iframe src="https://drive.google.com/file/d/1B2i5129QsfhOPv9bdreND4LBUJBhHepo/preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <p class="video-caption"><em>Video 3: Description</em></p>
+        <p class="video-caption"><em>Video 3: Robotic Eyes as communicative behavior</em></p>
       </div>
     </div>
 
