@@ -23,15 +23,12 @@ author_profile: true
   min-width: 100%;
   box-sizing: border-box;
 }
-.carousel-slide img, .carousel-slide iframe {
+.carousel-slide img {
   width: 100%;
   height: 300px;
   object-fit: contain;
   background-color: #f9f9f9;
   display: block;
-}
-.carousel-slide iframe {
-  background-color: #000;
 }
 .carousel-caption {
   text-align: center;
@@ -64,6 +61,37 @@ author_profile: true
 .carousel-btn.next {
   right: 10px;
 }
+
+/* New styles for the side-by-side video row */
+.video-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.video-item {
+  flex: 1;
+  text-align: center;
+}
+.video-item iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  background-color: #000;
+}
+.video-caption {
+  font-size: 0.85em;
+  color: #555;
+  margin-top: 5px;
+}
+
+/* Stack videos on smaller screens */
+@media (max-width: 768px) {
+  .video-row {
+    flex-direction: column;
+  }
+}
 </style>
 
 An incidental human-robot encounter occurs when a person unexpectedly shares a physical space with an autonomous robot during their routine activities. Unlike planned interactions where a user actively operates or collaborates with a machine, these encounters typically involve everyday bystanders in public settings, such as pedestrians walking past a service robot on a sidewalk.
@@ -88,27 +116,30 @@ Because these individuals usually have no prior training or expectation of meeti
     <div class="carousel-slides" id="huskyCarousel" data-current-slide="0">
         <div class="carousel-slide">
           <img src="/files/img_phase1.png" alt="Husky Gaze Cues">
-          <p class="carousel-caption"><em>Figure 1: Five distinct communicative behaviors tested for trajectory signaling: Puppet System, Nao, Arrow Pointers, LED Light, and Robotic Eyes.</em></p>
+          <p class="carousel-caption"><em>Figure 1a: Five distinct communicative behaviors tested for trajectory signaling: Puppet System, Nao, Arrow Pointers, LED Light, and Robotic Eyes.</em></p>
         </div>
         <div class="carousel-slide">
           <img src="/files/img_phase2.png" alt="Husky Field Test">
           <p class="carousel-caption"><em>Figure 1b: Field experiment setup in a busy environment</em></p>
         </div>
-        <div class="carousel-slide">
-          <iframe src="https://drive.google.com/file/d/1OuJ6TLWo5bbv9vJAFC1XliuWS5cjWMky/view?usp=sharing" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          <p class="carousel-caption"><em>Figure 1c: Video demonstration 1</em></p>
-        </div>
-        <div class="carousel-slide">
-          <iframe src="https://drive.google.com/file/d/1u3uEXKPE6Kf7ejmihSdqLHVb6MLu7JFV/view?usp=drive_link" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          <p class="carousel-caption"><em>Figure 1d: Video demonstration 2</em></p>
-        </div>
-        <div class="carousel-slide">
-          <iframe src="https://drive.google.com/file/d/1B2i5129QsfhOPv9bdreND4LBUJBhHepo/view?usp=drive_link" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          <p class="carousel-caption"><em>Figure 1e: Video demonstration 3</em></p>
-        </div>
       </div>
       <button class="carousel-btn prev" onclick="moveSlide(-1, 'huskyCarousel')">&#10094;</button>
       <button class="carousel-btn next" onclick="moveSlide(1, 'huskyCarousel')">&#10095;</button>
+    </div>
+
+  <div class="video-row">
+      <div class="video-item">
+        <iframe src="https://drive.google.com/file/d/1uaHbn1BnCQtOKbGpFXFM-LvyVTSwxLb0/preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <p class="video-caption"><em>Video 1: Description</em></p>
+      </div>
+      <div class="video-item">
+        <iframe src="https://drive.google.com/file/d/10L-wJ57eg5ja0sg_sc_wvJ9mYwA0ual_/preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <p class="video-caption"><em>Video 2: Description</em></p>
+      </div>
+      <div class="video-item">
+        <iframe src="https://drive.google.com/file/d/1B2i5129QsfhOPv9bdreND4LBUJBhHepo/preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <p class="video-caption"><em>Video 3: Description</em></p>
+      </div>
     </div>
 
    <br>
