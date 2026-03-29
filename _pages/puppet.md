@@ -21,7 +21,7 @@ The iterative design of the puppeteering system began with a simplified proof of
 Pilot testing showed that users were able to generate their own interpretations of basic emotions using this minimal setup. Most participants also reported viewing the wooden plate as the robot's face prior to receiving instructions.
 
 ### Hardware Iteration
-<img src="/files/prototype_head.gif" alt="3D printed robot head with binocular eyes">
+<img src="/files/prototype_head.gif" alt="3D printed robot head with binocular eyes"> 
 
 Following these initial tests, the hardware was updated to a 3D-printed head with binocular eye structures inspired by Wall-E. This structural iteration provided a clear forward orientation to assist users in designing and reviewing the robot's directional gaze during interaction studies.
 
