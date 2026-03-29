@@ -13,12 +13,11 @@ For my dissertation research in Human-Robot Interaction, I developed a robotic p
 ### Prototype Setup
 <img src="/files/prototype_wood.gif" alt="Initial wooden plate prototype">
 
-The iterative design of the puppeteering system began with a simplified proof of concept restricted to two degrees of freedom. To reduce the complexity of movement data analysis, the initial prototype utilized a blank wooden plate rather than a digital display. 
+The iterative design of the puppeteering system began with a simplified proof of concept restricted to two degrees of freedom. To reduce the complexity of movement data analysis, the initial prototype utilized a blank wooden plate rather than a digital display. Pilot testing showed that users were able to generate their own interpretations of basic emotions using this minimal setup. Most participants also reported viewing the wooden plate as the robot's face prior to receiving instructions.
 
 ### User Interaction Testing
 <img src="/files/prototype_autodesk.png" alt="User interacting with the puppet system">
-
-Pilot testing showed that users were able to generate their own interpretations of basic emotions using this minimal setup. Most participants also reported viewing the wooden plate as the robot's face prior to receiving instructions.
+CAD model of a custom robotic head assembly designed for social interaction research, featuring a dual-eye camera housing and a motorized pan-tilt base for expressive movement.
 
 ### Hardware Iteration
 <img src="/files/prototype_head.gif" alt="3D printed robot head with binocular eyes"> 
