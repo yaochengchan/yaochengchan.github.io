@@ -2,6 +2,8 @@
 main:
   - title: "Incidental Human-Robot Encounter"
     url: /HRE/
+  - title: "Robot Puppeteering System"
+    url: /puppet/
   - title: "Vid2Real HRI"
     url: /vid2real/
   - title: "Robot Personality"
