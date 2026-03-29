@@ -5,10 +5,10 @@ permalink: /puppet/
 author_profile: true
 ---
 
-##Overview
+## Overview
 For my dissertation research in Human-Robot Interaction, I developed a robotic puppeteering interface to investigate how robot Communicative Behaviors influence pedestrians' Perceived Social Intelligence during social navigation tasks, addressing the sociotechnical gap as autonomous robots deploy into public spaces. The prototype features a two-degree-of-freedom robot and a corresponding physical puppet, which are linked via Raspberry Pis to execute real-time motor mirroring. I used an iterative design process to build and refine this system. To create a reliable proof of concept, I designed a robotic head inspired by Wall-E. I evaluated the prototype through remote pilot studies, and the testing confirmed that the real-time physical mirroring allowed users to effectively review and redesign recognizable expressions. Participant (as randome pedestrians) feedback indicated that the robot was cute, and that its movements and eye gaze made people feel acknowledged and encouraged further interaction.
 
-##Iterative Design of the Puppeteering System
+## Iterative Design of the Puppeteering System
 The iterative design of the puppeteering system began with a simplified proof of concept restricted to two degrees of freedom. To reduce the complexity of movement data analysis, the initial prototype utilized a blank wooden plate rather than a digital display. Pilot testing showed that users were able to generate their own interpretations of basic emotions using this minimal setup. Most participants also reported viewing the wooden plate as the robot's face prior to receiving instructions. Following these initial tests, the hardware was updated to a 3D-printed head with binocular eye structures inspired by Wall-E. This structural iteration provided a clear forward orientation to assist users in designing and reviewing the robot's directional gaze during interaction studies.
 
 
