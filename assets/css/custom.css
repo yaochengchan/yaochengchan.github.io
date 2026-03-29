@@ -1,0 +1,7 @@
+.container {
+  max-width: 90% !important; /* Forces the site to use 90% of the screen width */
+}
+
+#main {
+  max-width: 1300px; /* Sets a larger limit for the content area */
+}
