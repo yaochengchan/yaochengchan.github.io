@@ -13,7 +13,9 @@ For my dissertation research in Human-Robot Interaction, I developed a robotic p
 ### Prototype Setup
 <img src="/files/prototype_wood.gif" alt="Initial wooden plate prototype">
 
-The iterative design of the puppeteering system began with a simplified proof of concept restricted to two degrees of freedom. To reduce the complexity of movement data analysis, the initial prototype utilized a blank wooden plate rather than a digital display. Pilot testing showed that users were able to generate their own interpretations of basic emotions using this minimal setup. Most participants also reported viewing the wooden plate as the robot's face prior to receiving instructions.
+The iterative design of the puppeteering system began with a simplified proof of concept restricted to two degrees of freedom. To reduce the complexity of movement data analysis, the initial prototype utilized a blank wooden plate rather than a digital display. Pilot testing showed that users were able to generate their own interpretations of basic emotions using this minimal setup. Most participants also reported viewing the wooden plate as the robot's face prior to receiving instructions. 
+
+Credit: This system is initially developed by Howie Wang and Dr. Nikolas Martelaro from Carnegie Mellon University, and I collaborated with them to build the later prototypes for research.
 
 ### User Interaction Testing
 <img src="/files/prototype_autodesk.png" alt="User interacting with the puppet system">
