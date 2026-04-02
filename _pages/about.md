@@ -15,7 +15,7 @@ redirect_from:
   </div>
 
   <div style="flex: 2 1 300px;">
-    <p style="margin-top: 0;">My primary research interest is Human-Robot Interaction (HRI), specifically about how humans perceive and react to robots that they incidentally encounter in their daily lives, using empirical and mixed-methods. My work has been published in several HRI-related journals and conferences. My research contributes to the fields of HRI, Social Robotics, and Human-Computer Interaction (HCI). I also study the use of eye-tracker in both HRI and HCI studies and explore its potential in HRI in public settings.</p>
+    <p style="margin-top: 0;">I use Human-Computer Interaction (HCI), Human-Robot Interaction (HRI) and Human Factors research methods to understand interactions between people and autonomous systems. My doctoral research focused on evaluating robot communicative behaviors and how humans perceive and react to incidental encounters with public robots. My human factors background includes managing eye-tracking studies, conducting usability testing, and analyzing behavioral indicators to evaluate cognitive states. I also have experience developing a robot prototype, which involved designing a robotic system using CAD and 3D printing. I bring scientific rigor and a pragmatic approach to real-world problems in robotic, autonomous, and embedded systems. My contributions span HCI, HRI, Human Factors, and Social Robotics, with multiple publications in peer reviewed journals and conferences.</p>
   </div>
 
 </div>
@@ -24,7 +24,7 @@ redirect_from:
 
 <div style="margin-bottom: 30px;">
   <p style="margin: 5px 0;"><strong>Research Skills:</strong> Mixed-Methodology, Usability Testing, Experimental Design, Semi-Structured Interview, Thematic Analysis, Ethnography, Grounded-Theory, Quantitative Analysis, Qualitative Analysis, Eye-Tracking</p>
-  <p style="margin: 5px 0;"><strong>Technical Skills:</strong> Python, ROS, Figma, SPSS, Qualtrics</p>
+  <p style="margin: 5px 0;"><strong>Technical Skills:</strong> Python, ROS, Figma, SPSS, Qualtrics, CAD, 3D Printing</p>
   <p style="margin: 5px 0;"><strong>Robotic Platforms:</strong> Boston Dynamics Spot, Clearpath Robotics Husky, SoftBank Robotics Pepper, Nao</p>
 </div>
 
