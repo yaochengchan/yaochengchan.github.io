@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Home page"
+title: "My Research Profile"
 author_profile: true
 classes: wide
 redirect_from: 
