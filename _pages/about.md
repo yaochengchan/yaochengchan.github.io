@@ -10,17 +10,21 @@ redirect_from:
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 24px; margin-bottom: 30px;">
   
+  <div style="flex: 1 1 200px; max-width: 220px;">
+    <img src="/files/homepage_me.png" alt="Profile photo" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);">
+  </div>
+
   <div style="flex: 2 1 320px;">
-  <p style="font-size: 1.15em; font-weight: 600; margin-top: 0; margin-bottom: 8px; color: #222;">
-    Connecting user insights, system requirements, and data-driven product decisions.
-  </p>
-  <p style="margin: 0 0 10px 0; line-height: 1.6;">
-    I specialize in evaluating human-system interactions across physical and digital environments. My work combines qualitative and quantitative user research, cognitive ergonomics (eye-tracking), and rapid prototype validation to solve critical challenges around usability, intent legibility, and user trust.
-  </p>
-  <p style="margin: 0; font-size: 0.95em; color: #555;">
-    Experienced in navigating projects from early problem discovery and MVP scoping to experimental validation, cross-functional alignment, and product design guidelines.
-  </p>
-</div>
+    <p style="font-size: 1.15em; font-weight: 600; margin-top: 0; margin-bottom: 8px; color: #222;">
+      Connecting user insights, system requirements, and data-driven product decisions.
+    </p>
+    <p style="margin: 0 0 10px 0; line-height: 1.6;">
+      I specialize in evaluating human-system interactions across physical and digital environments. My work combines qualitative and quantitative user research, cognitive ergonomics (eye-tracking), and rapid prototype validation to solve critical challenges around usability, intent legibility, and user trust.
+    </p>
+    <p style="margin: 0; font-size: 0.95em; color: #555;">
+      Experienced in navigating projects from early problem discovery and MVP scoping to experimental validation, cross-functional alignment, and product design guidelines.
+    </p>
+  </div>
 
 </div>
 
@@ -53,22 +57,22 @@ redirect_from:
 
 ## Core Toolkit
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 14px; margin-bottom: 35px;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin-bottom: 35px;">
   <div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 12px;">
-    <strong>Research & Testing</strong>
-    <p style="margin: 6px 0 0 0; font-size: 0.88em; line-height: 1.4; color: #444;">Controlled Lab Studies, Usability Benchmarking, In-Situ Field Trials, Eye-Tracking, Interviews, Thematic Analysis</p>
+    <strong>Product & Strategy</strong>
+    <p style="margin: 6px 0 0 0; font-size: 0.88em; line-height: 1.4; color: #444;">Product Requirements (PRDs), MVP Scoping, Feature Prioritization, User Journey Mapping, Cross-Functional Alignment, Usability Benchmarking</p>
   </div>
   <div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 12px;">
-    <strong>Analytics & Modeling</strong>
+    <strong>User Research & Testing</strong>
+    <p style="margin: 6px 0 0 0; font-size: 0.88em; line-height: 1.4; color: #444;">Semi-Structured Interviews, Thematic Analysis, Controlled Lab Studies, Eye-Tracking, Field Evaluations, Survey Design (Qualtrics)</p>
+  </div>
+  <div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 12px;">
+    <strong>Data & Analytics</strong>
     <p style="margin: 6px 0 0 0; font-size: 0.88em; line-height: 1.4; color: #444;">Linear Mixed Models (LMM), MANOVA/ANOVA, Non-parametric Tests, Hypothesis Testing, SPSS, R, Python</p>
   </div>
   <div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 12px;">
     <strong>Prototyping & Tools</strong>
-    <p style="margin: 6px 0 0 0; font-size: 0.88em; line-height: 1.4; color: #444;">Python (TCP sockets), Raspberry Pi, CAD & 3D Printing, Figma, Qualtrics, Git, ROS</p>
-  </div>
-  <div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 12px;">
-    <strong>Domain Platforms</strong>
-    <p style="margin: 6px 0 0 0; font-size: 0.88em; line-height: 1.4; color: #444;">Autonomous Ground Vehicles (Clearpath Husky), Mobile Robotics (Boston Dynamics Spot), Humanoid Agents (Pepper, Nao)</p>
+    <p style="margin: 6px 0 0 0; font-size: 0.88em; line-height: 1.4; color: #444;">Figma, CAD & 3D Printing, Python, Raspberry Pi Prototyping, Git, ROS</p>
   </div>
 </div>
 
@@ -81,9 +85,9 @@ redirect_from:
       <img src="/files/prototype_head.gif" alt="Robot Puppeteering System" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; border-radius: 4px; border: 1px solid #eee;">
     </div>
     <div style="flex: 1 1 320px;">
-      <div style="font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.5px; color: #0366d6; font-weight: bold; margin-bottom: 4px;">Hardware Prototyping • Rapid Testbed • Product Feasibility</div>
-      <h3 style="margin: 0 0 8px 0;">Low-Latency Teleoperation & Behavioral Testbed</h3>
-      <p style="margin: 0 0 12px 0; font-size: 0.93em; line-height: 1.5; color: #333;">Designed and built an MVP 2-DOF motor-mirroring puppeteering rig via Raspberry Pis, Dynamixel servos, and custom CAD enclosures. Eliminated software dependencies to rapidly simulate and test responsive gaze behaviors in real-time user trials.</p>
+      <div style="font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.5px; color: #0366d6; font-weight: bold; margin-bottom: 4px;">MVP Prototyping • User Testing • Hardware-Software Integration</div>
+      <h3 style="margin: 0 0 8px 0;">Rapid Behavioral Testbed & Teleoperation Interface</h3>
+      <p style="margin: 0 0 12px 0; font-size: 0.93em; line-height: 1.5; color: #333;">Designed and built an MVP 2-DOF motor-mirroring interface using Raspberry Pi microcomputers, Dynamixel servos, and custom CAD enclosures. Rapidly deployed a functional physical testbed to evaluate user perception and responsive signaling without waiting for full autonomous software pipelines.</p>
       <a href="/puppet/" style="font-weight: 600; text-decoration: none;">View System Case Study →</a>
     </div>
   </div>
@@ -105,7 +109,7 @@ redirect_from:
       <img src="/files/video2.png" alt="Vid2Real HRI" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; border-radius: 4px; border: 1px solid #eee;">
     </div>
     <div style="flex: 1 1 320px;">
-      <div style="font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.5px; color: #0366d6; font-weight: bold; margin-bottom: 4px;">UX Methodology • Simulation vs. In-Situ Validation</div>
+      <div style="font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.5px; color: #0366d6; font-weight: bold; margin-bottom: 4px;">UX Methodology • Simulation vs. Field Testing</div>
       <h3 style="margin: 0 0 8px 0;">Vid2Real: Validating Simulation & Prototype Fidelity</h3>
       <p style="margin: 0 0 12px 0; font-size: 0.93em; line-height: 1.5; color: #333;">Developed an evaluation framework comparing remote video-based testing against physical Wizard-of-Oz field deployments. Quantified where low-cost digital testing predicts real-world user behavior and where physical validation is essential.</p>
       <a href="/vid2real/" style="font-weight: 600; text-decoration: none;">View Validation Framework →</a>
