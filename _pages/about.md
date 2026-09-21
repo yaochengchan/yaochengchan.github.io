@@ -10,21 +10,17 @@ redirect_from:
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 24px; margin-bottom: 30px;">
   
-  <div style="flex: 1 1 200px; max-width: 220px;">
-    <img src="/files/homepage_me.png" alt="Profile photo" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.08);">
-  </div>
-
   <div style="flex: 2 1 320px;">
-    <p style="font-size: 1.15em; font-weight: 600; margin-top: 0; margin-bottom: 8px; color: #222;">
-      Translating human behavior and cognitive limits into robust product and interaction requirements.
-    </p>
-    <p style="margin: 0 0 10px 0; line-height: 1.6;">
-      I specialize in evaluating human-system interaction across complex, physical-digital environments. My work combines end-to-end user research, physiological sensing (eye-tracking), and rapid hardware/software prototyping to solve critical interaction challenges—including user intent legibility, situational awareness, and system trust.
-    </p>
-    <p style="margin: 0; font-size: 0.95em; color: #555;">
-      Experienced in driving projects from problem discovery and rapid test-bed prototyping (MVP builds) to large-scale statistical validation and actionable design guidelines.
-    </p>
-  </div>
+  <p style="font-size: 1.15em; font-weight: 600; margin-top: 0; margin-bottom: 8px; color: #222;">
+    Connecting user insights, system requirements, and data-driven product decisions.
+  </p>
+  <p style="margin: 0 0 10px 0; line-height: 1.6;">
+    I specialize in evaluating human-system interactions across physical and digital environments. My work combines qualitative and quantitative user research, cognitive ergonomics (eye-tracking), and rapid prototype validation to solve critical challenges around usability, intent legibility, and user trust.
+  </p>
+  <p style="margin: 0; font-size: 0.95em; color: #555;">
+    Experienced in navigating projects from early problem discovery and MVP scoping to experimental validation, cross-functional alignment, and product design guidelines.
+  </p>
+</div>
 
 </div>
 
@@ -33,9 +29,9 @@ redirect_from:
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-bottom: 35px;">
   
   <div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 16px; background: #fafbfc;">
-    <div style="font-weight: 700; color: #0366d6; margin-bottom: 6px;">Quantitative & Mixed-Methods UXR</div>
+    <div style="font-weight: 700; color: #0366d6; margin-bottom: 6px;">Mixed-Methods & Quantitative UXR</div>
     <p style="margin: 0; font-size: 0.9em; line-height: 1.45; color: #333;">
-      Rigorous experimental design, survey design, in-situ observation, and advanced statistical modeling (LMM, MANOVA) to turn behavioral data into design roadmaps and interface improvements.
+      End-to-end qualitative research (semi-structured interviews, thematic coding, grounded theory, in-situ observation) paired with rigorous experimental design, survey validation, and advanced statistical modeling (LMM, MANOVA) to translate behavioral signals into design roadmaps.
     </p>
   </div>
 
@@ -47,9 +43,9 @@ redirect_from:
   </div>
 
   <div style="border: 1px solid #e1e4e8; border-radius: 6px; padding: 16px; background: #fafbfc;">
-    <div style="font-weight: 700; color: #0366d6; margin-bottom: 6px;">Technical Product Management</div>
+    <div style="font-weight: 700; color: #0366d6; margin-bottom: 6px;">Product Management</div>
     <p style="margin: 0; font-size: 0.9em; line-height: 1.45; color: #333;">
-      Scoping minimum viable prototypes (hardware/software rigs), defining functional system specifications, managing test matrix constraints, and bridging engineering with user-facing requirements.
+      Translating ambiguous user problems into clear product requirements and roadmaps. Experienced in scoping MVPs, prioritizing feature trade-offs, aligning cross-functional teams, and leveraging user data to guide product strategy.
     </p>
   </div>
 
