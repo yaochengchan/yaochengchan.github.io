@@ -80,51 +80,55 @@ redirect_from:
 
 <div style="display: flex; flex-direction: column; gap: 24px; margin-top: 20px;">
 
+  <!-- Card 1: Deployment & Human Reaction -->
   <div style="display: flex; flex-wrap: wrap; align-items: center; width: 100%; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; box-sizing: border-box; background: #fafbfc;">
     <div style="flex: 1 1 240px; max-width: 300px; margin-right: 20px; margin-bottom: 12px;">
-      <img src="/files/prototype_head.gif" alt="Robot Puppeteering System" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; border-radius: 4px; border: 1px solid #eee;">
+      <img src="/files/phase2_fail.PNG" alt="Deployment and Human Reaction" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; border-radius: 4px; border: 1px solid #eee;">
     </div>
     <div style="flex: 1 1 320px;">
-      <div style="font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.5px; color: #0366d6; font-weight: bold; margin-bottom: 4px;">MVP Prototyping • User Testing • Hardware-Software Integration</div>
-      <h3 style="margin: 0 0 8px 0;">Rapid Behavioral Testbed & Teleoperation Interface</h3>
-      <p style="margin: 0 0 12px 0; font-size: 0.93em; line-height: 1.5; color: #333;">Designed and built an MVP 2-DOF motor-mirroring interface using Raspberry Pi microcomputers, Dynamixel servos, and custom CAD enclosures. Rapidly deployed a functional physical testbed to evaluate user perception and responsive signaling without waiting for full autonomous software pipelines.</p>
-      <a href="/puppet/" style="font-weight: 600; text-decoration: none;">View System Case Study →</a>
+      <div style="font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.5px; color: #0366d6; font-weight: bold; margin-bottom: 4px;">Human Factors • Field Deployment • Pedestrian Safety</div>
+      <h3 style="margin: 0 0 8px 0;">Robot Deployment & Human Reaction</h3>
+      <p style="margin: 0 0 12px 0; font-size: 0.93em; line-height: 1.5; color: #333;">Conducted multi-phase field studies evaluating expressive signaling modalities (gaze cues, light patterns, directional indicators) on autonomous mobile platforms in busy pedestrian zones. Analyzed real-world attentional limits, proxemics, and human compliance to establish safety guidelines.</p>
+      <a href="/HRE/" style="font-weight: 600; text-decoration: none;">View Deployment Case Study →</a>
     </div>
   </div>
 
+  <!-- Card 2: Hardware Prototyping -->
   <div style="display: flex; flex-wrap: wrap; align-items: center; width: 100%; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; box-sizing: border-box; background: #fafbfc;">
     <div style="flex: 1 1 240px; max-width: 300px; margin-right: 20px; margin-bottom: 12px;">
-      <img src="/files/phase2_fail.PNG" alt="Incidental Encounters" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; border-radius: 4px; border: 1px solid #eee;">
+      <img src="/files/prototype_head.gif" alt="Hardware Prototyping" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; border-radius: 4px; border: 1px solid #eee;">
     </div>
     <div style="flex: 1 1 320px;">
-      <div style="font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.5px; color: #0366d6; font-weight: bold; margin-bottom: 4px;">Human Factors • Field Deployment • Interaction Safety</div>
-      <h3 style="margin: 0 0 8px 0;">Intent Legibility & Compliance in Dynamic Spaces</h3>
-      <p style="margin: 0 0 12px 0; font-size: 0.93em; line-height: 1.5; color: #333;">Conducted a multi-phase study deploying signaling modalities (visual gaze, light patterns, directional cues) on an autonomous platform in public pedestrian environments. Evaluated proxemics and human hesitation metrics to establish safety guidelines.</p>
-      <a href="/HRE/" style="font-weight: 600; text-decoration: none;">View Study & Design Guidelines →</a>
+      <div style="font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.5px; color: #0366d6; font-weight: bold; margin-bottom: 4px;">Hardware Prototyping • MVP Testbed • Low-Latency Control</div>
+      <h3 style="margin: 0 0 8px 0;">Hardware Prototyping: Behavioral Testbed</h3>
+      <p style="margin: 0 0 12px 0; font-size: 0.93em; line-height: 1.5; color: #333;">Designed and built an MVP 2-DOF motor-mirroring puppeteering interface using Raspberry Pi microcomputers, Dynamixel servos, and custom CAD enclosures. Created a real-time physical testbed to evaluate user perception and responsive signaling without waiting for full autonomous software pipelines.</p>
+      <a href="/puppet/" style="font-weight: 600; text-decoration: none;">View Prototyping Case Study →</a>
     </div>
   </div>
 
+  <!-- Card 3: Method Validation -->
   <div style="display: flex; flex-wrap: wrap; align-items: center; width: 100%; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; box-sizing: border-box; background: #fafbfc;">
     <div style="flex: 1 1 240px; max-width: 300px; margin-right: 20px; margin-bottom: 12px;">
-      <img src="/files/video2.png" alt="Vid2Real HRI" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; border-radius: 4px; border: 1px solid #eee;">
+      <img src="/files/video2.png" alt="Method Validation" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; border-radius: 4px; border: 1px solid #eee;">
     </div>
     <div style="flex: 1 1 320px;">
-      <div style="font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.5px; color: #0366d6; font-weight: bold; margin-bottom: 4px;">UX Methodology • Simulation vs. Field Testing</div>
-      <h3 style="margin: 0 0 8px 0;">Vid2Real: Validating Simulation & Prototype Fidelity</h3>
-      <p style="margin: 0 0 12px 0; font-size: 0.93em; line-height: 1.5; color: #333;">Developed an evaluation framework comparing remote video-based testing against physical Wizard-of-Oz field deployments. Quantified where low-cost digital testing predicts real-world user behavior and where physical validation is essential.</p>
-      <a href="/vid2real/" style="font-weight: 600; text-decoration: none;">View Validation Framework →</a>
+      <div style="font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.5px; color: #0366d6; font-weight: bold; margin-bottom: 4px;">UX Research • Experimental Rigor • Validity Testing</div>
+      <h3 style="margin: 0 0 8px 0;">Method Validation: Simulation vs. Field Testing</h3>
+      <p style="margin: 0 0 12px 0; font-size: 0.93em; line-height: 1.5; color: #333;">Formulated an experimental benchmarking framework comparing remote video-based evaluations against in-person Wizard-of-Oz field deployments. Quantified where low-cost digital testing reliably predicts user behavior and where physical in-situ testing is required.</p>
+      <a href="/vid2real/" style="font-weight: 600; text-decoration: none;">View Validation Case Study →</a>
     </div>
   </div>
 
+  <!-- Card 4: Interaction Design -->
   <div style="display: flex; flex-wrap: wrap; align-items: center; width: 100%; border: 1px solid #e1e4e8; border-radius: 6px; padding: 20px; box-sizing: border-box; background: #fafbfc;">
     <div style="flex: 1 1 240px; max-width: 300px; margin-right: 20px; margin-bottom: 12px;">
-      <img src="/files/pepper.png" alt="Humanoid Robot Personality" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; border-radius: 4px; border: 1px solid #eee;">
+      <img src="/files/pepper.png" alt="Interaction Design" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; border-radius: 4px; border: 1px solid #eee;">
     </div>
     <div style="flex: 1 1 320px;">
-      <div style="font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.5px; color: #0366d6; font-weight: bold; margin-bottom: 4px;">Interaction Design • Behavioral Testing • User Experience</div>
-      <h3 style="margin: 0 0 8px 0;">Multimodal Interaction Profiles for Service Interfaces</h3>
+      <div style="font-size: 0.78em; text-transform: uppercase; letter-spacing: 0.5px; color: #0366d6; font-weight: bold; margin-bottom: 4px;">Interaction Design • Behavioral Testing • Product Adoption</div>
+      <h3 style="margin: 0 0 8px 0;">Multimodal Interaction Design for Service Interfaces</h3>
       <p style="margin: 0 0 12px 0; font-size: 0.93em; line-height: 1.5; color: #333;">Designed multimodal communicative profiles (gestures, verbal phrasing, non-verbal cues) across distinct user archetypes. Measured the resulting impact on task completion, user satisfaction, and adoption intent across customer service scenarios.</p>
-      <a href="/personality/" style="font-weight: 600; text-decoration: none;">View Experiment & Outcomes →</a>
+      <a href="/personality/" style="font-weight: 600; text-decoration: none;">View Interaction Design Case Study →</a>
     </div>
   </div>
 
