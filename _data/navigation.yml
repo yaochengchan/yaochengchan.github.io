@@ -1,32 +1,14 @@
-# main links links
+# main links
 main:
-  - title: "Incidental Human-Robot Encounter"
+  - title: "Robot Deployment & Human Reaction"
     url: /HRE/
-  - title: "Robot Puppeteering System"
+  - title: "Hardware Prototyping"
     url: /puppet/
-  - title: "Vid2Real HRI"
+  - title: "Method Validation"
     url: /vid2real/
-  - title: "Robot Personality"
-    url: /personality/ 
+  - title: "Interaction Design"
+    url: /personality/
   - title: "Publications"
     url: /publications/
-  
-    
-
-  # - title: "Talks"
-  #   url: /talks/    
-
-  # - title: "Teaching"
-  #   url: /teaching/    
-    
-  # - title: "Portfolio"
-  #   url: /portfolio/
-        
-  # - title: "Blog Posts"
-  #   url: /year-archive/
-    
-  - title: "CV"
+  - title: "Resume"
     url: /cv/
-    
-  # - title: "Guide"
-  #   url: /markdown/
