@@ -219,11 +219,11 @@ We evaluated five communicative mechanisms designed to signal navigation traject
 
 <div class="video-row">
   <div class="video-item">
-    <iframe src="https://drive.google.com/file/d/1uaHbn1BnCQtOKbGpFXFM-LvyVTSwxLb0/preview" allowfullscreen></iframe>
+    <iframe src="https://drive.google.com/file/d/1B2i5129QsfhOPv9bdreND4LBUJBhHepo/view?usp=drive_link" allowfullscreen></iframe>
     <p class="video-caption">Puppeteering Gaze Signaling</p>
   </div>
   <div class="video-item">
-    <iframe src="https://drive.google.com/file/d/10L-wJ57eg5ja0sg_sc_wvJ9mYwA0ual_/preview" allowfullscreen></iframe>
+    <iframe src="https://drive.google.com/file/d/1u3uEXKPE6Kf7ejmihSdqLHVb6MLu7JFV/view?usp=drive_link" allowfullscreen></iframe>
     <p class="video-caption">Humanoid Nao Gestural Signaling</p>
   </div>
   <div class="video-item">
