@@ -100,33 +100,6 @@ classes: wide
 .carousel-btn.prev { left: 10px; }
 .carousel-btn.next { right: 10px; }
 
-/* Video Grid */
-.video-row {
-  display: flex;
-  justify-content: space-between;
-  gap: 16px;
-  margin: 20px 0 30px 0;
-}
-.video-item {
-  flex: 1;
-  text-align: center;
-}
-.video-item iframe {
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  border-radius: 6px;
-  border: 1px solid #d0d7de;
-  background-color: #000;
-}
-.video-caption {
-  font-size: 0.82em;
-  color: #57606a;
-  margin-top: 6px;
-}
-@media (max-width: 768px) {
-  .video-row { flex-direction: column; }
-}
-
 /* Guideline Cards */
 .guideline-card {
   border: 1px solid #e1e4e8;
@@ -171,7 +144,7 @@ classes: wide
 
 When autonomous robots operate in pedestrian environments (sidewalks, hallways, building lobbies), they share physical space with everyday bystanders who have no prior training or expectation of meeting a machine. 
 
-To prevent collisions, navigational hesitation, and public discomfort, autonomous systems need clear communicative signaling. This research evaluated how different visual and behavioral modalities—ranging from anthropomorphic eye gaze to explicit physical indicators—shape human perception, trust, and behavioral compliance during incidental encounters.
+To prevent collisions, navigational hesitation, and public discomfort, autonomous systems need clear communicative signaling. This research evaluated how different visual and behavioral modalities, ranging from anthropomorphic eye gaze to explicit physical indicators, shape human perception, trust, and behavioral compliance during incidental encounters.
 
 <div style="text-align: center; margin: 25px 0;">
   <img src="/files/HRE_theme.png" alt="Incidental Human Robot Encounter Core Framework" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #e1e4e8;">
@@ -200,7 +173,7 @@ A multi-phase mixed-methods approach bridged controlled laboratory testing with 
 ## Evaluated Interventions
 
 ### 1. Directional Signaling Modalities (Clearpath Husky Platform)
-We evaluated five communicative mechanisms designed to signal navigation trajectory and acknowledge oncoming pedestrian traffic:
+We evaluated communicative mechanisms designed to signal navigation trajectory and acknowledge oncoming pedestrian traffic:
 
 <div class="carousel-container">
   <div class="carousel-slides" id="huskyCarousel" data-current-slide="0">
@@ -215,21 +188,6 @@ We evaluated five communicative mechanisms designed to signal navigation traject
   </div>
   <button class="carousel-btn prev" onclick="moveSlide(-1, 'huskyCarousel')">&#10094;</button>
   <button class="carousel-btn next" onclick="moveSlide(1, 'huskyCarousel')">&#10095;</button>
-</div>
-
-<div class="video-row">
-  <div class="video-item">
-    <iframe src="https://drive.google.com/file/d/1B2i5129QsfhOPv9bdreND4LBUJBhHepo/view?usp=drive_link" allowfullscreen></iframe>
-    <p class="video-caption">Puppeteering Gaze Signaling</p>
-  </div>
-  <div class="video-item">
-    <iframe src="https://drive.google.com/file/d/1u3uEXKPE6Kf7ejmihSdqLHVb6MLu7JFV/view?usp=drive_link" allowfullscreen></iframe>
-    <p class="video-caption">Humanoid Nao Gestural Signaling</p>
-  </div>
-  <div class="video-item">
-    <iframe src="https://drive.google.com/file/d/1B2i5129QsfhOPv9bdreND4LBUJBhHepo/preview" allowfullscreen></iframe>
-    <p class="video-caption">Animated Robotic Eyes</p>
-  </div>
 </div>
 
 ### 2. Expressive Non-Verbal Movement (Boston Dynamics Spot)
@@ -289,12 +247,12 @@ Tested how physical visual cues (handler presence, leash attachment, remote joys
 ## Key Research Findings
 
 <div class="insight-box">
-  <p><strong>The Real-World Perceptual Bottleneck:</strong> In controlled video evaluations, subtle anthropomorphic cues (like robotic eye gaze) significantly elevated perceived social intelligence and buffered against negative ratings during behavioral failures. However, during live field deployment in busy hallways, pedestrian attentional bandwidth was consumed by personal navigation and environmental distractions—causing subtle gaze cues to be overlooked entirely.</p>
+  <p><strong>The Real-World Perceptual Bottleneck:</strong> In controlled video evaluations, subtle anthropomorphic cues (like robotic eye gaze) significantly elevated perceived social intelligence and buffered against negative ratings during behavioral failures. However, during live field deployment in busy hallways, pedestrian attentional bandwidth was consumed by personal navigation and environmental distractions, causing subtle gaze cues to be overlooked entirely.</p>
 </div>
 
 * **Subtle Cues Fail in High-Distraction Environments:** While retrospective video analysis proved participants could decode eye gaze when prompted, in-situ pedestrians failed to notice it in real time. Signaling must be placed within primary forward sightlines and feature high luminance or explicit physical indicators.
 * **Expressive Gaits Significantly Improve Perceived Warmth:** Canine-inspired movements produced statistically significant increases in perceived animacy and approachability on the Godspeed questionnaire, mitigating the intimidating impression of raw mechanical quadrupeds.
-* **Visual Familiarity Mitigates Perceived Risk:** Visual cues mimicking familiar mental models (such as a handler walking with a leash or service vest) immediately resolved the bystander's primary implicit question: *"What is this robot doing here, and who is responsible for it?"*
+* **Visual Familiarity Mitigates Perceived Risk:** Visual cues mimicking familiar mental models (such as a handler walking with a leash or service vest) immediately resolved the bystander's primary implicit question: <em>"What is this robot doing here, and who is responsible for it?"</em>
 
 ---
 
