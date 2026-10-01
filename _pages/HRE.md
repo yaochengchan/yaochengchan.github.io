@@ -1,19 +1,61 @@
 ---
-layout: archive
-title: "Incidental Human-Robot Encounter"
+layout: single
+title: "Deployment & Human Reaction: Evaluating Autonomous Signaling in Shared Spaces"
 permalink: /HRE/
 author_profile: true
+classes: wide
 ---
 
 <style>
+/* Metadata Grid */
+.project-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  background: #f6f8fa;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  padding: 18px 20px;
+  margin-bottom: 30px;
+}
+.meta-item strong {
+  display: block;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #57606a;
+  margin-bottom: 4px;
+}
+.meta-item span {
+  font-size: 0.95em;
+  color: #24292f;
+  line-height: 1.4;
+}
+
+/* Callout Box */
+.insight-box {
+  background: #f0f7ff;
+  border-left: 4px solid #0969da;
+  padding: 16px 20px;
+  border-radius: 0 8px 8px 0;
+  margin: 24px 0;
+}
+.insight-box p {
+  margin: 0;
+  font-size: 0.95em;
+  line-height: 1.5;
+  color: #1f2328;
+}
+
+/* Carousel Styling */
 .carousel-container {
   position: relative;
-  max-width: 600px;
-  margin: 0 auto 30px auto;
+  max-width: 650px;
+  margin: 20px auto 25px auto;
   overflow: hidden;
-  border: 1px solid #ddd;
+  border: 1px solid #d0d7de;
   border-radius: 8px;
-  background-color: #f9f9f9;
+  background-color: #fafbfc;
 }
 .carousel-slides {
   display: flex;
@@ -25,29 +67,29 @@ author_profile: true
 }
 .carousel-slide img {
   width: 100%;
-  height: 300px;
+  height: 320px;
   object-fit: contain;
-  background-color: #f9f9f9;
+  background-color: #fafbfc;
   display: block;
 }
 .carousel-caption {
   text-align: center;
-  padding: 10px;
+  padding: 10px 14px;
   font-size: 0.85em;
-  color: #555;
-  background-color: #fff;
-  border-top: 1px solid #eee;
+  color: #57606a;
+  background-color: #ffffff;
+  border-top: 1px solid #eaeef2;
   margin: 0;
 }
 .carousel-btn {
   position: absolute;
-  top: 40%;
-  background-color: rgba(0, 0, 0, 0.5);
+  top: 45%;
+  background-color: rgba(0, 0, 0, 0.55);
   color: white;
   border: none;
-  padding: 10px 15px;
+  padding: 10px 14px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 16px;
   border-radius: 4px;
   user-select: none;
   z-index: 10;
@@ -55,20 +97,15 @@ author_profile: true
 .carousel-btn:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
-.carousel-btn.prev {
-  left: 10px;
-}
-.carousel-btn.next {
-  right: 10px;
-}
+.carousel-btn.prev { left: 10px; }
+.carousel-btn.next { right: 10px; }
 
-/* New styles for the side-by-side video row */
+/* Video Grid */
 .video-row {
   display: flex;
   justify-content: space-between;
-  gap: 15px;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  gap: 16px;
+  margin: 20px 0 30px 0;
 }
 .video-item {
   flex: 1;
@@ -77,182 +114,232 @@ author_profile: true
 .video-item iframe {
   width: 100%;
   aspect-ratio: 16 / 9;
-  border-radius: 8px;
+  border-radius: 6px;
+  border: 1px solid #d0d7de;
   background-color: #000;
 }
 .video-caption {
-  font-size: 0.85em;
-  color: #555;
-  margin-top: 5px;
+  font-size: 0.82em;
+  color: #57606a;
+  margin-top: 6px;
+}
+@media (max-width: 768px) {
+  .video-row { flex-direction: column; }
 }
 
-/* Stack videos on smaller screens */
-@media (max-width: 768px) {
-  .video-row {
-    flex-direction: column;
-  }
+/* Guideline Cards */
+.guideline-card {
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 14px;
+  background: #ffffff;
+}
+.guideline-card h4 {
+  margin: 0 0 6px 0;
+  color: #0969da;
+}
+.guideline-card p {
+  margin: 0;
+  font-size: 0.92em;
+  line-height: 1.5;
+  color: #333;
 }
 </style>
 
-An incidental human-robot encounter occurs when a person unexpectedly shares a physical space with an autonomous robot during their routine activities. Unlike planned interactions where a user actively operates or collaborates with a machine, these encounters typically involve everyday bystanders in public settings, such as pedestrians walking past a service robot on a sidewalk.
-
-Because these individuals usually have no prior training or expectation of meeting the robot, they must quickly interpret its movements and communication signals to understand its intent and figure out how to navigate around it. Evaluating these brief, unscripted events helps researchers understand how a robot's design, body language, and verbal cues affect public perception, perceived social intelligence, and overall acceptance in shared spaces.
-
-<div style="text-align: center; margin: 30px 0;">
-  <img src="/files/HRE_theme.png" alt="HRE" style="max-width: 100%; height: auto; border-radius: 8px;">
+<!-- Section 1: Executive Metadata Grid -->
+<div class="project-meta-grid">
+  <div class="meta-item">
+    <strong>My Role</strong>
+    <span>Lead Researcher & Experimental Designer (End-to-End Study Execution)</span>
+  </div>
+  <div class="meta-item">
+    <strong>Methodology</strong>
+    <span>Mixed-Methods, Controlled Video Studies, Field Deployments, Grounded Theory</span>
+  </div>
+  <div class="meta-item">
+    <strong>Key Tools</strong>
+    <span>SPSS, Python, Qualtrics, Clearpath Husky UGV, Boston Dynamics Spot</span>
+  </div>
+  <div class="meta-item">
+    <strong>Impact & Outcome</strong>
+    <span>Empirical design framework identifying human perceptual bottlenecks in autonomous public signaling</span>
+  </div>
 </div>
 
-<hr>
+## Project Overview
 
-<h2>Design Interventions for Public Encounters</h2>
-<p>To improve how bystanders experience incidental encounters, I design and run tests on several behavioral and physical design modifications on autonomous service robots. These interventions are designed to increase a robot's perceived social intelligence and help pedestrians understand the robot's purpose in a shared space.</p>
+When autonomous robots operate in pedestrian environments (sidewalks, hallways, building lobbies), they share physical space with everyday bystanders who have no prior training or expectation of meeting a machine. 
 
-<ul>
-  <li style="margin-bottom: 30px;">
-    <strong>Communicative Behaviors (Clearpath Robotics Husky):</strong> We evaluated communicative behaviors, such as animated robotic eyes, to signal a robot's intent during social navigation.
-    <br><br>
-   
-  <div class="carousel-container">
-    <div class="carousel-slides" id="huskyCarousel" data-current-slide="0">
-        <div class="carousel-slide">
-          <img src="/files/img_phase1.png" alt="Husky Gaze Cues">
-          <p class="carousel-caption"><em>Figure 1a: Five distinct communicative behaviors tested for trajectory signaling: Puppet System, Nao, Arrow Pointers, LED Light, and Robotic Eyes.</em></p>
-        </div>
-        <div class="carousel-slide">
-          <img src="/files/img_phase2.png" alt="Husky Field Test">
-          <p class="carousel-caption"><em>Figure 1b: Field experiment setup in a busy environment</em></p>
-        </div>
-      </div>
-      <button class="carousel-btn prev" onclick="moveSlide(-1, 'huskyCarousel')">&#10094;</button>
-      <button class="carousel-btn next" onclick="moveSlide(1, 'huskyCarousel')">&#10095;</button>
+To prevent collisions, navigational hesitation, and public discomfort, autonomous systems need clear communicative signaling. This research evaluated how different visual and behavioral modalities—ranging from anthropomorphic eye gaze to explicit physical indicators—shape human perception, trust, and behavioral compliance during incidental encounters.
+
+<div style="text-align: center; margin: 25px 0;">
+  <img src="/files/HRE_theme.png" alt="Incidental Human Robot Encounter Core Framework" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #e1e4e8;">
+</div>
+
+---
+
+## The Research Question & Challenges
+
+1. **Intent Legibility:** Which signaling modalities (gaze, light patterns, arrow pointers) most effectively communicate directional navigation intent to pedestrians?
+2. **Controlled vs. In-Situ Validity:** Do behavioral benefits observed in controlled video evaluations hold true when pedestrians encounter a live robot in a busy, distracting public corridor?
+3. **Contextual Legibility:** How do physical cues of human oversight (such as handlers, joysticks, or service vests) affect public comfort and perceived safety?
+
+---
+
+## Study Design & Methodology
+
+A multi-phase mixed-methods approach bridged controlled laboratory testing with physical field deployments:
+
+* **Phase 1: Controlled Online Video Evaluations:** Tested five distinct signaling interventions (Puppet System, Nao Gestures, Arrow Pointers, LED Strips, Animated Eyes) using standardized scales, including the Perceived Social Intelligence (PSI) scale, to isolate perceptual baseline differences.
+* **Phase 2: In-Situ Public Field Deployment:** Deployed a Clearpath Husky mobile platform in an active university hallway with scheduled pedestrian participants to measure real-time proxemics, avoidance maneuvers, and immediate perceptual responses.
+* **Phase 3: Qualitative Investigation & Thematic Analysis:** Conducted post-encounter semi-structured interviews analyzed via Grounded Theory and hybrid thematic coding to uncover the underlying cognitive models bystanders construct when interpreting autonomous machines.
+
+---
+
+## Evaluated Interventions
+
+### 1. Directional Signaling Modalities (Clearpath Husky Platform)
+We evaluated five communicative mechanisms designed to signal navigation trajectory and acknowledge oncoming pedestrian traffic:
+
+<div class="carousel-container">
+  <div class="carousel-slides" id="huskyCarousel" data-current-slide="0">
+    <div class="carousel-slide">
+      <img src="/files/img_phase1.png" alt="Husky Signaling Modalities">
+      <p class="carousel-caption">Five signaling modalities tested: Robotic Puppeteering, Humanoid Nao gestures, Arrow Pointers, LED Strips, and Animated Eyes.</p>
     </div>
-
-  <div class="video-row">
-      <div class="video-item">
-        <iframe src="https://drive.google.com/file/d/1uaHbn1BnCQtOKbGpFXFM-LvyVTSwxLb0/preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <p class="video-caption"><em>Video 1: Puppet System as communicative behavior</em></p>
-      </div>
-      <div class="video-item">
-        <iframe src="https://drive.google.com/file/d/10L-wJ57eg5ja0sg_sc_wvJ9mYwA0ual_/preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <p class="video-caption"><em>Video 2: Huamnoid Nao as communcative behavior</em></p>
-      </div>
-      <div class="video-item">
-        <iframe src="https://drive.google.com/file/d/1B2i5129QsfhOPv9bdreND4LBUJBhHepo/preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <p class="video-caption"><em>Video 3: Robotic Eyes as communicative behavior</em></p>
-      </div>
+    <div class="carousel-slide">
+      <img src="/files/img_phase2.png" alt="Husky Hallway Field Test Setup">
+      <p class="carousel-caption">Real-world experimental setup in an active public pedestrian corridor.</p>
     </div>
+  </div>
+  <button class="carousel-btn prev" onclick="moveSlide(-1, 'huskyCarousel')">&#10094;</button>
+  <button class="carousel-btn next" onclick="moveSlide(1, 'huskyCarousel')">&#10095;</button>
+</div>
 
-   <br>
-    A three-phase mixed-methods investigation evaluated how robot communicative behaviors affect pedestrians during social navigation, using the Perceived Social Intelligence scale to measure results. Online video studies showed that anthropomorphic features, like animated robotic eyes, improved perceived social competence and protected against negative ratings during behavioral failures, such as obstructing a photographer's view. However, live field experiments in a public hallway yielded different results. Real-world distractions caused pedestrians to frequently miss these subtle gaze cues during brief encounters, resulting in no significant difference in their evaluations. Retrospective video reviews confirmed the cues were legible but overlooked in the moment, indicating that robot communication designs need high visibility and explicit signals to be noticed in active public spaces.
-  </li>
-   
-  <li style="margin-bottom: 30px;">
-    <strong>Expressive Body Language (Boston Dynamics Spot):</strong> We modified the standard walking motion of a quadruped robot to include non-functional, canine-inspired movements such as tail wagging, play bows, and spinning.
-    <br><br>
-     
-  <div class="carousel-container">
-      <div class="carousel-slides" id="spotGaitCarousel" data-current-slide="0">
-        <div class="carousel-slide">
-          <img src="/files/BL1.png" alt="Spot Mechanical Gait">
-          <p class="carousel-caption"><em>Figure 2a: Wagging</em></p>
-        </div>
-        <div class="carousel-slide">
-          <img src="/files/BL2.png" alt="Spot Expressive Gait">
-          <p class="carousel-caption"><em>Figure 2b: Play bow and Sit</em></p>
-        </div>
-        <div class="carousel-slide">
-          <img src="/files/BL3.png" alt="Spot Expressive Gait">
-          <p class="carousel-caption"><em>Figure 2c: Walk in circle and spin</em></p>
-        </div>
-      </div>
-      <button class="carousel-btn prev" onclick="moveSlide(-1, 'spotGaitCarousel')">&#10094;</button>
-      <button class="carousel-btn next" onclick="moveSlide(1, 'spotGaitCarousel')">&#10095;</button>
+<div class="video-row">
+  <div class="video-item">
+    <iframe src="https://drive.google.com/file/d/1uaHbn1BnCQtOKbGpFXFM-LvyVTSwxLb0/preview" allowfullscreen></iframe>
+    <p class="video-caption">Puppeteering Gaze Signaling</p>
+  </div>
+  <div class="video-item">
+    <iframe src="https://drive.google.com/file/d/10L-wJ57eg5ja0sg_sc_wvJ9mYwA0ual_/preview" allowfullscreen></iframe>
+    <p class="video-caption">Humanoid Nao Gestural Signaling</p>
+  </div>
+  <div class="video-item">
+    <iframe src="https://drive.google.com/file/d/1B2i5129QsfhOPv9bdreND4LBUJBhHepo/preview" allowfullscreen></iframe>
+    <p class="video-caption">Animated Robotic Eyes</p>
+  </div>
+</div>
+
+### 2. Expressive Non-Verbal Movement (Boston Dynamics Spot)
+Investigated whether non-functional, canine-inspired gaits (tail wagging, play bows, sit-and-wait) could mitigate intimidation and increase public approachability compared to standard mechanical locomotion.
+
+<div class="carousel-container">
+  <div class="carousel-slides" id="spotGaitCarousel" data-current-slide="0">
+    <div class="carousel-slide">
+      <img src="/files/BL1.png" alt="Spot Wagging Gait">
+      <p class="carousel-caption">Gait modification: Expressive tail-wagging motion</p>
     </div>
-
-   <br>
-    Our results demonstrate that participants viewed the quadruped performing these expressive movements as more friendly, responsive, doglike, and conscious compared to a robot using a standard mechanical gait. Specifically, the body language interventions produced significantly higher ratings in perceived animacy and cynomorphism (dog-like traits).
-  </li>
-   
-  <li style="margin-bottom: 30px;">
-    <strong>Visual Indicators of Control (Boston Dynamics Spot):</strong> We tested how physical additions and human presence affect public perception. We evaluated conditions featuring a human handler utilizing a joystick, a leash, or a service vest. 
-    <br><br>
-     
-   <div class="carousel-container">
-      <div class="carousel-slides" id="spotLeashCarousel" data-current-slide="0">
-        <div class="carousel-slide">
-          <img src="/files/autonomous.png" alt="Spot with Leash">
-          <p class="carousel-caption"><em>Figure 3a: Autonomous mode</em></p>
-        </div>
-        <div class="carousel-slide">
-          <img src="/files/controller.png" alt="Pedestrian Reaction">
-          <p class="carousel-caption"><em>Figure 3b: Joystick</em></p>
-        </div>
-        <div class="carousel-slide">
-          <img src="/files/companion.png" alt="Pedestrian Reaction">
-          <p class="carousel-caption"><em>Figure 3c: Companion</em></p>
-        </div>
-        <div class="carousel-slide">
-          <img src="/files/leash.png" alt="Pedestrian Reaction">
-          <p class="carousel-caption"><em>Figure 3d: Companion with a dog leash</em></p>
-        </div>
-        <div class="carousel-slide">
-          <img src="/files/servicevest.png" alt="Pedestrian Reaction">
-          <p class="carousel-caption"><em>Figure 3e: Companion with a service vest</em></p>
-        </div>
-      </div>
-      <button class="carousel-btn prev" onclick="moveSlide(-1, 'spotLeashCarousel')">&#10094;</button>
-      <button class="carousel-btn next" onclick="moveSlide(1, 'spotLeashCarousel')">&#10095;</button>
+    <div class="carousel-slide">
+      <img src="/files/BL2.png" alt="Spot Play Bow">
+      <p class="carousel-caption">Play bow and seated waiting posture</p>
     </div>
-     
-   <br>
-    While standardized survey metrics showed minimal changes, in-depth interviews revealed that these visual indicators of control provided a strong sense of familiarity by mimicking a standard human-dog pairing. This familiarity led to higher perceived safety. Ultimately, these visual cues helped bystanders quickly answer the implicit question of what the robot was doing in their environment.
-  </li>
-</ul>
+    <div class="carousel-slide">
+      <img src="/files/BL3.png" alt="Spot Spin Gait">
+      <p class="carousel-caption">Rotational gestures and expressive avoidance loops</p>
+    </div>
+  </div>
+  <button class="carousel-btn prev" onclick="moveSlide(-1, 'spotGaitCarousel')">&#10094;</button>
+  <button class="carousel-btn next" onclick="moveSlide(1, 'spotGaitCarousel')">&#10095;</button>
+</div>
 
-<hr>
+### 3. Visual Indicators of Supervision & Human Control
+Tested how physical visual cues (handler presence, leash attachment, remote joystick, service vest) alter public comfort in shared public corridors.
+
+<div class="carousel-container">
+  <div class="carousel-slides" id="spotLeashCarousel" data-current-slide="0">
+    <div class="carousel-slide">
+      <img src="/files/autonomous.png" alt="Fully Autonomous Mode">
+      <p class="carousel-caption">Baseline: Unassisted autonomous operation</p>
+    </div>
+    <div class="carousel-slide">
+      <img src="/files/controller.png" alt="Handler with Controller">
+      <p class="carousel-caption">Handler utilizing visible joystick controller</p>
+    </div>
+    <div class="carousel-slide">
+      <img src="/files/companion.png" alt="Passive Human Companion">
+      <p class="carousel-caption">Passive human companion walking alongside platform</p>
+    </div>
+    <div class="carousel-slide">
+      <img src="/files/leash.png" alt="Handler with Physical Leash">
+      <p class="carousel-caption">Physical tether/leash setup</p>
+    </div>
+    <div class="carousel-slide">
+      <img src="/files/servicevest.png" alt="Service Vest Setup">
+      <p class="carousel-caption">Service vest indicator</p>
+    </div>
+  </div>
+  <button class="carousel-btn prev" onclick="moveSlide(-1, 'spotLeashCarousel')">&#10094;</button>
+  <button class="carousel-btn next" onclick="moveSlide(1, 'spotLeashCarousel')">&#10095;</button>
+</div>
+
+---
+
+## Key Research Findings
+
+<div class="insight-box">
+  <p><strong>The Real-World Perceptual Bottleneck:</strong> In controlled video evaluations, subtle anthropomorphic cues (like robotic eye gaze) significantly elevated perceived social intelligence and buffered against negative ratings during behavioral failures. However, during live field deployment in busy hallways, pedestrian attentional bandwidth was consumed by personal navigation and environmental distractions—causing subtle gaze cues to be overlooked entirely.</p>
+</div>
+
+* **Subtle Cues Fail in High-Distraction Environments:** While retrospective video analysis proved participants could decode eye gaze when prompted, in-situ pedestrians failed to notice it in real time. Signaling must be placed within primary forward sightlines and feature high luminance or explicit physical indicators.
+* **Expressive Gaits Significantly Improve Perceived Warmth:** Canine-inspired movements produced statistically significant increases in perceived animacy and approachability on the Godspeed questionnaire, mitigating the intimidating impression of raw mechanical quadrupeds.
+* **Visual Familiarity Mitigates Perceived Risk:** Visual cues mimicking familiar mental models (such as a handler walking with a leash or service vest) immediately resolved the bystander's primary implicit question: *"What is this robot doing here, and who is responsible for it?"*
+
+---
+
+## Actionable Design Guidelines for Public Systems
+
+<div class="guideline-card">
+  <h4>1. Prioritize High-Salience Forward Signaling over Micro-Interactions</h4>
+  <p>Subtle anthropomorphic cues (eye gaze, minor tilts) work well in focused, stationary 1-on-1 interactions. In mobile navigation through shared public corridors, signals must use high-contrast, peripheral-friendly visual modalities (e.g., floor projections, bright light strips) to overcome real-world cognitive distractions.</p>
+</div>
+
+<div class="guideline-card">
+  <h4>2. Anchor System Roles to Established Mental Models</h4>
+  <p>Bystander hesitation stems from role ambiguity. Incorporating clear physical indicators of role and human oversight (service badging, status lighting, clear supervision cues) reduces hesitation and builds immediate public trust.</p>
+</div>
+
+<div class="guideline-card">
+  <h4>3. Validate Beyond Controlled Digital Simulations</h4>
+  <p>Lab studies and unmoderated video tests often produce false positives for subtle interaction cues because participants are focused solely on the screen. Physical, in-situ field validation is required to catch environmental edge cases and realistic attentional limitations.</p>
+</div>
+
+---
+
+## Related Publications
+
+* **Perceived Social Intelligence in Autonomous Robots: Evaluating Communicative Behaviors in Social Navigation Tasks**  
+  *Ph.D. Dissertation, The University of Texas at Austin (May 2026)*
+* **A Field Observation of Incidental Human-Robot Encounters in Public**  
+  *ACM/IEEE International Conference on Human-Robot Interaction (HRI 2025)* — [Paper](https://doi.org/10.1109/HRI61500.2025.10973844)
+* **Shaping Perceptions of Robots With Video Vantages**  
+  *ACM/IEEE International Conference on Human-Robot Interaction (HRI 2025)* — [Paper](https://doi.org/10.1109/HRI61500.2025.10974252)
+* **Influencing Incidental Human-Robot Encounters: Expressive Movement Improves Pedestrians' Impressions of a Quadruped Service Robot**  
+  *arXiv Preprint (2023)* — [Paper](https://arxiv.org/abs/2311.04454)
+* **Understanding Reactions in Human-Robot Encounters with Autonomous Quadruped Robots**  
+  *Proceedings of the Association for Information Science and Technology (ASIS&T 2023)* — [Paper](https://doi.org/10.1002/pra2.771)
+* **"What's That Robot Doing Here?": Perceptions Of Incidental Encounters With Autonomous Quadruped Robots**  
+  *ACM International Conference on Human-Agent Interaction (HAI 2023)* — [Paper](https://doi.org/10.1145/3597512.3599707)
 
 <script>
 function moveSlide(direction, carouselId) {
   var track = document.getElementById(carouselId);
   if (!track) return;
-  
   var totalSlides = track.children.length;
   var currentIndex = parseInt(track.getAttribute('data-current-slide')) || 0;
-  
   currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
   track.setAttribute('data-current-slide', currentIndex);
   track.style.transform = "translateX(-" + (currentIndex * 100) + "%)";
 }
 </script>
-
-<h1 style="text-align: center; margin-top: 40px; margin-bottom: 30px;">Related Publications</h1>
-
-### Perceived Social Intelligence in Autonomous Robots: Evaluating Communicative Behaviors in Social Navigation Tasks
-This dissertation addresses the challenge of integrating autonomous robots into public spaces by investigating how communicative behaviors influence pedestrians' perceived social intelligence of robots during social navigation. Through a three-phase mixed-methods investigation, the research evaluated interventions ranging from abstract signals to anthropomorphic behaviors across both video-based and real-world settings. While anthropomorphic features like animated robotic eyes enhanced perceived sociability in controlled studies, live field experiments revealed that environmental distractions and attentional constraints often render subtle social signals unnoticeable during brief encounters. This work concludes that robot design must prioritize high visibility to ensure signals are effectively perceived in active environments.
-
-<a href="#" style="display: inline-block; background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-size: 0.9em; margin-bottom: 20px;">📄 Dissertation (May 2026)</a>
-
-### A Field Observation of Incidental Human-Robot Encounters in Public
-This field observation explores how pedestrians react to an autonomous quadruped robot seeking assistance to enter a building. By focusing on incidental encounters, this work broadens the scope of human-robot interaction to include non-users who simply happen to be in the shared space. The findings provide insights into how robot behaviors can be designed to integrate more smoothly into human environments and highlight new directions for real-world observational research.
-
-<a href="https://doi.org/10.1109/HRI61500.2025.10973844" style="display: inline-block; background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-size: 0.9em; margin-bottom: 20px;">📄 Paper</a>
-
-### Shaping Perceptions of Robots With Video Vantages
-This study investigates the role of video vantages, specifically "Encounterer" and "Observer" perspectives, in shaping how people perceive a robot's social intelligence. Using videos of robots employing gaze cues while navigating hallways, the results indicate that the Observer vantage consistently yields higher perceived social intelligence ratings. These findings highlight how the chosen vantage impacts the interpretation of robot behaviors, emphasizing the need for careful design in video-based studies to ensure generalizable real-world insights.
-
-<a href="https://doi.org/10.1109/HRI61500.2025.10974252" style="display: inline-block; background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-size: 0.9em; margin-bottom: 20px;">📄 Paper</a>
-
-### Influencing Incidental Human-Robot Encounters: Expressive movement improves pedestrians' impressions of a quadruped service robot
-This experiment tests the impact of robot body language, defined as non-functional modifications to movement, on incidental pedestrian encounters in a real-world setting. The results demonstrate that canine-inspired expressive movements positively influenced participants' perceptions compared to the robot's stock walking motion. These positive effects were visible across all categories of the Godspeed questionnaire, suggesting that expressive body language is a practical and promising design space for improving service robot encounters.
-
-<a href="https://arxiv.org/abs/2311.04454" style="display: inline-block; background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-size: 0.9em; margin-bottom: 20px;">📄 Paper</a>
-
-### Understanding Reactions in Human-Robot Encounters with Autonomous Quadruped Robots
-This research applies Grounded Theory methodologies to understand human reactions during encounters with an autonomous quadruped robot. Based on observations and interviews, the study finds that a person's reaction can be explained by their familiarity, certainty, and confidence, alongside their understanding of the robot's role. By providing an emerging theory, this work helps explain the complexity of these interactions and assists hypothesis generation for future deployments of mobile service robots.
-
-<a href="https://doi.org/10.1002/pra2.771" style="display: inline-block; background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-size: 0.9em; margin-bottom: 20px;">📄 Paper</a>
-
-### "What's That Robot Doing Here?": Perceptions Of Incidental Encounters With Autonomous Quadruped Robots
-This research investigates how pedestrians perceive incidental encounters with autonomous quadruped robots. Through a pilot study and a revised study involving semi-structured interviews, we hypothesized that visual indicators of human control, such as a leash, would impact human perceptions. The interview data suggested that human presence elicited positive reactions, whereas traditional survey instruments focused on robot characteristics yielded insignificant results. Ultimately, this work suggests that these encounters are characterized by a person's ability to answer the implicit question, "what is that robot doing here?".
-
-<a href="https://doi.org/10.1145/3597512.3599707" style="display: inline-block; background-color: #333; color: white; padding: 8px 15px; border-radius: 20px; text-decoration: none; font-size: 0.9em; margin-bottom: 20px;">📄 Paper</a>
