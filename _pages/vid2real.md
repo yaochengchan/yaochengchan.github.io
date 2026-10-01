@@ -121,6 +121,82 @@ To solve this trade-off, our team developed and empirically evaluated the **Vid2
 
 ---
 
+<div style="background: #ffffff; border: 1px solid #d0d7de; border-radius: 8px; padding: 24px 16px; margin: 25px 0; box-shadow: 0 2px 6px rgba(0,0,0,0.02);">
+  <div style="font-size: 0.8em; font-weight: bold; text-transform: uppercase; letter-spacing: 0.5px; color: #57606a; text-align: center; margin-bottom: 16px;">
+    The Vid2Real Commensurable Research Workflow
+  </div>
+
+  <svg viewBox="0 0 920 220" width="100%" height="auto" style="display: block; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+    <defs>
+      <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#0969da"/>
+      </marker>
+    </defs>
+
+    <!-- Step 1 -->
+    <g transform="translate(10, 20)">
+      <rect width="190" height="150" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+      <rect width="190" height="32" rx="8" fill="#eef2f6"/>
+      <rect y="24" width="190" height="8" fill="#eef2f6"/>
+      <text x="95" y="21" text-anchor="middle" font-size="12" font-weight="700" fill="#24292f">STAGE 1: FIELD SCOPING</text>
+      <text x="95" y="65" text-anchor="middle" font-size="13" font-weight="600" fill="#0969da">Target Scenario</text>
+      <text x="95" y="90" text-anchor="middle" font-size="11" fill="#57606a">Site Selection</text>
+      <text x="95" y="110" text-anchor="middle" font-size="11" fill="#57606a">Pedestrian Flow & Lighting</text>
+      <text x="95" y="130" text-anchor="middle" font-size="11" fill="#57606a">Environmental Bounds</text>
+    </g>
+
+    <!-- Connector 1 -> 2 -->
+    <path d="M 205 95 L 235 95" fill="none" stroke="#0969da" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <!-- Step 2 -->
+    <g transform="translate(245, 20)">
+      <rect width="190" height="150" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+      <rect width="190" height="32" rx="8" fill="#eef2f6"/>
+      <rect y="24" width="190" height="8" fill="#eef2f6"/>
+      <text x="95" y="21" text-anchor="middle" font-size="12" font-weight="700" fill="#24292f">STAGE 2: SIMULATION</text>
+      <text x="95" y="65" text-anchor="middle" font-size="13" font-weight="600" fill="#0969da">Commensurable Video</text>
+      <text x="95" y="90" text-anchor="middle" font-size="11" fill="#57606a">Matched Camera Vantages</text>
+      <text x="95" y="110" text-anchor="middle" font-size="11" fill="#57606a">Controlled Multi-Arm Arms</text>
+      <text x="95" y="130" text-anchor="middle" font-size="11" fill="#57606a">Scalable Online Cohorts</text>
+    </g>
+
+    <!-- Connector 2 -> 3 -->
+    <path d="M 440 95 L 470 95" fill="none" stroke="#0969da" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <!-- Step 3 -->
+    <g transform="translate(480, 20)">
+      <rect width="190" height="150" rx="8" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+      <rect width="190" height="32" rx="8" fill="#eef2f6"/>
+      <rect y="24" width="190" height="8" fill="#eef2f6"/>
+      <text x="95" y="21" text-anchor="middle" font-size="12" font-weight="700" fill="#24292f">STAGE 3: CALIBRATION</text>
+      <text x="95" y="65" text-anchor="middle" font-size="13" font-weight="600" fill="#0969da">Power & Condition Sizing</text>
+      <text x="95" y="90" text-anchor="middle" font-size="11" fill="#57606a">Effect Size Estimation</text>
+      <text x="95" y="110" text-anchor="middle" font-size="11" fill="#57606a">G*Power Sample Calculations</text>
+      <text x="95" y="130" text-anchor="middle" font-size="11" fill="#57606a">Prune Underperforming Arms</text>
+    </g>
+
+    <!-- Connector 3 -> 4 -->
+    <path d="M 675 95 L 705 95" fill="none" stroke="#0969da" stroke-width="2" marker-end="url(#arrow)"/>
+
+    <!-- Step 4 -->
+    <g transform="translate(715, 20)">
+      <rect width="190" height="150" rx="8" fill="#ddf4ff" stroke="#54aeff" stroke-width="1.5"/>
+      <rect width="190" height="32" rx="8" fill="#cbe8ff"/>
+      <rect y="24" width="190" height="8" fill="#cbe8ff"/>
+      <text x="95" y="21" text-anchor="middle" font-size="12" font-weight="700" fill="#0969da">STAGE 4: IN-SITU FIELD</text>
+      <text x="95" y="65" text-anchor="middle" font-size="13" font-weight="600" fill="#0550ae">Targeted Deployment</text>
+      <text x="95" y="90" text-anchor="middle" font-size="11" fill="#24292f">High-Signal Variants Only</text>
+      <text x="95" y="110" text-anchor="middle" font-size="11" fill="#24292f">Pedestrian Proxemics</text>
+      <text x="95" y="130" text-anchor="middle" font-size="11" fill="#24292f">In Vivo Validity Check</text>
+    </g>
+
+    <!-- Feedback Return Loop Arrow (Bottom) -->
+    <path d="M 810 175 L 810 198 L 105 198 L 105 175" fill="none" stroke="#8c959f" stroke-width="1.5" stroke-dasharray="4,4" marker-end="url(#arrow)"/>
+    <text x="460" y="212" text-anchor="middle" font-size="11" fill="#6e7781" font-weight="500">Continuous Methodological Calibration &amp; Fidelity Iteration</text>
+  </svg>
+</div>
+
+
 ## The Vid2Real Framework Pipeline
 
 The framework establishes a circular, commensurable research workflow between digital testing and in-situ physical deployment:
