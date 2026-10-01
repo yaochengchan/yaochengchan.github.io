@@ -141,7 +141,7 @@ To solve this trade-off, our team developed and empirically evaluated the **Vid2
       <text x="95" y="21" text-anchor="middle" font-size="12" font-weight="700" fill="#24292f">STAGE 1: FIELD SCOPING</text>
       <text x="95" y="65" text-anchor="middle" font-size="13" font-weight="600" fill="#0969da">Target Scenario</text>
       <text x="95" y="90" text-anchor="middle" font-size="11" fill="#57606a">Site Selection</text>
-      <text x="95" y="110" text-anchor="middle" font-size="11" fill="#57606a">Pedestrian Flow & Lighting</text>
+      <text x="95" y="110" text-anchor="middle" font-size="11" fill="#57606a">Pedestrian Flow &amp; Lighting</text>
       <text x="95" y="130" text-anchor="middle" font-size="11" fill="#57606a">Environmental Bounds</text>
     </g>
 
@@ -169,7 +169,7 @@ To solve this trade-off, our team developed and empirically evaluated the **Vid2
       <rect width="190" height="32" rx="8" fill="#eef2f6"/>
       <rect y="24" width="190" height="8" fill="#eef2f6"/>
       <text x="95" y="21" text-anchor="middle" font-size="12" font-weight="700" fill="#24292f">STAGE 3: CALIBRATION</text>
-      <text x="95" y="65" text-anchor="middle" font-size="13" font-weight="600" fill="#0969da">Power & Condition Sizing</text>
+      <text x="95" y="65" text-anchor="middle" font-size="13" font-weight="600" fill="#0969da">Power &amp; Condition Sizing</text>
       <text x="95" y="90" text-anchor="middle" font-size="11" fill="#57606a">Effect Size Estimation</text>
       <text x="95" y="110" text-anchor="middle" font-size="11" fill="#57606a">G*Power Sample Calculations</text>
       <text x="95" y="130" text-anchor="middle" font-size="11" fill="#57606a">Prune Underperforming Arms</text>
@@ -196,7 +196,6 @@ To solve this trade-off, our team developed and empirically evaluated the **Vid2
   </svg>
 </div>
 
-
 ## The Vid2Real Framework Pipeline
 
 The framework establishes a circular, commensurable research workflow between digital testing and in-situ physical deployment:
@@ -221,7 +220,7 @@ The framework establishes a circular, commensurable research workflow between di
       <td>Scalable online evaluation isolating specific behavioral variables.</td>
     </tr>
     <tr>
-      <td><strong>3. Statistical Calibration & Power Sizing</strong></td>
+      <td><strong>3. Statistical Calibration &amp; Power Sizing</strong></td>
       <td>Analyze effect sizes and variance from online cohorts to calculate exact sample sizes needed for physical trials.</td>
       <td>G*Power calculations preventing underpowered, costly field experiments.</td>
     </tr>
@@ -239,8 +238,8 @@ The framework establishes a circular, commensurable research workflow between di
 
 To validate the framework, we conducted a dual-modality study testing pedestrian reactions to an autonomous mobile platform utilizing baseline gaits versus expressive body language and verbal signaling:
 
-* **Online Video Evaluation ($N = 128+$):** Conducted a controlled between-subjects evaluation measuring perceived social intelligence, animacy, and compliance intentions. The data confirmed significant effect sizes for expressive movements, providing the statistical parameters needed to power a live study ($Power = 0.95$).
-* **Physical Deployment Validation:** Deployed the physical platform in an active campus corridor testing the top-performing conditions. We observed direct alignment in directional user sentiment between modalities, while uncovering critical real-world attentional dynamics that video simulations missed.
+- **Online Video Evaluation ($N = 128+$):** Conducted a controlled between-subjects evaluation measuring perceived social intelligence, animacy, and compliance intentions. The data confirmed significant effect sizes for expressive movements, providing the statistical parameters needed to power a live study ($Power = 0.95$).
+- **Physical Deployment Validation:** Deployed the physical platform in an active campus corridor testing the top-performing conditions. We observed direct alignment in directional user sentiment between modalities, while uncovering critical real-world attentional dynamics that video simulations missed.
 
 ---
 
@@ -248,7 +247,7 @@ To validate the framework, we conducted a dual-modality study testing pedestrian
 
 <div class="guideline-card">
   <h4>1. Use Video Prototypes for Rapid Condition Pruning</h4>
-  <p>Never test untested multi-arm variations directly in costly field trials. Use commensurable video simulations to eliminate weak interface variants and narrow down to the 2–3 highest-performing conditions.</p>
+  <p>Never test untested multi-arm variations directly in costly field trials. Use commensurable video simulations to eliminate weak interface variants and narrow down to the 2 to 3 highest-performing conditions.</p>
 </div>
 
 <div class="guideline-card">
@@ -265,9 +264,9 @@ To validate the framework, we conducted a dual-modality study testing pedestrian
 
 ## Related Publications & Resources
 
-* **Vid2Real HRI: Align Video-Based HRI Study Designs with Real-World Settings**  
+- **Vid2Real HRI: Align Video-Based HRI Study Designs with Real-World Settings**  
   *33rd IEEE International Conference on Robot and Human Interactive Communication (RO-MAN 2024)* — [Paper](https://arxiv.org/abs/2403.15798)
-* **Community Embedded Robotics: Vid2Real Online Video Dataset**  
+- **Community Embedded Robotics: Vid2Real Online Video Dataset**  
   *Texas Data Repository (2024)* — [Open Dataset](https://vid2real.github.io/vid2realHRI)
-* **Shaping Perceptions of Robots With Video Vantages**  
+- **Shaping Perceptions of Robots With Video Vantages**  
   *ACM/IEEE International Conference on Human-Robot Interaction (HRI 2025)* — [Paper](https://doi.org/10.1109/HRI61500.2025.10974252)
