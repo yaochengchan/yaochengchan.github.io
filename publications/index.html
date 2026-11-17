@@ -52,8 +52,9 @@
     <h2>Building something people will share space with? Let's talk.</h2>
     <p>I'm open to UX research, human factors, and robotics product roles, and happy to relocate for the right team.</p>
     <div class="btn-row">
-      <a class="btn" href="mailto:yaochengchan1993@gmail.com">yaochengchan1993@gmail.com</a>
-      <a class="btn ghost" href="https://www.linkedin.com/in/yao-cheng-chan-7b669013a" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="mailto:yaochengchan1993@gmail.com">Email yaochengchan1993@gmail.com</a>
+      <button class="btn ghost copy-email" type="button" data-email="yaochengchan1993@gmail.com">Copy email address</button>
+      <a class="btn ghost" href="https://www.linkedin.com/in/yao-cheng-chan-ph-d-7b669013a" target="_blank" rel="noopener">LinkedIn</a>
     </div>
     <p style="margin-top:18px;font-size:.92rem">A résumé tailored to your role is available on request.</p>
     <div class="foot">
@@ -63,6 +64,15 @@
   </div>
 </footer>
 <script>
+  // Copy-email button: works even when no mail app is set up.
+  document.querySelectorAll('.copy-email').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var e = b.getAttribute('data-email'), label = b.textContent;
+      function done() { b.textContent = 'Copied ✓'; setTimeout(function () { b.textContent = label; }, 1800); }
+      if (navigator.clipboard) { navigator.clipboard.writeText(e).then(done, function () { window.prompt('Copy my email:', e); }); }
+      else { window.prompt('Copy my email:', e); }
+    });
+  });
   // Adds a hairline under the header once the page scrolls.
   (function () {
     var h = document.querySelector('.site-header');
