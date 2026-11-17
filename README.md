@@ -13,7 +13,6 @@ This is plain HTML and CSS, so there's no build step. (`.nojekyll` tells GitHub 
 | Publications | `publications/index.html` |
 | All styling (colors, fonts, layout) | `assets/site.css` (colors are at the top under `:root`) |
 | Images and videos | `assets/img/` |
-| Résumé PDF | `files/CV.pdf` (replace this file to update the résumé everywhere) |
 
 Old URLs (`/HRE/`, `/puppet/`, `/vid2real/`, `/personality/`, `/cv/`) redirect to the new pages.
 
