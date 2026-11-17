@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapping the journey of a robot that has to ask strangers for help · Yao-Cheng Chan</title>
+<meta name="description" content="A two-lane user journey map from a field study of Boston Dynamics Spot asking passersby for help: the bystander's experience and the operator's, side by side.">
+<link rel="canonical" href="https://yaochengchan.github.io/work/robot-encounter-journey/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mapping the journey of a robot that has to ask strangers for help · Yao-Cheng Chan">
+<meta property="og:description" content="A two-lane user journey map from a field study of Boston Dynamics Spot asking passersby for help: the bystander's experience and the operator's, side by side.">
+<meta property="og:url" content="https://yaochengchan.github.io/work/robot-encounter-journey/">
+<meta property="og:image" content="https://yaochengchan.github.io/assets/img/spot-lea.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header" id="top">
+  <div class="wrap">
+    <a class="brand" href="/">Yao-Cheng Chan <span>· UX Research &amp; Human Factors</span></a>
+    <nav class="nav" aria-label="Main">
+      <a href="/#work" aria-current="page">Work</a>
+      <a href="/#approach">Approach</a>
+      <a href="/experience/">Experience</a>
+      <a href="/publications/">Publications</a>
+      <a class="btn small" href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<div class="wrap">
+  <header class="case-hero">
+    <a class="back" href="/#work">← All work</a>
+    <ul class="tags"><li class="tag hw">Hardware</li><li class="tag">Field research</li><li class="tag">Journey mapping</li></ul>
+    <h1>Mapping the journey of a robot that has to ask strangers for help</h1>
+    <p class="lede">A Boston Dynamics Spot waited at a busy campus entrance and asked passersby to open the door. I mapped what happened from two sides: the pedestrian who never chose to meet a robot, and the operator running its hardware and control software.</p>
+  </header>
+  <div class="cover"><img src="/assets/img/spot-lea.jpg" alt="Boston Dynamics Spot robot fitted with a LiDAR and computer payload"></div>
+  <dl class="facts"><div class="fact"><dt>My role</dt><dd>Lead researcher: study design, field observation, analysis, journey synthesis</dd></div><div class="fact"><dt>Team</dt><dd>Living and Working with Robots group, UT Austin</dd></div><div class="fact"><dt>Setting</dt><dd>Main entrance of a busy campus building, live one-hour session</dd></div><div class="fact"><dt>Methods</dt><dd>Field observation, Wizard-of-Oz teleoperation, informal conversations with passersby</dd></div><div class="fact"><dt>Platform</dt><dd>Boston Dynamics Spot, teleoperated</dd></div><div class="fact"><dt>Output</dt><dd>Two-lane journey map, design opportunities, ACM/IEEE HRI 2025 paper</dd></div></dl>
+  <div class="tldr">
+  <div><h4>The problem</h4><p>Robots in public spaces sometimes need help from people who have no reason to give it. Teams usually design for the operator and forget the bystander.</p></div>
+  <div><h4>What I did</h4><p>Ran a live field observation of a robot asking strangers to open a door, then mapped the experience stage by stage for both the pedestrian and the operator.</p></div>
+  <div><h4>The result</h4><p>Most failed requests weren't refusals. They were misses: people never noticed, or didn't think the robot meant them. Every stage pointed to a fix.</p></div>
+</div>
+  <article class="prose read">
+
+<section>
+  <h2>Why map two journeys</h2>
+  <p>A robot that delivers food or patrols a building depends on people it was never designed for. The operator chose to use it. The person walking past did not. If the robot needs a door opened or a path cleared, its success rests on that second person.</p>
+  <p>Product teams usually map the operator or customer journey and treat everyone else as background. I wanted to see the encounter through both sets of eyes at once, so a fix on one side wouldn't create a problem on the other.</p>
+</section>
+
+<section>
+  <h2>The setup</h2>
+  <p>The building entrance had two doors side by side: a manual door and an automatic door with an accessibility button. Both led through a double-door vestibule. Spot couldn't get in alone.</p>
+  <div class="flow">
+    <div><span class="k">Operator</span><h4>Watches from inside</h4><p>Two operators teleoperate Spot through the glass. An observer takes notes outside.</p></div>
+    <div><span class="k">Robot</span><h4>Waits at the entrance</h4><p>Spot stands just outside the door, out of the main walking path.</p></div>
+    <div><span class="k">Encounter</span><h4>Turns and asks</h4><p>As someone approaches, Spot walks toward the door, faces them and says, "Can you please open the door for me?"</p></div>
+    <div><span class="k">Outcome</span><h4>Enters or resets</h4><p>If helped, Spot goes inside. If not, it tries someone else or walks back to its start position.</p></div>
+  </div>
+</section>
+  </article>
+
+<section class="prose" style="padding-top:0">
+  <h2>The journey map</h2>
+  <p style="max-width:var(--read)">Five stages, two lanes. The top lane is the pedestrian. The bottom lane is the operator behind the scenes. The last two rows pull out the friction and the design opportunity at each stage.</p>
+  <div class="journey-scroll">
+  <div class="journey" role="table" aria-label="User journey map of an incidental robot encounter">
+    <div class="j-corner" role="columnheader"></div>
+    <div class="j-stage" role="columnheader"><span>01</span>Notice</div>
+    <div class="j-stage" role="columnheader"><span>02</span>Interpret</div>
+    <div class="j-stage" role="columnheader"><span>03</span>Decide</div>
+    <div class="j-stage" role="columnheader"><span>04</span>Act</div>
+    <div class="j-stage" role="columnheader"><span>05</span>Move on</div>
+
+    <div class="j-lane">Pedestrian<small>never chose to meet the robot</small></div>
+
+    <div class="j-row" role="rowheader">Doing</div>
+    <div class="j-cell">Walking to the entrance, often with headphones on or chatting in a group</div>
+    <div class="j-cell">Sees the robot turn toward the crowd at the door</div>
+    <div class="j-cell">Hears the request, often after already opening the door themselves</div>
+    <div class="j-cell">Helpers press the accessibility button instead of holding the manual door</div>
+    <div class="j-cell">Walks on. Some stop to ask the observer what's going on</div>
+
+    <div class="j-row" role="rowheader">Wondering</div>
+    <div class="j-cell q">Most never get this far</div>
+    <div class="j-cell q">"Is it talking to me?"</div>
+    <div class="j-cell q">"Is this an experiment I should leave alone?"</div>
+    <div class="j-cell q">"How do I help without getting stuck here?"</div>
+    <div class="j-cell q">"What was that for?"</div>
+
+    <div class="j-row" role="rowheader">Observed state</div>
+    <div class="j-cell"><span class="mood low">Preoccupied</span>Many never registered the robot at all</div>
+    <div class="j-cell"><span class="mood low">Unsure</span>With several people nearby, each assumed it meant someone else</div>
+    <div class="j-cell"><span class="mood mid">Hesitant</span>Many recognized a research setup and steered clear on purpose</div>
+    <div class="j-cell"><span class="mood high">Willing, briefly</span>Helped with minimal effort and left as soon as the door moved</div>
+    <div class="j-cell"><span class="mood mid">Mostly neutral</span>One cane user hesitated, unsure whether it was safe to pass</div>
+
+    <div class="j-lane op">Operator<small>runs the hardware and control software</small></div>
+
+    <div class="j-row" role="rowheader">Doing</div>
+    <div class="j-cell op">Watches through the glass and predicts who will reach the door next</div>
+    <div class="j-cell op">Walks Spot to the door and turns it to face the person</div>
+    <div class="j-cell op">Triggers the voice request</div>
+    <div class="j-cell op">Guides Spot through two doors and over a metal floor grate</div>
+    <div class="j-cell op">Walks Spot back to start and waits for the next person</div>
+
+    <div class="j-row" role="rowheader">Friction</div>
+    <div class="j-cell op">Timing depends on reading strangers from a distance</div>
+    <div class="j-cell op">Spot's limited body rotation means it may not face the right person</div>
+    <div class="j-cell op">Teleoperation is slower than people walk, so the moment passes</div>
+    <div class="j-cell op">Obstacle detection had to be switched off for the grate, so operators became the safety system</div>
+    <div class="j-cell op">Battery capped the whole session at about an hour</div>
+
+    <div class="j-lane in">Insights</div>
+
+    <div class="j-row" role="rowheader">Pain point</div>
+    <div class="j-cell pain">A voice-only cue misses anyone with headphones or in conversation</div>
+    <div class="j-cell pain">It's unclear who the robot is addressing</div>
+    <div class="j-cell pain">The request comes too late, and a research context reads as "do not touch"</div>
+    <div class="j-cell pain">Helping costs effort: two doors in a row</div>
+    <div class="j-cell pain">Unpredictable movement puts vulnerable pedestrians at risk and keeps operators on high alert</div>
+
+    <div class="j-row" role="rowheader">Opportunity</div>
+    <div class="j-cell opp">Add visual and motion cues that work without sound</div>
+    <div class="j-cell opp">Make the addressee unmistakable: approach, face and signal one person</div>
+    <div class="j-cell opp">Ask earlier, from where people are heading, with a clear sign of the robot's role</div>
+    <div class="j-cell opp">Ask for the lowest-effort help, like "press the button," so people can help and go</div>
+    <div class="j-cell opp">Yield predictably, keep paths clear, and automate safe stops and resets</div>
+  </div>
+  </div>
+  <p class="j-note">Stages and states are synthesized from field notes and conversations with passersby. They describe observed behavior, not survey measures.</p>
+</section>
+
+  <article class="prose read" style="padding-top:0">
+<section>
+  <h2>What I found</h2>
+  <div class="callout"><p><b>The robot lost people at "notice," not at "decide."</b> Spot's verbal and body cues kept visible negative reactions low. Most people who didn't help weren't unwilling. They were busy, or didn't think the request was meant for them.</p></div>
+  <ul>
+    <li><b>Attention is scarce in shared space.</b> Headphones and group conversations filtered out a voice request entirely. Some people had to take off their headphones to understand what the robot wanted.</li>
+    <li><b>People pick the cheapest way to help.</b> Helpers almost always used the accessibility button. It let them start the door and walk away without holding two doors for a robot.</li>
+    <li><b>Context shapes willingness.</b> Many passersby had robotics backgrounds and read the scene as an experiment to leave alone. How a robot's role is signaled changes whether people engage.</li>
+    <li><b>The operator's workaround is a product requirement.</b> Turning off obstacle detection got Spot through the door but moved safety onto human vigilance. A deployed robot can't rely on that.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>What this means for product teams</h2>
+  <div class="guides"><div class="guide"><span class="n">01</span><h4>Map the bystander, not just the operator</h4><p>Any connected device in shared space, from delivery robots to cameras and intercoms, has an operator who chose it and people nearby who didn't. Both journeys decide whether it works.</p></div><div class="guide"><span class="n">02</span><h4>Design for divided attention</h4><p>Assume people are distracted. Use cues that work in their forward view, without sound, and that make clear who is being addressed.</p></div><div class="guide"><span class="n">03</span><h4>Make the right action the easy action</h4><p>When people choose how to help, they choose the lowest-effort option. Design the ask around that path instead of fighting it.</p></div></div>
+</section>
+
+    <section>
+      <h2>Related publications</h2>
+      <ul class="pubs"><li><span class="t">A Field Observation of Incidental Human-Robot Encounters in Public</span><span class="v">ACM/IEEE HRI 2025 — <a href="https://doi.org/10.1109/HRI61500.2025.10973844" target="_blank" rel="noopener">Read</a></span></li><li><span class="t">Vid2Real HRI: Align Video-Based HRI Study Designs with Real-World Settings</span><span class="v">IEEE RO-MAN 2024 — <a href="https://arxiv.org/abs/2403.15798" target="_blank" rel="noopener">Read</a></span></li><li><span class="t">Understanding Reactions in Human-Robot Encounters with Autonomous Quadruped Robots</span><span class="v">ASIS&amp;T 2023 — <a href="https://doi.org/10.1002/pra2.771" target="_blank" rel="noopener">Read</a></span></li></ul>
+    </section>
+    <a class="next-case" href="/work/robot-head-prototype/"><span>Next case study →</span><b>A low-cost robot head that let us test behavior before autonomy existed</b></a>
+  </article>
+</div>
+</main>
+<footer class="contact" id="contact">
+  <div class="wrap">
+    <p class="eyebrow" style="color:#fdba74">Get in touch</p>
+    <h2>Building something people will share space with? Let's talk.</h2>
+    <p>I'm open to UX research, human factors, and robotics product roles, and happy to relocate for the right team.</p>
+    <div class="btn-row">
+      <a class="btn" href="mailto:yaochengchan1993@gmail.com">Email yaochengchan1993@gmail.com</a>
+      <button class="btn ghost copy-email" type="button" data-email="yaochengchan1993@gmail.com">Copy email address</button>
+      <a class="btn ghost" href="https://www.linkedin.com/in/yao-cheng-chan-ph-d-7b669013a" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <p style="margin-top:18px;font-size:.92rem">A résumé tailored to your role is available on request.</p>
+    <div class="foot">
+      <span>© 2026 Yao-Cheng Chan · Austin, TX</span>
+      <span><a href="https://scholar.google.com/citations?user=uM59LzUAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> · <a href="/publications/">Publications</a></span>
+    </div>
+  </div>
+</footer>
+<script>
+  // Copy-email button: works even when no mail app is set up.
+  document.querySelectorAll('.copy-email').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var e = b.getAttribute('data-email'), label = b.textContent;
+      function done() { b.textContent = 'Copied ✓'; setTimeout(function () { b.textContent = label; }, 1800); }
+      if (navigator.clipboard) { navigator.clipboard.writeText(e).then(done, function () { window.prompt('Copy my email:', e); }); }
+      else { window.prompt('Copy my email:', e); }
+    });
+  });
+  // Adds a hairline under the header once the page scrolls.
+  (function () {
+    var h = document.querySelector('.site-header');
+    function f() { h.classList.toggle('scrolled', window.scrollY > 8); }
+    window.addEventListener('scroll', f, { passive: true }); f();
+  })();
+</script>
+</body>
+</html>
