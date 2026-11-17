@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How much personality should a service robot (and its screen) have? · Yao-Cheng Chan</title>
+<meta name="description" content="Designing extrovert, ambivert and introvert personalities across robot gestures and tablet UI, and how task risk changes user preferences.">
+<link rel="canonical" href="https://yaochengchan.github.io/work/service-robot-personality/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="How much personality should a service robot (and its screen) have? · Yao-Cheng Chan">
+<meta property="og:description" content="Designing extrovert, ambivert and introvert personalities across robot gestures and tablet UI, and how task risk changes user preferences.">
+<meta property="og:url" content="https://yaochengchan.github.io/work/service-robot-personality/">
+<meta property="og:image" content="https://yaochengchan.github.io/assets/img/personality2.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header" id="top">
+  <div class="wrap">
+    <a class="brand" href="/">Yao-Cheng Chan <span>· UX Research &amp; Human Factors</span></a>
+    <nav class="nav" aria-label="Main">
+      <a href="/#work" aria-current="page">Work</a>
+      <a href="/#approach">Approach</a>
+      <a href="/experience/">Experience</a>
+      <a href="/publications/">Publications</a>
+      <a class="btn small" href="/files/CV.pdf" target="_blank" rel="noopener">Résumé</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<div class="wrap">
+  <header class="case-hero">
+    <a class="back" href="/#work">← All work</a>
+    <ul class="tags"><li class="tag hw">Hardware</li><li class="tag sw">Software</li><li class="tag">Interaction design</li></ul>
+    <h1>How much personality should a service robot (and its screen) have?</h1>
+    <p class="lede">Designing and testing coordinated gesture and tablet-UI personalities for a customer-service robot, and finding that the right amount depends on what's at stake.</p>
+  </header>
+  <div class="cover"><img src="/assets/img/personality2.jpg" alt="Pepper humanoid robot showing extrovert, ambivert and introvert behaviors to a participant"></div>
+  <dl class="facts"><div class="fact"><dt>My role</dt><dd>Lead interaction designer and experimental researcher</dd></div><div class="fact"><dt>Team</dt><dd>National Chengchi University, Taipei (Dr. Shih-Yi Chien, Dr. Yi-Ling Lin)</dd></div><div class="fact"><dt>Scale</dt><dd>N = 255, factorial lab experiments</dd></div><div class="fact"><dt>Methods</dt><dd>Multimodal prototyping, controlled lab experiments</dd></div><div class="fact"><dt>Platform</dt><dd>SoftBank Pepper, Choregraphe, Python, tablet UI</dd></div><div class="fact"><dt>Measures</dt><dd>Willingness to use, trust, purchase intent, profile recognition</dd></div></dl>
+  <div class="tldr">
+  <div><h4>The problem</h4><p>Customer-facing robots and kiosks need a communication style people trust, and the industry was stuck choosing between just two: extrovert or introvert.</p></div>
+  <div><h4>What I did</h4><p>Designed three coordinated profiles (extrovert, ambivert, introvert) across gestures, gaze and tablet UI, then tested them in low- and high-stakes service tasks.</p></div>
+  <div><h4>The result</h4><p>Gestures plus screen beat screen-only, ambivert rated highest overall, and higher financial risk made users much pickier about personality.</p></div>
+</div>
+  <article class="prose read">
+    
+<section>
+  <h2>The problem</h2>
+  <p>When a robot or kiosk handles customer service, such as hotel check-in, retail help or financial advice, its communication style shapes whether people trust it, enjoy using it and come back.</p>
+  <p>Earlier systems offered only two styles, extrovert or introvert. I introduced a third, <b>ambivert</b>, and asked how a robot's physical behavior and its on-screen interface should work together, especially as tasks get more complex and the financial stakes rise.</p>
+</section>
+
+<section>
+  <h2>My role</h2>
+  <p>I was the lead interaction designer and experimental researcher. I designed the three behavior profiles across body movement and tablet UI, built them on the Pepper robot, and designed and analyzed the controlled lab experiments.</p>
+  <div class="gallery g2 fit">
+    <figure><img src="/assets/img/personality1.jpg" alt="Two channels: on-screen text and gestures" loading="lazy"><figcaption>Two channels: on-screen text and gestures</figcaption></figure><figure><img src="/assets/img/personality3.jpg" alt="Tablet content written in each profile&#x27;s style" loading="lazy"><figcaption>Tablet content written in each profile's style</figcaption></figure>
+  </div>
+</section>
+
+<section>
+  <h2>The design system</h2>
+  <p>To make each personality recognizable, I coordinated movement, gaze and screen layout into three consistent profiles:</p>
+  <div class="table-scroll">
+  <table class="compare">
+    <thead><tr><th></th><th>Extrovert</th><th class="hl">Ambivert</th><th>Introvert</th></tr></thead>
+    <tbody>
+      <tr><th>Gestures</th><td>Large, sweeping arm motions; fast; wide head nods</td><td class="hl">Balanced gestures suited to the moment; moderate speed and nods</td><td>Small motions close to the body; slow; minimal nodding</td></tr>
+      <tr><th>Gaze &amp; distance</th><td>Constant eye contact; open posture; stands closer</td><td class="hl">Gaze moves naturally between screen and user; neutral, upright posture</td><td>Often looks down; leans in cautiously; keeps more distance</td></tr>
+      <tr><th>Tablet UI</th><td>Large type, bold headers, high-contrast highlights</td><td class="hl">Clear sections, consistent type hierarchy, balanced spacing</td><td>Bulleted lists, small type, little visual emphasis</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <figure class="wide-fig"><img src="/assets/img/pepper_intervention.jpg" alt="Overview of the extrovert, ambivert and introvert profiles on the Pepper robot" loading="lazy"><figcaption>Overview of the three behavior profiles and how people perceived each one.</figcaption></figure>
+</section>
+
+<section>
+  <h2>What we found</h2>
+  <div class="callout"><p><b>Risk amplifies personality.</b> In routine, low-stakes tasks, users barely cared about personality. As complexity and financial risk rose, they strongly preferred the extrovert and ambivert robots, and trust and purchase intent dropped sharply for the introvert.</p></div>
+  <ul>
+    <li><b>Gestures plus screen beat screen alone:</b> combining body movement with tablet content significantly beat text-only screens on willingness to use, likeability and perceived social intelligence.</li>
+    <li><b>83% recognition:</b> in blind trials, participants correctly identified the extrovert and introvert profiles 83% of the time, confirming the designs came across as intended.</li>
+    <li><b>The ambivert advantage:</b> the ambivert profile scored highest overall on likeability and sustained willingness to use, balancing approachability with professionalism.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>What this means for product teams</h2>
+  <div class="guides"><div class="guide"><span class="n">01</span><h4>Match assertiveness to the stakes</h4><p>For high-stakes decisions like payments, medical intake or complex onboarding, a quiet, reserved interface makes people more anxious. Use confident, clear cues such as steady gaze and structured summaries to show competence.</p></div><div class="guide"><span class="n">02</span><h4>Keep body and screen in sync</h4><p>Gestures should point to on-screen content. When movement and screen content share the same pace, the interaction takes noticeably less mental effort.</p></div><div class="guide"><span class="n">03</span><h4>Default to ambivert in mixed-use services</h4><p>Extroverted behavior grabs attention, but nonstop high energy wears people out over longer sessions. An ambivert default stays clear without being overwhelming.</p></div></div>
+</section>
+
+    <section>
+      <h2>Related publications</h2>
+      <ul class="pubs"><li><span class="t">The Impacts of Social Humanoid Robot's Nonverbal Communication on Perceived Personality Traits</span><span class="v">International Journal of Human-Computer Interaction, 2025 — <a href="https://doi.org/10.1080/10447318.2023.2295696" target="_blank" rel="noopener">Read</a></span></li><li><span class="t">An Exploration of Multimodal Communication for Developing Extrovert, Ambivert, and Introvert Robot</span><span class="v">ACM/IEEE HRI 2024 Companion — <a href="https://doi.org/10.1145/3610978.3640567" target="_blank" rel="noopener">Read</a></span></li><li><span class="t">Influence of Personality Traits in Human-Humanoid Robot Interaction</span><span class="v">ASIS&amp;T 2022 — <a href="https://doi.org/10.1002/pra2.644" target="_blank" rel="noopener">Read</a></span></li><li><span class="t">Risk Amplifies Personality: User Perceptions of Service Robots in High and Low Stakes Financial Tasks</span><span class="v">Under review</span></li></ul>
+    </section>
+    <a class="next-case" href="/work/public-robot-signaling/"><span>Next case study →</span><b>Why robot signals that work on video get missed in the hallway</b></a>
+  </article>
+</div>
+</main>
+<footer class="contact" id="contact">
+  <div class="wrap">
+    <p class="eyebrow" style="color:#fdba74">Get in touch</p>
+    <h2>Building something people will share space with? Let's talk.</h2>
+    <p>I'm open to UX research, human factors, and robotics product roles, and happy to relocate for the right team.</p>
+    <div class="btn-row">
+      <a class="btn" href="mailto:yaochengchan1993@gmail.com">yaochengchan1993@gmail.com</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/yao-cheng-chan-7b669013a" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn ghost" href="/files/CV.pdf" target="_blank" rel="noopener">Résumé (PDF)</a>
+    </div>
+    <div class="foot">
+      <span>© 2026 Yao-Cheng Chan · Austin, TX</span>
+      <span><a href="https://scholar.google.com/citations?user=uM59LzUAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> · <a href="/publications/">Publications</a></span>
+    </div>
+  </div>
+</footer>
+<script>
+  // Adds a hairline under the header once the page scrolls.
+  (function () {
+    var h = document.querySelector('.site-header');
+    function f() { h.classList.toggle('scrolled', window.scrollY > 8); }
+    window.addEventListener('scroll', f, { passive: true }); f();
+  })();
+</script>
+</body>
+</html>
