@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A low-cost robot head that let us test behavior before autonomy existed · Yao-Cheng Chan</title>
+<meta name="description" content="Designing a low-cost puppeteered robot head to test human perception of robot gaze before autonomy software existed.">
+<link rel="canonical" href="https://yaochengchan.github.io/work/robot-head-prototype/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="A low-cost robot head that let us test behavior before autonomy existed · Yao-Cheng Chan">
+<meta property="og:description" content="Designing a low-cost puppeteered robot head to test human perception of robot gaze before autonomy software existed.">
+<meta property="og:url" content="https://yaochengchan.github.io/work/robot-head-prototype/">
+<meta property="og:image" content="https://yaochengchan.github.io/assets/img/prototype_head_poster.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header" id="top">
+  <div class="wrap">
+    <a class="brand" href="/">Yao-Cheng Chan <span>· UX Research &amp; Human Factors</span></a>
+    <nav class="nav" aria-label="Main">
+      <a href="/#work" aria-current="page">Work</a>
+      <a href="/#approach">Approach</a>
+      <a href="/experience/">Experience</a>
+      <a href="/publications/">Publications</a>
+      <a class="btn small" href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<div class="wrap">
+  <header class="case-hero">
+    <a class="back" href="/#work">← All work</a>
+    <ul class="tags"><li class="tag hw">Hardware</li><li class="tag">Prototyping</li><li class="tag">MVP</li></ul>
+    <h1>A low-cost robot head that let us test behavior before autonomy existed</h1>
+    <p class="lede">An MVP hardware testbed that tested the riskiest assumption first: whether people read a robot head's movement as attention.</p>
+  </header>
+  <div class="cover"><figure><video src="/assets/img/prototype_head.mp4" poster="/assets/img/prototype_head_poster.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Robot head mirroring an operator&#x27;s movements in real time"></video></figure></div>
+  <dl class="facts"><div class="fact"><dt>My role</dt><dd>Hardware and system prototyping, CAD, user pilots</dd></div><div class="fact"><dt>Collaborators</dt><dd>Carnegie Mellon University (Howie Wang, Dr. Nikolas Martelaro)</dd></div><div class="fact"><dt>Scope</dt><dd>MVP testbed for real-time remote control and behavior testing</dd></div><div class="fact"><dt>Methods</dt><dd>Iterative prototyping, Wizard-of-Oz pilots</dd></div><div class="fact"><dt>Tools</dt><dd>Autodesk Fusion, 3D printing, Python</dd></div><div class="fact"><dt>Hardware</dt><dd>Raspberry Pi, Dynamixel servos</dd></div></dl>
+  <div class="tldr">
+  <div><h4>The problem</h4><p>Autonomous gaze software would take a long time to build and debug, and user testing on how people read robot attention couldn't wait for it.</p></div>
+  <div><h4>What I did</h4><p>Co-built a two-axis puppeteering rig, so the robot head mirrors an operator's handheld controller in real time, and refined it over three hardware iterations.</p></div>
+  <div><h4>The result</h4><p>Test setup went from hours to minutes, and pilots showed that pan and tilt alone are enough to show where the robot is looking.</p></div>
+</div>
+  <article class="prose read">
+    
+<section>
+  <h2>The problem</h2>
+  <p>Robots moving through public spaces need clear gaze and direction cues to avoid collisions and earn trust. But building and debugging autonomous computer vision and gaze tracking on a mobile robot is slow and fragile, and it would have blocked user testing for a long time.</p>
+  <p>The riskiest assumption wasn't technical. It was about people: <b>would they even read a robot head's movement as attention?</b> We needed to answer that first, cheaply.</p>
+</section>
+
+<section>
+  <h2>My role</h2>
+  <p>I co-developed the testbed in collaboration with Howie Wang and Dr. Nikolas Martelaro at Carnegie Mellon University. I owned the hardware and system prototyping, the CAD design of the head across iterations, and the user pilots that evaluated each version.</p>
+</section>
+
+<section>
+  <h2>The key decision: build a puppet, not a brain</h2>
+  <p>Instead of waiting for autonomy software, we built a <b>Wizard-of-Oz puppeteering rig</b>. An operator moves a small handheld "puppet" and the robot head mirrors it in real time on two axes, pan and tilt. That let us create and test behaviors directly in front of participants.</p>
+  <div class="callout"><p><b>Why it mattered:</b> preparing a user test went from hours of software calibration to minutes, so the team could try more behaviors with more people, sooner.</p></div>
+</section>
+
+<section>
+  <h2>Three iterations</h2>
+  <ul class="phases">
+    <li><span class="ph">Phase 1</span><div><h4>Proof of concept: a flat wooden plate</h4><p>To isolate motion from appearance, the first version was just a wooden plate on a pan-tilt base, with no eyes or face. <b>Pilot finding:</b> people still read the plate as the robot's "face" and correctly interpreted where it was attending from its angle and movement speed.</p></div></li>
+    <li><span class="ph">Phase 2</span><div><h4>CAD: custom enclosure &amp; camera housing</h4><p>Modeled a head assembly in Autodesk Fusion with internal cable routing and two camera mounts, keeping it light enough for the Dynamixel servos. I balanced the servos' torque limits against gear backlash so subtle movements stayed fast and smooth.</p></div></li>
+    <li><span class="ph">Phase 3</span><div><h4>3D-printed binocular head</h4><p>The final version had two eye-like structures, inspired by animation design, that made the forward direction unmistakable. <b>Validation:</b> participants said the synchronized head tilts felt responsive and approachable and showed clearly where the robot was "looking."</p></div></li>
+  </ul>
+  <div class="gallery g3">
+    <figure><video src="/assets/img/prototype_wood.mp4" poster="/assets/img/prototype_wood_poster.jpg" autoplay muted loop playsinline preload="metadata" aria-label="v1: the wooden plate mirroring the operator&#x27;s pan and tilt"></video><figcaption>v1: the wooden plate mirroring the operator's pan and tilt</figcaption></figure><figure><img src="/assets/img/prototype_autodesk.jpg" alt="v2: CAD model of the head assembly in Autodesk Fusion" loading="lazy"><figcaption>v2: CAD model of the head assembly in Autodesk Fusion</figcaption></figure><figure><video src="/assets/img/prototype_head.mp4" poster="/assets/img/prototype_head_poster.jpg" autoplay muted loop playsinline preload="metadata" aria-label="v3: 3D-printed binocular head tracking in sync on a mobile robot"></video><figcaption>v3: 3D-printed binocular head tracking in sync on a mobile robot</figcaption></figure>
+  </div>
+</section>
+
+<section>
+  <h2>How it works</h2>
+  <div class="flow f3">
+    <div><span class="k">Input</span><h4>Operator puppet</h4><p>A handheld two-axis rig built from Dynamixel AX-12W servos used as position sensors, read in real time over USB.</p></div>
+    <div><span class="k">Compute</span><h4>Two Raspberry Pis</h4><p>Python scripts package joint positions into small timestamped messages and send them over a local network.</p></div>
+    <div><span class="k">Output</span><h4>Robot head</h4><p>Mirrors the operator in real time. Optimized message sizes and idle sleep timers cut lag and save power.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Outcome</h2>
+  <div class="guides"><div class="guide"><span class="n">01</span><h4>Two axes of motion are enough</h4><p>Pan and tilt alone show where the robot is paying attention, so there was no need for an expensive multi-axis animatronic face in navigation settings.</p></div><div class="guide"><span class="n">02</span><h4>Testing that wasn't blocked by software</h4><p>A reliable rig made real-time human-in-the-loop studies possible both in the lab and on mobile robots outdoors.</p></div><div class="guide"><span class="n">03</span><h4>Shape tells people where it's facing</h4><p>Two eye-like forms helped pedestrians read the robot's direction much faster than a flat, featureless surface did.</p></div></div>
+</section>
+
+    <section>
+      <h2>Related publications</h2>
+      <ul class="pubs"><li><span class="t">Shaping Perceptions of Robots With Video Vantages</span><span class="v">ACM/IEEE HRI 2025, where the testbed was used in study stimuli — <a href="https://doi.org/10.1109/HRI61500.2025.10974252" target="_blank" rel="noopener">Read</a></span></li></ul>
+    </section>
+    <a class="next-case" href="/work/vid2real/"><span>Next case study →</span><b>When can a cheap video study stand in for an expensive field test?</b></a>
+  </article>
+</div>
+</main>
+<footer class="contact" id="contact">
+  <div class="wrap">
+    <p class="eyebrow" style="color:#fdba74">Get in touch</p>
+    <h2>Building something people will share space with? Let's talk.</h2>
+    <p>I'm open to UX research, human factors, and robotics product roles, and happy to relocate for the right team.</p>
+    <div class="btn-row">
+      <a class="btn" href="mailto:yaochengchan1993@gmail.com">yaochengchan1993@gmail.com</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/yao-cheng-chan-7b669013a" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <p style="margin-top:18px;font-size:.92rem">A résumé tailored to your role is available on request.</p>
+    <div class="foot">
+      <span>© 2026 Yao-Cheng Chan · Austin, TX</span>
+      <span><a href="https://scholar.google.com/citations?user=uM59LzUAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> · <a href="/publications/">Publications</a></span>
+    </div>
+  </div>
+</footer>
+<script>
+  // Adds a hairline under the header once the page scrolls.
+  (function () {
+    var h = document.querySelector('.site-header');
+    function f() { h.classList.toggle('scrolled', window.scrollY > 8); }
+    window.addEventListener('scroll', f, { passive: true }); f();
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>When can a cheap video study stand in for an expensive field test? · Yao-Cheng Chan</title>
+<meta name="description" content="Vid2Real: a framework for aligning low-cost video studies with real-world field tests.">
+<link rel="canonical" href="https://yaochengchan.github.io/work/vid2real/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="When can a cheap video study stand in for an expensive field test? · Yao-Cheng Chan">
+<meta property="og:description" content="Vid2Real: a framework for aligning low-cost video studies with real-world field tests.">
+<meta property="og:url" content="https://yaochengchan.github.io/work/vid2real/">
+<meta property="og:image" content="https://yaochengchan.github.io/assets/img/video2.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header" id="top">
+  <div class="wrap">
+    <a class="brand" href="/">Yao-Cheng Chan <span>· UX Research &amp; Human Factors</span></a>
+    <nav class="nav" aria-label="Main">
+      <a href="/#work" aria-current="page">Work</a>
+      <a href="/#approach">Approach</a>
+      <a href="/experience/">Experience</a>
+      <a href="/publications/">Publications</a>
+      <a class="btn small" href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<div class="wrap">
+  <header class="case-hero">
+    <a class="back" href="/#work">← All work</a>
+    <ul class="tags"><li class="tag">Research ops</li><li class="tag">Method design</li><li class="tag">Quant</li></ul>
+    <h1>When can a cheap video study stand in for an expensive field test?</h1>
+    <p class="lede">A research framework that lets teams use fast, cheap video studies to rule out weak designs and plan the field test that follows.</p>
+  </header>
+  <div class="cover"><img src="/assets/img/video2.jpg" alt="Quadruped robot at a doorway with a speech bubble asking a passerby to open the door"></div>
+  <dl class="facts"><div class="fact"><dt>My role</dt><dd>Co-author: methodology and experimental validation</dd></div><div class="fact"><dt>Team</dt><dd>UT Austin (Hauser, Modak, Biswas, Hart)</dd></div><div class="fact"><dt>Scale</dt><dd>Online N = 128+, plus field deployment</dd></div><div class="fact"><dt>Methods</dt><dd>Between- and within-subjects design, power analysis, mixed methods</dd></div><div class="fact"><dt>Tools</dt><dd>G*Power, SPSS, R, Qualtrics</dd></div><div class="fact"><dt>Output</dt><dd>Framework published at RO-MAN 2024, plus an open dataset</dd></div></dl>
+  <div class="tldr">
+  <div><h4>The problem</h4><p>Field tests with real robots are slow and costly. Video studies are fast, but nobody knew when you could trust them.</p></div>
+  <div><h4>What I did</h4><p>Co-developed a framework that links video studies to a specific field setting, then used variability from the online data to size the field study.</p></div>
+  <div><h4>The result</h4><p>Video matched the direction of real-world reactions but overestimated how much attention people pay, so teams now know what video can and can't tell them.</p></div>
+</div>
+  <article class="prose read">
+    
+<section>
+  <h2>The problem</h2>
+  <p>Every team testing physical products faces the same trade-off: <b>speed versus realism</b>. In-person tests of robots, hardware interfaces or spatial computing are slow, complex and expensive. Online video studies and digital prototypes are fast and scale easily, but you can't be sure the results will hold in the real world.</p>
+  <p>Without a principled way to connect the two, teams either over-invest in field tests or ship decisions based on lab results that don't hold up.</p>
+</section>
+
+<section>
+  <h2>My role</h2>
+  <p>I co-developed the methodology with colleagues at UT Austin and led the experimental validation: study design, power analysis, and analysis of the online and field data.</p>
+</section>
+
+<section>
+  <h2>The framework</h2>
+  <p>Vid2Real links video studies to a specific real-world setting, so the cheap test is designed from the start to predict the expensive one.</p>
+  <div class="flow">
+    <div><span class="k">Stage 1</span><h4>Scope the field</h4><p>Define the real location, how people move through it, the lighting and the edge cases <i>before</i> filming anything.</p></div>
+    <div><span class="k">Stage 2</span><h4>Matched video study</h4><p>Film from camera angles that match the site, then test many design variants with a large online sample.</p></div>
+    <div><span class="k">Stage 3</span><h4>Calibrate</h4><p>Estimate effect sizes from the online data, calculate the field sample size, and drop weak variants.</p></div>
+    <div><span class="k">Stage 4</span><h4>Targeted field test</h4><p>Deploy only the strongest conditions and check what carries over to the real world.</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Validating it</h2>
+  <p>We tested the framework with a two-part study of how pedestrians react to a mobile robot using its baseline walking behavior versus expressive body language and spoken requests.</p>
+  <ul>
+    <li><b>Online video study (N = 128+):</b> a controlled between-subjects experiment measuring perceived social intelligence, how lifelike the robot seemed, and whether people intended to comply with its requests. Expressive movement showed significant effects, which gave us the numbers to size a live study with 95% power.</li>
+    <li><b>Field deployment:</b> ran the strongest conditions with a real robot in a busy campus corridor. The direction of people's reactions matched the video results, and the field test revealed attention effects that video had missed.</li>
+  </ul>
+  <div class="callout"><p><b>Key insight:</b> Video studies are strong for comparing how people perceive designs and for sizing samples. But they consistently overestimate attention, because in the real world people are busy.</p></div>
+</section>
+
+<section>
+  <h2>Guidance for research teams</h2>
+  <div class="guides"><div class="guide"><span class="n">01</span><h4>Use video to rule out weak options</h4><p>Don't take a large set of untested variants into an expensive field trial. Use matched video studies to narrow down to the two or three strongest.</p></div><div class="guide"><span class="n">02</span><h4>Size the field study from the online data</h4><p>Field studies in shared spaces usually need a different group of participants for each condition. Use the variability measured online to calculate the minimum sample size you need.</p></div><div class="guide"><span class="n">03</span><h4>Match the camera to the real point of view</h4><p>How you film shapes the results. A first-person view predicts personal discomfort and how close people are willing to get, while an onlooker's view inflates how sociable the robot seems.</p></div></div>
+</section>
+
+    <section>
+      <h2>Related publications</h2>
+      <ul class="pubs"><li><span class="t">Vid2Real HRI: Align Video-Based HRI Study Designs with Real-World Settings</span><span class="v">IEEE RO-MAN 2024 — <a href="https://arxiv.org/abs/2403.15798" target="_blank" rel="noopener">Read</a></span></li><li><span class="t">Community Embedded Robotics: Vid2Real Online Video Dataset</span><span class="v">Texas Data Repository, 2024 (open dataset) — <a href="https://vid2real.github.io/vid2realHRI" target="_blank" rel="noopener">Read</a></span></li><li><span class="t">Shaping Perceptions of Robots With Video Vantages</span><span class="v">ACM/IEEE HRI 2025 — <a href="https://doi.org/10.1109/HRI61500.2025.10974252" target="_blank" rel="noopener">Read</a></span></li></ul>
+    </section>
+    <a class="next-case" href="/work/service-robot-personality/"><span>Next case study →</span><b>How much personality should a service robot (and its screen) have?</b></a>
+  </article>
+</div>
+</main>
+<footer class="contact" id="contact">
+  <div class="wrap">
+    <p class="eyebrow" style="color:#fdba74">Get in touch</p>
+    <h2>Building something people will share space with? Let's talk.</h2>
+    <p>I'm open to UX research, human factors, and robotics product roles, and happy to relocate for the right team.</p>
+    <div class="btn-row">
+      <a class="btn" href="mailto:yaochengchan1993@gmail.com">yaochengchan1993@gmail.com</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/yao-cheng-chan-7b669013a" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+    <p style="margin-top:18px;font-size:.92rem">A résumé tailored to your role is available on request.</p>
+    <div class="foot">
+      <span>© 2026 Yao-Cheng Chan · Austin, TX</span>
+      <span><a href="https://scholar.google.com/citations?user=uM59LzUAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a> · <a href="/publications/">Publications</a></span>
+    </div>
+  </div>
+</footer>
+<script>
+  // Adds a hairline under the header once the page scrolls.
+  (function () {
+    var h = document.querySelector('.site-header');
+    function f() { h.classList.toggle('scrolled', window.scrollY > 8); }
+    window.addEventListener('scroll', f, { passive: true }); f();
+  })();
+</script>
+</body>
+</html>
